@@ -41,6 +41,26 @@ Verify the widgets installed successfully if they appear in Page Builder:
 
 To start customizing the theme, login to your admin panel, go to **Storefront** > **My Themes**, click **Customize** button next to theme thumbnail.
 
+### Multistore guide
+
+To display the multistore guide on top header, drag and drop the HTML widget to the corresponding position, paste the given code below to the HTML editor, then click Save HTML button.
+
+```html
+<div class="header-multi-storefront">
+<a href="/bath/">Shop Kid</a>
+<a class="active-page">Shop Men</a>
+<a href="/kitchen/">Shop Women</a>
+</div>
+
+```
+
+Before:
+![multi-store-before](img/multi-store-before.jpg)
+
+
+After:
+![multi-store-after](img/multi-store-after.jpg)
+
 ### Header
 
 ![Header](img/header.jpg)
@@ -56,14 +76,19 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/Ry8ANybgdSI?si=ZIJXrTKBdDY4IXn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-#### Webpage Outliner
+To edit the background of the top header, click on Theme **Styles** > **Header**. In the **Background Image Link** section, you will find 3 options to change the background.
 
-![Outliner](img/website-outline.jpg)
+- `blank`: Top header will adopt the default color specified in the Background color section.
 
-To config outliner of webpage, click on **Theme Styles** > **Header** > **Top Bar** change color of **Background** to color of your design (exmaple: #F3AD66). Beside the background the theme also allow users to change **Text**, **Text Hover** and **Icon** color on the Top Bar.
+![blank-bg-img](img/blank-bg-img.jpg)
 
+- `default`: Top header will use the default image installed on the system to set the background.
 
-![Top-bar](img/top-bar-background.jpg)
+![default-bg-img](img/default-bg-img.jpg)
+
+- `link`: Top header will be the link you provided in the input to set the background.
+
+![link-bg-img](img/link-bg-img.jpg)
 
 #### Quick search
 
@@ -86,17 +111,13 @@ To configure the Main navigation, click on **Theme Styles** > **Header**. In **M
 
 - **+ Background**: background color of sub menu block.
 
-- **+ Background (Mobile)**: background color of menu on mobile device.
+- **+ Border color**: border-color bottom of main navigation.
 
 - **Sub menu item color**: text color of the submenu item.
 
 - **+ Hover**: text color on hover on the submenu item.
 
 - **+ Background**: background color of the submenu item.
-
-- **+ Background hover**: background color on hover on the submenu item.
-
-- **+ Border**: border-color of mega menu popup.
 
 ![main-navigation](img/main-navigation.jpg)
 
@@ -155,7 +176,7 @@ Go back to **Storefront** > **My Themes** > click **Customize** button beside th
 
 You can also create **top banner** by drag and drop **HTML widget** into corresponding position:
 
-![top-banner](img/top-banner.png)
+![top-banner](img/top-banner.jpg)
 
 Enter your content inside `<p data-marquee></p>`.
 
