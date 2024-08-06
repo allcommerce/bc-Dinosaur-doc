@@ -193,8 +193,7 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 
 ```html
 <p style="display:flex; align-items: center">
-<span style="font-size: 24px">&#127881;</span>
-<span>&nbsp;<strong>Buy More, Save More!</strong> Get <strong>10%</strong> off when you purchase <strong>2+</strong> or more of our products.&nbsp;&nbsp;&nbsp;</span>
+  <span>STAY AHEAD OF THE STYLE CURVE WITH OUR LATEST ARRIVALS -<a href="/shipping-returns/" style="font-weight: 500"> Discover Now</a></span>
 </p>
 ```
 
