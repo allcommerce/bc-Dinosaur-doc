@@ -43,7 +43,7 @@ To start customizing the theme, login to your admin panel, go to **Storefront** 
 
 ### Multistore guide
 
-![multu-store-guide](img/multi-store-guide.jpg)
+![multi-store-after](img/multi-store-after.jpg)
 
 To display the multistore guide on top header, drag and drop the HTML widget to the corresponding position, paste the given code below to the HTML editor, then click Save HTML button.
 
@@ -56,7 +56,7 @@ To display the multistore guide on top header, drag and drop the HTML widget to 
 
 ```
 
-![multi-store-after](img/multi-store-after.jpg)
+![multi-store-guide](img/multi-store-guide.jpg)
 
 ### Header
 
