@@ -642,6 +642,38 @@ In the popup window, copy your web link to `URL`. On the **Open links..** field 
  
  ![Insert-links](img/insert-links.jpg)
 
+### Unique Sport-Inspired Fashion
+
+![Product Tag Widget](img/product-tag-widget.jpg)
+
+Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
+
+Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Unique Sport-Inspired Fashion"), select `custom` in **Text style** field, set **Font size** = `32px`, **Font size(Mobile)** = ` 20px`, **Font weight** = `Bold`, **Text color** = `#000000`, **Padding** = `10 0 40 0` and **Padding (Mobile)** = `18 0 18 0`.
+
+Drag & drop **Product Tags PapaThemes Dinosaur** widget below **Section Heading | PapaThemes Beautify** widget.
+
+In **Settings** > **General**:
+
+Upload your **Image**, Set **width** and **Height** follow Image size.
+
+Checked **Display in a container DIV** and **Lazyload image**.
+
+Select `Fit to box` for the **Image fit**.
+
+![Product Tag Widget](img/product-tag-widget-settings-general.jpg)
+
+In **Product 1**:
+
+Enter **Product SKU** (Hover over the tag icon to check whether SKU added to the tag).
+
+Select `Tag` for the **Tag Icon**, set **Tag Icon Color** = `#67DAC5`.
+
+Click the **Set Tag Position** button to activate the function that allows you to change the tag's position. Select the tag and then choose the position where you want to move it. Alternatively, you can also set the position manually by entering the position value in **Position - X** and **Position - Y**.
+
+Click on the plus button next to **PRODUCT TAGS PAPATHEMES DINOSAUR** to create more products and set up the same as **Product 1**.
+
+![Product Tag Widget](img/product-tag-widget-settings.jpg)
+
 ## Setting Up Pharmacy Style Home Page
 
 ### General
