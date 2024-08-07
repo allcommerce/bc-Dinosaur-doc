@@ -41,6 +41,23 @@ Verify the widgets installed successfully if they appear in Page Builder:
 
 To start customizing the theme, login to your admin panel, go to **Storefront** > **My Themes**, click **Customize** button next to theme thumbnail.
 
+### Multistore guide
+
+![multi-store-after](img/multi-store-after.jpg)
+
+To display the multistore guide on top header, drag and drop the HTML widget to the corresponding position, paste the given code below to the HTML editor, then click Save HTML button.
+
+```html
+<div class="header-multi-storefront">
+<a href="/bath/">Shop Kid</a>
+<a class="active-page">Shop Men</a>
+<a href="/kitchen/">Shop Women</a>
+</div>
+
+```
+
+![multi-store-guide](img/multi-store-guide.jpg)
+
 ### Header
 
 ![Header](img/header.jpg)
@@ -56,14 +73,19 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/Ry8ANybgdSI?si=ZIJXrTKBdDY4IXn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-#### Webpage Outliner
+To edit the background of the top header, click on Theme **Styles** > **Header**. Dinosaur theme provides users with three options to change the background by modifying the **Background Image Link** field as shown below:
 
-![Outliner](img/website-outline.jpg)
+- `blank`: leave the field empty, the background will be specified follow **Background color** field.
 
-To config outliner of webpage, click on **Theme Styles** > **Header** > **Top Bar** change color of **Background** to color of your design (exmaple: #F3AD66). Beside the background the theme also allow users to change **Text**, **Text Hover** and **Icon** color on the Top Bar.
+![blank-bg-img](img/blank-bg-img.jpg)
 
+- `default`: Top header will use the default image of the theme to set as background header.
 
-![Top-bar](img/top-bar-background.jpg)
+![default-bg-img](img/default-bg-img.jpg)
+
+- `link`: Top header will be the link you provided in the input to set the background.
+
+![link-bg-img](img/link-bg-img.jpg)
 
 #### Quick search
 
@@ -86,17 +108,13 @@ To configure the Main navigation, click on **Theme Styles** > **Header**. In **M
 
 - **+ Background**: background color of sub menu block.
 
-- **+ Background (Mobile)**: background color of menu on mobile device.
+- **+ Border color**: border-color bottom of main navigation.
 
 - **Sub menu item color**: text color of the submenu item.
 
 - **+ Hover**: text color on hover on the submenu item.
 
 - **+ Background**: background color of the submenu item.
-
-- **+ Background hover**: background color on hover on the submenu item.
-
-- **+ Border**: border-color of mega menu popup.
 
 ![main-navigation](img/main-navigation.jpg)
 
@@ -155,14 +173,14 @@ Go back to **Storefront** > **My Themes** > click **Customize** button beside th
 
 You can also create **top banner** by drag and drop **HTML widget** into corresponding position:
 
-![top-banner](img/top-banner.png)
+![top-banner](img/top-banner.jpg)
 
-Enter your content inside `<p data-marquee></p>`.
+Enter your content inside `<p></p>`.
 
 ```html
-<p data-marquee>Get a discount with our limited time offer - Use code&nbsp;<strong>SAVE10</strong>&nbsp;for&nbsp;<strong>10%</strong>&nbsp;off your purchase!</p>
-<p data-marquee>Dive into our newest collection of eco-friendly products! Let's make a difference together.</p>
-<p data-marquee>Discover the beauty of handcrafted artisanal items in our latest collection. Every piece tells a story.</p>
+<p>Get a discount with our limited time offer - Use code&nbsp;<strong>SAVE10</strong>&nbsp;for&nbsp;<strong>10%</strong>&nbsp;off your purchase!</p>
+<p>Dive into our newest collection of eco-friendly products! Let's make a difference together.</p>
+<p>Discover the beauty of handcrafted artisanal items in our latest collection. Every piece tells a story.</p>
 
 ```
 
@@ -172,8 +190,7 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 
 ```html
 <p style="display:flex; align-items: center">
-<span style="font-size: 24px">&#127881;</span>
-<span>&nbsp;<strong>Buy More, Save More!</strong> Get <strong>10%</strong> off when you purchase <strong>2+</strong> or more of our products.&nbsp;&nbsp;&nbsp;</span>
+  <span>STAY AHEAD OF THE STYLE CURVE WITH OUR LATEST ARRIVALS -<a href="/shipping-returns/" style="font-weight: 500"> Discover Now</a></span>
 </p>
 ```
 
