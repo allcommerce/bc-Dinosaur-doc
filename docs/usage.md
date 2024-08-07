@@ -637,9 +637,7 @@ Drag & drop **Product Tags PapaThemes Dinosaur** widget below **Section Heading 
 
 In **Settings** > **General**:
 
-Upload your **Image**.
-
-Set **Width** = `1200px`, **Height** = `600px`.
+Upload your **Image**, Set **width** and **Height** follow Image size.
 
 Checked **Display in a container DIV** and **Lazyload image**.
 
@@ -647,17 +645,15 @@ Select `Fit to box` for the **Image fit**.
 
 ![Product Tag Widget](img/product-tag-widget-settings-general.jpg)
 
-In **Product 1** section:
+In **Product 1**:
 
-Enter **Product SKU**. Hover over the tag icon to show the product card.
+Enter **Product SKU** (Hover over the tag icon to check whether SKU added to the tag).
 
-Select `Tag` for the **Tag Icon**, set **Tag Icon Color = `#67DAC5`.
+Select `Tag` for the **Tag Icon**, set **Tag Icon Color** = `#67DAC5`.
 
-Click on the tag icon, then click on **Set Tag Position** button to set the position of the tag icon. Click to select any position on the image, and **Position - X**, **Position - Y** will automatically update. Alternatively, you can also set the position manually by entering the position value in **Position - X** and **Position - Y**.
+Click the **Set Tag Position** button to activate the function that allows you to change the tag's position. Select the tag and then choose the position where you want to move it. Alternatively, you can also set the position manually by entering the position value in **Position - X** and **Position - Y**.
 
-In **PRODUCT TAGS PAPATHEMES DINOSAUR** section:
-
-Click on the plus button to create more products and set up the same as **Product 1**.
+Click on the plus button next to **PRODUCT TAGS PAPATHEMES DINOSAUR** to create more products and set up the same as **Product 1**.
 
 ![Product Tag Widget](img/product-tag-widget-settings.jpg)
 
