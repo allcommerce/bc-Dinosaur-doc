@@ -190,6 +190,8 @@ Upload the carousel images in **Storefront** > **Home Page Carousel**.
 
 Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Carousel** > **Show carousel** is selected. You can change the carousel styles and colors here.
 
+In the **Carousel**, the **Image height mobile** option is used to adjust the height of the main carousel when displayed on mobile devices. Set this value to `400` to display it correctly as per the template.
+
 **Watch the instruction video:**
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796542010?h=3030ce28cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-home carousel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
