@@ -43,6 +43,8 @@ To start customizing the theme, login to your admin panel, go to **Storefront** 
 
 ### Multistore guide
 
+![multu-store-guide](img/multi-store-guide.jpg)
+
 To display the multistore guide on top header, drag and drop the HTML widget to the corresponding position, paste the given code below to the HTML editor, then click Save HTML button.
 
 ```html
@@ -54,11 +56,6 @@ To display the multistore guide on top header, drag and drop the HTML widget to 
 
 ```
 
-Before:
-![multi-store-before](img/multi-store-before.jpg)
-
-
-After:
 ![multi-store-after](img/multi-store-after.jpg)
 
 ### Header
@@ -76,13 +73,13 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/Ry8ANybgdSI?si=ZIJXrTKBdDY4IXn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-To edit the background of the top header, click on Theme **Styles** > **Header**. In the **Background Image Link** section, you will find 3 options to change the background.
+To edit the background of the top header, click on Theme **Styles** > **Header**. Dinosaur theme provides users with three options to change the background by modifying the **Background Image Link** field as shown below:
 
-- `blank`: Top header will adopt the default color specified in the Background color section.
+- `blank`: leave the field empty, the background will be specified follow **Background color** field.
 
 ![blank-bg-img](img/blank-bg-img.jpg)
 
-- `default`: Top header will use the default image installed on the system to set the background.
+- `default`: Top header will use the default image of the theme to set as background header.
 
 ![default-bg-img](img/default-bg-img.jpg)
 
@@ -178,12 +175,12 @@ You can also create **top banner** by drag and drop **HTML widget** into corresp
 
 ![top-banner](img/top-banner.jpg)
 
-Enter your content inside `<p data-marquee></p>`.
+Enter your content inside `<p></p>`.
 
 ```html
-<p data-marquee>Get a discount with our limited time offer - Use code&nbsp;<strong>SAVE10</strong>&nbsp;for&nbsp;<strong>10%</strong>&nbsp;off your purchase!</p>
-<p data-marquee>Dive into our newest collection of eco-friendly products! Let's make a difference together.</p>
-<p data-marquee>Discover the beauty of handcrafted artisanal items in our latest collection. Every piece tells a story.</p>
+<p>Get a discount with our limited time offer - Use code&nbsp;<strong>SAVE10</strong>&nbsp;for&nbsp;<strong>10%</strong>&nbsp;off your purchase!</p>
+<p>Dive into our newest collection of eco-friendly products! Let's make a difference together.</p>
+<p>Discover the beauty of handcrafted artisanal items in our latest collection. Every piece tells a story.</p>
 
 ```
 
