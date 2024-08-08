@@ -199,6 +199,22 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/X-0U2gh2S54?si=LuJfGRh2pjO7FSL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
+### Discount banner
+
+![discount-banner](img/discount-banner.jpg)
+
+Drag & drop **Responsive | PapaThemes** to the corresponding position. In **SCREEN SIZE 1** set **Min** = `320px`, set **Max** = `801px` and change **Display** = `Hide`. To hide banner in tablet and mobile.
+
+Drag & drop **Flex Banners | PapaThemes Beautify**, set **Image width** = `1170px` and **Image height** = `100px`. Hide **Show different image on mobile**.
+
+In **Border radius** set `0px`.
+
+In **CONTENT**, hide **Heading text**.
+
+In **GENERAL**, choose edit **Padding**, **Desktop** set **Top** = `20`, **Bottom** = `20`.
+
+**Watch the instruction video:**
+
 ### Main Carousel
 
 ![main-carousel-manager](img/main-carousel-manager.jpg)
