@@ -1,2 +1,2 @@
-# bc-kitchenary-docs
-Documentation for the Kitchenary BigCommerce Theme by PapaThemes
+# bc-Dinosaur-docs
+Documentation for the Dinosaur BigCommerce Theme by PapaThemes

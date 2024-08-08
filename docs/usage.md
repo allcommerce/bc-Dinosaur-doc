@@ -28,7 +28,7 @@ Then click the Install buttons in turn to install all available widgets:
 
 ![install-papathemes-widgets](img/install-papathemes-widgets.jpg)
 
-Go to **Storefront** > **My Themes** > click **Customize** in dropdown menu of Kitchenary theme to open Page Builder. Select any theme style to start:
+Go to **Storefront** > **My Themes** > click **Customize** in dropdown menu of Dinosaur theme to open Page Builder. Select any theme style to start:
 
 ![click-theme-customize](img/click-theme-customize.jpg)
 
@@ -207,7 +207,7 @@ Upload the carousel images in **Storefront** > **Home Page Carousel**.
 
 Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Carousel** > **Show carousel** is selected. You can change the carousel styles and colors here.
 
-In the **Carousel**, the **Image height mobile** option is used to adjust the height of the main carousel when displayed on mobile devices. Set this value to `400` to display it correctly as per the template.
+To adjust the image height in mobile view, simply modify the **Mobile Image Height** to your preferred dimension.
 
 **Watch the instruction video:**
 
@@ -851,7 +851,7 @@ Duplicate Icon-1 to create more similar icons. Change the image and link of the 
 
 ### General
 
-You can read these common instructions in **Setting Up Cooking Style Home Page**, **Setting Up Pharmacy Style Home Page** and **Setting Up Fashion Style Home Page** chapter:
+You can read these common instructions in **Setting Up Man Style Home Page**, **Setting Up Pharmacy Style Home Page** and **Setting Up Fashion Style Home Page** chapter:
 
 - [Header](#header)
 - [Top Banner](#top-banner)
