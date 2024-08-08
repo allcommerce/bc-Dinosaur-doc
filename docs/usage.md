@@ -205,13 +205,13 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 
 Drag & drop **Responsive | PapaThemes** to the corresponding position. In **SCREEN SIZE 1** set **Min** = `320px`, set **Max** = `801px` and change **Display** = `Hide`. To hide banner in tablet and mobile.
 
-Drag & drop **Flex Banners | PapaThemes Beautify**, set **Image width** = `1170px` and **Image height** = `100px`. Hide **Show different image on mobile**.
+Drag & drop **Flex Banners | PapaThemes Beautify** below **Responsive | PapaThemes** widget, remove all banner except banner 1. Set **Image width** = `1170px` and **Image height** = `100px`.
 
 In **Border radius** set `0px`.
 
-In **CONTENT**, hide **Heading text**.
+In **Content**, hide **Heading text**.
 
-In **GENERAL**, choose edit **Padding**, **Desktop** set **Top** = `20`, **Bottom** = `20`.
+In **General**, choose edit **Padding**, **Desktop** set **Left** and **Right** = `0`, **Top** = `20`, **Bottom** = `20`.
 
 **Watch the instruction video:**
 
