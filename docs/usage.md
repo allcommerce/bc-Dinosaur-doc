@@ -228,63 +228,7 @@ in **Theme styles** > **Home Page** find **Products by Category with Sorting Tab
 - Users can also adjust the number of products displayed on the Home Page by entering a number in the **Number of products** field
 - Users can also specify the number of sub-categories to be displayed on the Home Page by entering a number in the **Number of subcategories** field.
 
-![Product by category](img/Product-by-category2.jpg)
-
-### Shopping Guide
-
-![Shopping-guide](img/Shopping-guide.jpg)
-
-**Shopping guide** is section that loading content from **blogs page**. **Shopping guide** and **Blog** have the same content and function we advise you should only use one them.
-
-To enable **Shopping guide**, in **Theme Styles** > **Homepage** > **Section** choose one of sections and type `shopping_guide` to enable this block.
-
-To change color background of this section click on **Background** and select color fit to design.
-
-![Enable-shopping-guide](img/Enable-shopping-guide.jpg)
-
-To change tilte of this section, in **Hompage** find **Shopping guide & Newest Update** type your text in **Heading**.
-
-**Shopping guide** is an upgrade version of blogs section by add quick view modal which help user quickly access information without open new pages. **Shopping guide** quick view will automatic load all **widget** that have been designed from blog page.
-
-![Shopping-guide-modal](img/Shopping-guide-modal.jpg)
-
-**Creating shopping list and other widget in Shopping Guide**
-
-You can replace video widget with other widget you want, in this example we use video widget.
-
-Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`.
-
-![shopping-guide-video-widget](img/shopping-guide-video-widget.jpg)
-
-Select **Column 1**, set **Padding** = `0 0 0 0`.
-
-Drag & drop **Video** widget into **Colum 1**. Copy the video link and paste it in the **Video URL** field.
-
-Save the changes and preview the widget on the homepage.
-
-![shopping-guide-video](img/shopping-guide-video.jpg)
-
-Creating a widget product list on the blog page:
-
-Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`.
-
-![shopping-guide-product-widget](img/shopping-guide-product-widget.jpg)
-
-Select **Column 1**, set **Padding** = `0 0 0 0`.
-
-Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Shopping List"), select `custom` in **Text style** field, set **Font size** = `20px`, **Text color** = `#000000`, **Margin** = `0 0 16 0`, **Margin (Mobile)** = `0 0 16 0`.
-
-Drag & drop **Product List| PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Click on the **Add product icon** and enter the product name
-
-![shopping-guide-product-edit](img/shopping-guide-product-edit.jpg)
-
-In the **Element** section, enable the options to display the desired product information. Click on **Edit** for the **Add to Cart** button and turn on the **Show quantity box** option.
-
-![shopping-guide-product-edit-qty](img/shopping-guide-product-edit-qty.jpg)
-
-Save the changes and check the popup on the homepage.
-
-![Shopping-guide-modal](img/Shopping-guide-modal.jpg)
+![Product by category](img/Product-by-category-2.jpg)
 
 
 ### Featured Brands
@@ -307,38 +251,11 @@ This section allow user change section tiltle and display/hide brands logo, in *
 
 To enable **Top Categories**, in **Theme Styles** > **Homepage** > **Section** choose one of sections and type `top_categories` to enable this block.
 
-To change color background of this section click on **Background** and select color fit to design.
+To change background image of this section click on **Show Background Image** and enter link image into the **Background Image Link** input fit to design.
+
+![Top-categories](img/Top-categories-2.jpg)
 
 This section allow user change section tiltle, in **Hompage** find **Top Categories** type your text in **Heading**.
-
-### Shop For Kitchen
-
-![shop-for-kitchen](img/shop-for-kitchen.jpg)
-
-Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`.
-
-Select Column 1, set **Padding** = `0 0 0 0`. To change the **Background color** to `#F9F9F9`.
-
-Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Shop for Kitchen, Home Appliances and More..."), select custom in **Text style** field, set **Font size** = `20px`, **Font weight** = `Semi Bold`, **Text color** = `#000000`, **Padding** = `40 0 40 0`, **Padding (Mobile)** = `20 0 20 0`.
-
-Drag & drop **Flex Banners | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Delete all other callouts except the first one.
-
-Choose the `Circle` option in the **Icon** section.
-
-For the **Width**, select the unit `%` and specify the values for different devices as follows: **Desktop** = `12.5%`, **Tablet** = `15.5%`, **Mobile** = `23%`.
-
-In the **Padding** section, set the values for different devices as follows: **Desktop** = `0 15 30 15`, **Tablet** = `0 8 0 8`, **Mobile** = `0 8 0 8`.
-
-![shop-for-kitchen-config](img/shop-for-kitchen-config.jpg)
-
-Select your desired icon in the **Icon** section.
-
-Modify the icon's **Color** to your preference.
-Paste the link into the designated **Link** box.
-
-Select `Custom` for the **Text style**. Set the **Font size** = `12px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred **Text color**.
-
-Duplicate Icon-1 to create more similar icons. Change the image and link of the icons just created.
 
 ### Special Products Tabs
 
@@ -356,37 +273,19 @@ You can set featured products in **Products**, click the **star** icon on the sa
 
 Go back to **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** has typed `featured_products`. In **Featured products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
 
-### Grid layout banners
+![featured-products](img/Feature-products-2.jpg)
 
-![four-cooking-banners](img/four-cooking-banners.jpg)
-
-To create **grid layout banners** :
-
-In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
-
-Drag and drop **Flex Banners | PapaThemes Beautify** widget into **Column 1**. Click on **Setting** > **Style for theme** select `kitchenary` Then delete all Flex Banners except the first one.
-
-![Flex-banner-setting](img/flex-setting.png)
-
-To edit **Banner 1**, change your image, set **Image width** = `1200px`, **Image height** = `600px`. If you want to display different image on mobile check on Show different image on mobile and upload your image and adjust image size.
-
-In **Content** > set **Content Align** follow **vertical** = `bottom`, **Content padding** and **Content padding (Tablet)** = `15 20 15 20`, **Content padding (Mobile)** = `15 15 15 15`. Change **Content background color to** `#000000` and hide **Heading content**.
-
-In **Content** > activate the **Description text**, set **Font weight** = `Normal`, **Text color** = `#FFFFFF`
-
-In **Content** > activate the **Action button**, set **Position** = `Right`.
-
-In **General** > **Width** panel choose **Width** = `%`, set **Value (Desktop)** and **Value (Tablet)** = `50%`, **Value (Mobile)** = `100%`.
-
-In **General** > **Padding**, set **Desktop** = `15 15 15 15`, **Tablet** = `8 8 8 8` and **Mobile** = `8 0 8 0`.
-
-Duplicate to 4 banners and upload images according to each banner.
+To change background image of this section. Enter link image into the **Featured products background image link** input fit to design.
 
 ### New Products
 
 ![new-products](img/New-products.jpg)
 
 You can configure new products section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** has typed `new_products` . In **New products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
+
+![new-products](img/New-products-2.jpg)
+
+To change background image of this section. Enter link image into the **New products background image link** input fit to design.
 
 ### Bestselling Products
 
@@ -396,43 +295,43 @@ Bestselling products only display when your store has some order.
 
 You can configure bestselling products section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** has typed `popular_products`. In **Best-sellers products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
 
-### Banner
+![bestselling-products](img/Popular-product-2.jpg)
 
-Desktop : 
+To change background image of this section. Enter link image into the **Best-sellers products background image link** input fit to design.
 
-![Banner](img/banner.jpg)
+### Grid layout banners
 
-Mobile : 
+![four-cooking-banners](img/three-men-banner.jpg)
 
-![Banner](img/banner-mobile.jpg)
+To create **grid layout banners** :
 
-Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
+In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
 
-Drag & drop **Leaderboard Banner| PapaThemes Beautify**, set **Banner height** = `800px` and **Banner height(mobile)** = `369px`. Consider the background color of you want **Background color**.
+To edit **Banner 1**, change your image, set **Image width** = `723px`, **Image height** = `378px`.
 
-You can customize the desktop image in the **Image** section, and also modify the images for the tablet and mobile screens in the **Image (mobile)** section. Unchecked **Display in container div**
+To edit **Banner 2**, change your image, set **Image width** = `1100px`, **Image height** = `378px`.
 
-In **Heading**, set **Heading Style** = `Custom`, **Font Weight** = `Bold`, **Font size** = `32px`, **Heading color** and **Heading color(mobile)** = `#FFFFFF`.
+To edit **Banner 3**, change your image, set **Image width** = `1920px`, **Image height** = `348px`.
 
-In **Text**, set **Font Size** = `16px`, **Font weight** = `Medium`, **Text color** and **Text color(mobile)** = `#FFFFFF`.
+If you want to display different image on mobile check on Show different image on mobile and upload your image and adjust image size.
 
-In **Button**, set **Button color** = `#FB9A43`
+In **Content** > hide **Heading content**.
 
-In **Advanced**, choose **style for theme** = `Kitchenary`.
+In **General** > **Width** panel choose **Width** = `%`.
 
-### Categories Banner
+Edit **Banner 1** set **Value (Desktop)** and **Value (Tablet)** = `40%`, **Value (Mobile)** = `100%`.
 
-![category-banner](img/Categories-Banner.png)
+Edit **Banner 2** set **Value (Desktop)** and **Value (Tablet)** = `60%`, **Value (Mobile)** = `100%`.
 
-Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
+Edit **Banner 3** set **Value (Desktop)**, **Value (Tablet)** and **Value (Mobile)** = `100%`.
 
-Drag & drop **Flex banners|papathemes beautify** to column 1 and delete all banner except the first one.
+In **General** > **Padding**.
 
-Insert your banner image with size `1092x135`, change **image width** = `1092`and **image height** = `135`
+Edit **Banner 1**  set **Desktop** = `0 15 15 0`, **Tablet** = `0 10 10 0` and **Mobile** = `0 0 0 0`.
 
-Set **border radius** = `4px` 
+Edit **Banner 2** set **Desktop** = `0 0 15 15`, **Tablet** = `0 0 10 10` and **Mobile** = `0 0 0 0`.
 
-in content, disable `heading text`
+Edit **Banner 3** set **Desktop** = `15 0 0 0`, **Tablet** = `10 0 0 0` and **Mobile** = `0 0 0 0`.
 
 ### Recently Viewed Products
 
@@ -472,11 +371,11 @@ To display the **recent blog** posts on the home page, go to **Page Builder**. I
 
 ### Customer Reviews
 
-![customer-reviews](img/customer-reviews.png)
+![customer-reviews](img/customer-reviews.jpg)
 
-Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`. Select **Column 1**, set **Padding** = `0 0 0 0`.
+Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`. Select **Column 1**, set **Padding** = `0 0 0 0`. In **Layout background**, select `Image` in the **Background** to fit design.
 
-Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Our Customer Reviews"), select `custom` in **Text style** field, set **Font size** = `20px`, **Text color** = `#000000`, **Margin** = `36 0 16 0`, **Margin (Mobile)** = `18 0 0 0`.
+Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Customer Reviews"), select `custom` in **Text style** field, set **Font size** = `32px`, **Font size (Mobile)** = `20px`, **Text color** = `#FFFFFF`, **Padding** = `52 0 40 0`, **Padding (Mobile)** = `30 0 6 0`.
 
 Drag & drop **Customer Reviews | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Make sure to remove all reviews except for the first one.
 
