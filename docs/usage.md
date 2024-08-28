@@ -37,7 +37,7 @@ Verify the widgets installed successfully if they appear in Page Builder:
 ![custom-widgets-appear](img/custom-widgets-appear.jpg)
 
 
-## Setting Up Cooking Style Home Page
+## Setting Up Man Style Home Page
 
 To start customizing the theme, login to your admin panel, go to **Storefront** > **My Themes**, click **Customize** button next to theme thumbnail.
 
@@ -210,6 +210,28 @@ Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Ca
 **Watch the instruction video:**
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796542010?h=3030ce28cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-home carousel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### Policy Delivery and Hotline Banner
+
+![policy-delivery-hotline](img/policy-delivery.jpg)
+
+In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
+
+Drag & drop **Callout Icons | PapaThemes Beautify** widget. Delete all other callouts except the first one.
+
+For the **Width**, select the unit `%` and specify the values for different devices as follows: **Desktop** = `25%`, **Tablet** and **Mobile** = `40%`.
+
+In the **Padding** section, set the values for different devices as follows: **Desktop** = `30 30 30 30`, **Tablet** and  **Mobile** = `20 20 20 20`.
+
+![policy-delivery-hotline](img/policy-delivery-2.jpg)
+
+Select your desired icon in the **Icon** section.
+
+Select **Custom** in **Icon** and paste code svg in text box, click **Save HTML**. Paste the link into the designated Link box.
+
+Select `Custom` for the **Text style**. Set the **Font size** = `14px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred Text color.
+
+Duplicate Icon-1 to create more similar icons. Change the image and link of the icons just created.
 
 ### Product By Category
 
