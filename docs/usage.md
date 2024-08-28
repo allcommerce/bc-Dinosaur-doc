@@ -215,7 +215,9 @@ Go back to **Page Builder**, in **Theme Styles** > **Home Page**, make sure **Ca
 
 ![policy-delivery-hotline](img/policy-delivery.jpg)
 
-In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
+In **Page Builder**, drag & drop **Layout** widget to the corresponding position. In **Layout background**, select `Color` in **Background** and set **Background color** = `#252424`
+
+Change **Column** = `1`, set **Padding** = `0 0 0 0`.
 
 Drag & drop **Callout Icons | PapaThemes Beautify** widget. Delete all other callouts except the first one.
 
@@ -229,7 +231,13 @@ Select your desired icon in the **Icon** section.
 
 Select **Custom** in **Icon** and paste code svg in text box, click **Save HTML**. Paste the link into the designated Link box.
 
-Select `Custom` for the **Text style**. Set the **Font size** = `14px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred Text color.
+Select `Custom` for the **Text style**. In **Font weight** select `Bold`. Customize the text content and choose your preferred Text color.
+
+Enable **Show second text**. Select `Custom` for the **Second text**. Set the **Font size** = `14px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred Text color.
+
+According to the design, if you want to make the text color lighter, click on **Text color** then choose any color, a color picker will appear. In section `A` within the red circle, adjust to 0.6. The result will display the text color as shown below.
+
+![policy-delivery-second-text](img/policy-delivery-second-text.jpg)
 
 Duplicate Icon-1 to create more similar icons. Change the image and link of the icons just created.
 
