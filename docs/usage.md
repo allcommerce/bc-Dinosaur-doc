@@ -251,13 +251,17 @@ If your desired icon is not available in the widget, select **Custom** in **Icon
 
 Select `Custom` for the **Text style**. In **Font weight** select `Bold`. Customize the text content and choose your preferred Text color.
 
-Enable **Show second text**. Select `Custom` for the **Second text**. Set the **Font size** = `14px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred Text color.
+Enable **Show text**, to display fist text right below the icon. Select `Custom` for the **Text style ** . Set the **Font size** = `16px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred Text color
 
-To make the text color lighter, click on **Text color** then choose any color. In section `A`, adjust to 0.6 to make the text lighter.
+![policy-delivery-first-text](img/policy-delivery-first-text.jpg)
+
+Enable **Show second text**, to display second text. Select `Custom` for the **Second text style**. Set the **Font size** = `14px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred Text color.
+
+To make the text color lighter, click on **Text color** then click `+` icon, choose your desired color and in section `A`, adjust to 0.6 to make the text lighter.
 
 ![policy-delivery-second-text](img/policy-delivery-second-text.jpg)
 
-Duplicate Icon-1 4 times to create 4 similar icons. Change the image and link of the icons just created.
+Duplicate callout 1, 3 times to create 3 similar icons. Change the image and link of the icons just created.
 
 ### Product By Category
 
