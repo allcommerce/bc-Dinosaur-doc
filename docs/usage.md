@@ -229,17 +229,17 @@ In the **Padding** section, set the values for different devices as follows: **D
 
 Select your desired icon in the **Icon** section.
 
-Select **Custom** in **Icon** and paste code svg in text box, click **Save HTML**. Paste the link into the designated Link box.
+If your desired icon is not available in the widget, select **Custom** in **Icon** and paste code svg in text box, click **Save HTML**. Paste the link into the designated Link box.
 
 Select `Custom` for the **Text style**. In **Font weight** select `Bold`. Customize the text content and choose your preferred Text color.
 
 Enable **Show second text**. Select `Custom` for the **Second text**. Set the **Font size** = `14px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred Text color.
 
-According to the design, if you want to make the text color lighter, click on **Text color** then choose any color, a color picker will appear. In section `A` within the red circle, adjust to 0.6. The result will display the text color as shown below.
+To make the text color lighter, click on **Text color** then choose any color. In section `A`, adjust to 0.6 to make the text lighter.
 
 ![policy-delivery-second-text](img/policy-delivery-second-text.jpg)
 
-Duplicate Icon-1 to create more similar icons. Change the image and link of the icons just created.
+Duplicate Icon-1 4 times to create 4 similar icons. Change the image and link of the icons just created.
 
 ### Product By Category
 
