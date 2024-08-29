@@ -251,9 +251,21 @@ This section allow user change section tiltle and display/hide brands logo, in *
 
 To enable **Top Categories**, in **Theme Styles** > **Homepage** > **Section** choose one of sections and type `top_categories` to enable this block.
 
-To change background image of this section click on **Show Background Image** and enter link image into the **Background Image Link** input fit to design.
+To edit color background of sections **Top Categories**, select your color in **Background** and type empty input `Background Image` in **Top Categories**.
 
-![Top-categories](img/Top-categories-2.jpg)
+![Top-categories](img/top-category-edit-color.jpg)
+
+To edit background image of sections **Top Categories**. Dinosaur theme provides users with three options to change the background by modifying the **Background Image** field as shown below:
+
+- `blank`: leave the field empty, the background will be specified follow **Background** field.
+
+- `top-categories-men.png`: **Top Categories** will use the default image of the theme to set as background header.
+
+![Top-categories](img/top-category-edit-bgimg.jpg)
+
+- `link`: **Top Categories** will be the link you provided in the input to set the background.
+
+![Top-categories](img/top-category-edit-bgimg-2.jpg)
 
 This section allow user change section tiltle, in **Hompage** find **Top Categories** type your text in **Heading**.
 
@@ -275,6 +287,8 @@ Go back to **Page Builder** > **Theme Styles** > **Home Page**, make sure one of
 
 ![featured-products](img/Feature-products-2.jpg)
 
+To edit color background of this section, select your color in **Background** and type empty input `Featured products background image link` in **Featured products**.
+
 To change background image of this section. Enter link image into the **Featured products background image link** input fit to design.
 
 ### New Products
@@ -284,6 +298,8 @@ To change background image of this section. Enter link image into the **Featured
 You can configure new products section settings in **Page Builder** > **Theme Styles** > **Home Page**, make sure one of the **Sections** has typed `new_products` . In **New products** section, you can change the **Heading**, **Number of products** to display, Number of product per row (**Columns**), changing **Display type** to `Carousel` or `Grid`, changing the **background color**, editing the link of **View all products**.
 
 ![new-products](img/New-products-2.jpg)
+
+To edit color background of this section, select your color in **Background** and type empty input `New products background image link` in **New products**.
 
 To change background image of this section. Enter link image into the **New products background image link** input fit to design.
 
@@ -297,41 +313,36 @@ You can configure bestselling products section settings in **Page Builder** > **
 
 ![bestselling-products](img/Popular-product-2.jpg)
 
+To edit color background of this section, select your color in **Background** and type empty input `Best-sellers products background image link` in **Best-sellers products**.
+
 To change background image of this section. Enter link image into the **Best-sellers products background image link** input fit to design.
 
 ### Grid layout banners
 
-![four-cooking-banners](img/three-men-banner.jpg)
+![grid-fashion-banners](img/three-men-banner.jpg)
 
 To create **grid layout banners** :
 
 In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
 
-To edit **Banner 1**, change your image, set **Image width** = `723px`, **Image height** = `378px`.
+Drag & drop **Flex Banners | PapaThemes Beautify** widget into the **Layout**. Remove all banner except banner 1.
 
-To edit **Banner 2**, change your image, set **Image width** = `1100px`, **Image height** = `378px`.
+To edit **Banner 1**, change your image, set **Image width** = `1024px`, **Image height** = `500px`. Click **Show different image on mobile**, change your image in mobile, set **Image width** = `550px`, **Image height** = `500px`. Set **Border radius** = `0px`.
 
-To edit **Banner 3**, change your image, set **Image width** = `1920px`, **Image height** = `348px`.
+In **CONTENT**, hide `Heading text`.
 
-If you want to display different image on mobile check on Show different image on mobile and upload your image and adjust image size.
+In **GENERAL**. Set **Width (Desktop)** and **Width (Tablet)** = `40%`, **Width (Mobile)** = `100%`. Set **Padding (Desktop)** = `0 15 15 0`, **Padding (Tablet)** = `0 10 10 0`, **Padding (Mobile)** = `0 0 0 0`.
 
-In **Content** > hide **Heading content**.
+Duplicate banner 1 to 2 banners.
 
-In **General** > **Width** panel choose **Width** = `%`.
+In **Banner 2**, change your image, set **Image width** = `1536px`, **Image height** = `500px`. Click **Show different image on mobile**, change your image in mobile, set **Image width** = `550px`, **Image height** = `450px`. Set **Border radius** = `0px`.
 
-Edit **Banner 1** set **Value (Desktop)** and **Value (Tablet)** = `40%`, **Value (Mobile)** = `100%`.
+In **GENERAL**. Set **Width (Desktop)** and **Width (Tablet)** = `60%`, **Width (Mobile)** = `100%`. Set **Padding (Desktop)** = `0 0 15 15`, **Padding (Tablet)** = `0 0 10 10`, **Padding (Mobile)** = `0 0 0 0`.
 
-Edit **Banner 2** set **Value (Desktop)** and **Value (Tablet)** = `60%`, **Value (Mobile)** = `100%`.
+In **Banner 3**, change your image, set **Image width** = `2560px`, **Image height** = `450px`. Click **Show different image on mobile**, change your image in mobile, set **Image width** = `550px`, **Image height** = `400px`. Set **Border radius** = `0px`.
 
-Edit **Banner 3** set **Value (Desktop)**, **Value (Tablet)** and **Value (Mobile)** = `100%`.
+In **GENERAL**. Set **Width (Desktop)**, **Width (Tablet)** , **Width (Mobile)** = `100%`. Set **Padding (Desktop)** = `15 0 0 0`, **Padding (Tablet)** = `10 0 0 0`, **Padding (Mobile)** = `0 0 0 0`.
 
-In **General** > **Padding**.
-
-Edit **Banner 1**  set **Desktop** = `0 15 15 0`, **Tablet** = `0 10 10 0` and **Mobile** = `0 0 0 0`.
-
-Edit **Banner 2** set **Desktop** = `0 0 15 15`, **Tablet** = `0 0 10 10` and **Mobile** = `0 0 0 0`.
-
-Edit **Banner 3** set **Desktop** = `15 0 0 0`, **Tablet** = `10 0 0 0` and **Mobile** = `0 0 0 0`.
 
 ### Recently Viewed Products
 
@@ -373,7 +384,7 @@ To display the **recent blog** posts on the home page, go to **Page Builder**. I
 
 ![customer-reviews](img/customer-reviews.jpg)
 
-Drag & drop **Layout** widget to the corresponding position, change **Column** = `1`. Select **Column 1**, set **Padding** = `0 0 0 0`. In **Layout background**, select `Image` in the **Background** to fit design.
+Drag & drop **Layout** widget to the corresponding position.select Image in the Background section to upload your image, change image fit to fill. Change **Column** = `1`. Select **Column 1**, set **Padding** = `0 0 0 0`.
 
 Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Customer Reviews"), select `custom` in **Text style** field, set **Font size** = `32px`, **Font size (Mobile)** = `20px`, **Text color** = `#FFFFFF`, **Padding** = `52 0 40 0`, **Padding (Mobile)** = `30 0 6 0`.
 
