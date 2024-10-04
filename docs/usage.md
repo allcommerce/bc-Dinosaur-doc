@@ -481,7 +481,7 @@ To change delay time and show up again peropd for display **Newsletter Popup**, 
 
 To change image in **Newsletter popup**, simply copy and paste your Image URL to **Newsletter Popup background URL**
 
-![edit-newsletter-popup](img/newletter-popup-edit.png)
+![edit-newsletter-popup](img/newletter-popup-edit.jpg)
 
 ### Benefit
 
