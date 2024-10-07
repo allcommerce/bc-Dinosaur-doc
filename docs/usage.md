@@ -263,6 +263,14 @@ To make the text color lighter, click on **Text color** then click `+` icon, cho
 
 Duplicate callout 1, 3 times to create 3 similar icons. Change the image and link of the icons just created.
 
+### Left Sidebar
+
+![Left Sidebar](img/left-sidebar-img.jpg)
+
+To display the left sidebar on the home page, go to **Page Builder**. In **Theme Styles** > **Home Page** > **Left Sidebar**, ensure that at least one of the three options is filled in. The left sidebar will then be displayed based on the option you enter.
+
+![Left Sidebar](img/left-sidebar-settings.jpg)
+
 ### Product By Category
 
 ![Product by category](img/Product-by-category.jpg)
