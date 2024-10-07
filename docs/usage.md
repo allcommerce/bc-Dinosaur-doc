@@ -1081,11 +1081,21 @@ Checked **Show image thumbnails vertically**:
 
 ![thumbnails-vertically](img/thumbnail-vertical.jpg)
 
-### Displaying product bulk pricing inline in table
+### Displaying product bulk pricing slider
 
-Instead of displaying bulk pricing in a popup modal, you can display it inline by going to **Page Builder** > **Theme Styles** > **Products** > **Product Page**, tick **Show bulk price as table**.
+Instead of displaying bulk pricing in a popup modal. You can set the bulk pricing for that product. Then, on the product detail page, the bulk pricing slider will be displayed. You can drag or click on each discount level when purchasing a certain number of products. Alternatively, you can change the quantity in the input field, and the bulk pricing will be displayed correctly based on the number of products you’ve entered or when you increase or decrease the quantity in the input field.
 
-![bulk-pricing-table](img/bulk-pricing-table.jpg)
+- `% Discount`:
+
+![bulk-pricing-discount](img/bulk-discount.jpg)
+
+- `$ Fixed Amount`:
+
+![bulk-pricing-discount](img/bulk-fixed.jpg)
+
+- `$ Off/Unit`:
+
+![bulk-pricing-off-unit](img/bulk-off-unit.jpg)
 
 ### Displaying sticky Add to Cart button on PDP on mobile
 
