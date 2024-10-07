@@ -719,7 +719,7 @@ Note: Leftside bar can only display three section above. To modify the header or
 
 ![Customer's Reviews](img/kid-customer-reviews.jpg)
 
-To display the **Customer's Reviews** on the home page, go to **Page Builder**. In **Theme Styles** > **Home Page** > **Left Sidebar**, ensure that at least one of the three options is filled in.
+To display the **Customer's Reviews** on the home page.
 
 Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
 
@@ -733,9 +733,8 @@ Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**
 
 ![Customer's Reviews Heading Setting](img/customer-reviews-head-settings.jpg)
 
-Drag & drop **Layout widget** widget below **Section Heading | PapaThemes Beautify** widget, change **Column** = `1`, set **Padding** = `0 0 0 0`.
 
-Drag & drop **Customer Reviews | PapaThemes Beautify** widget into the **Layout**. Delete all other **Review** except the first one.
+Drag & drop **Customer Reviews | PapaThemes Beautify** widget widget below **Section Heading | PapaThemes Beautify** widget. Delete all other **Review** except the first one.
 
 To edit **Review 1**:
 
@@ -746,6 +745,8 @@ To edit **Review 1**:
 - Enter your **Author** (example "<strong>Chanel W.</strong> <strong>January 25, 2023</strong>")
 - Select **Style for theme** = `Beautify Furniture`.
 - Checked **Display reviews in container div**.
+
+Duplicate review 1 if you have more than 1 review want to display and change the content.
 
 ![Customer's Reviews Heading Setting](img/customer-reviews-settings.jpg)
 
