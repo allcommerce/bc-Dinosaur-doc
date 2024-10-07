@@ -263,14 +263,6 @@ To make the text color lighter, click on **Text color** then click `+` icon, cho
 
 Duplicate callout 1, 3 times to create 3 similar icons. Change the image and link of the icons just created.
 
-### Left Sidebar
-
-![Left Sidebar](img/left-sidebar-img.jpg)
-
-To display the left sidebar on the home page, go to **Page Builder**. In **Theme Styles** > **Home Page** > **Left Sidebar**, ensure that at least one of the three options is filled in. The left sidebar will then be displayed based on the option you enter.
-
-![Left Sidebar](img/left-sidebar-settings.jpg)
-
 ### Product By Category
 
 ![Product by category](img/Product-by-category.jpg)
@@ -680,7 +672,7 @@ In **Settings** > **General**, set **Style for theme** = `Kansha Sport`, uncheck
 
 Duplicate **Banner 1** to 3 banners.
 
-## Setting Up Fashion Style Home Page
+## Setting Up Kid Style Home Page
 
 ### General 
 
@@ -690,6 +682,7 @@ You can read these common instructions in **Setting Up Cooking Style Home Page**
 - [Top Banner](#top-banner)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
 - [Main carousel](#main-carousel)
+- [Homepage left sidebar layout](#homepage-left-sidebar-layout)
 - [Shopping Guide](#shopping-guide)
 - [Top Categories](#top-categories)
 - [Featured brands](#featured-brands)
@@ -708,43 +701,22 @@ You can read these common instructions in **Setting Up Cooking Style Home Page**
 - [Footer Map](#footer-map)
 - [Display custom footer links](#display-custom-footer-links)
 
-### Shop for All Your Health & Wellness Needs
+### Homepage left sidebar layout
 
-Desktop : 
+![Left Sidebar](img/left-sidebar-img.jpg)
 
-![Shop Health](img/shop-health-fashion.jpg)
+To display the left sidebar on the home page, go to **Page Builder**. In **Theme Styles** > **Home Page** > **Left Sidebar**, ensure that at least one of the three options is filled in. You can also change the order of each section by section name as below:
 
-Mobile : 
+- `popular_producs`: to display best seller products
+- `new_products`: to display new arrival products
+- `featured_products`: to display feature producs.
 
-![Shop Health](img/shop-health-mobile--fashion.jpg)
+![Left Sidebar](img/left-sidebar-settings.jpg)
 
-Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
+Note: Leftside bar can only display three section above. To modify the header or configure each section, kindly scroll down to the specific section configuration you wish to alter.
 
-Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Shop for All Your Health & Wellness Needs"), **Padding** = `40 0 25 0` and **Padding (Mobile)** = `30 0 20 0`.
 
-Drag & drop **Flex Banners | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Delete all other callouts except the first one.
 
-To edit **Banner 1**, change your image, set **Image width** = `250px`, **Image height** = `250px`. **Image alt text** refers to modifying the caption of an image according to your preferences. **Border radius** = `8px`
-
-For the **Width**, select the unit `%` and specify the values for different devices as follows: **Desktop** = `12.5%`, **Tablet** = `25%` and **Mobile** = `30%`.
-
-In the **Padding** section, set the values for different devices as follows: **Desktop** = `15 15 15 15`, **Tablet** and **Mobile** = `8 8 8 8`.
-
-In **Settings** > **General** :
-
-Choose **Padding**, set value **Desktop** = `0 0 25 0` and **Tablet and Mobile** = `0 0 15 0` , checked **Display content overlaying banner on mobile**.
-
-Choose **Row wrap**, checked **Row no wrap on table** and **Row no wrap on mobile**.
-
-Duplicate **Banner 1** to create more similar icons. Change the image and link of the icons just created.
-
-![shop-healthy-config](img/shop-healthy-config.jpg)
-
-Select **Icon** = `Choose Image`, change the image to suit your needs in the **Icon Image**. Paste the link into the designated **Link** box.
-
-Select `Custom` for the **Text style**. Set the **Font size** = `12px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred **Text color**.
-
-Duplicate Icon-1 to create more similar icons. Change the image and link of the icons just created.
 
 ## Setting Up Game Style Home Page
 
