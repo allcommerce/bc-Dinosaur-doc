@@ -715,7 +715,40 @@ To display the left sidebar on the home page, go to **Page Builder**. In **Theme
 
 Note: Leftside bar can only display three section above. To modify the header or configure each section, kindly scroll down to the specific section configuration you wish to alter.
 
+### Homepage Customer Reviews Left Sidebar
 
+![Customer's Reviews](img/kid-customer-reviews.jpg)
+
+To display the **Customer's Reviews** on the home page.
+
+Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
+
+Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Customer's Reviews").
+
+- **Text style** = `Custom`
+- **Font size** = `24px`
+- **Font size (Mobile)** = `20px`
+- **Margin** = `0 0 30 0`
+- **Padding** and **Padding (Mobile)** = `0 0 0 0`
+
+![Customer's Reviews Heading Setting](img/customer-reviews-head-settings.jpg)
+
+
+Drag & drop **Customer Reviews | PapaThemes Beautify** widget widget below **Section Heading | PapaThemes Beautify** widget. Delete all other **Review** except the first one.
+
+To edit **Review 1**:
+
+- In **Avatar** > set **Type** = `Hide`.
+- Enter your **Title** (example "They Look Even Better Than")
+- Enter your **Content** (example "They look even better than the picture. I got these jeans for my son. Not too tight. He's a husky teen and they look and fit perfectly. He's 5'7 and they're not too short on him.")
+- Select **Rating** = `Hide`.
+- Enter your **Author** (example "<strong>Chanel W.</strong> <strong>January 25, 2023</strong>")
+- Select **Style for theme** = `Beautify Furniture`.
+- Checked **Display reviews in container div**.
+
+Duplicate review 1 if you have more than 1 review want to display and change the content.
+
+![Customer's Reviews Heading Setting](img/customer-reviews-settings.jpg)
 
 
 ## Setting Up Game Style Home Page
