@@ -756,10 +756,6 @@ Desktop :
 
 ![About Us Desktop](img/about-us-dt.jpg)
 
-Tablet :
-
-![About Us Tablet](img/about-us-tl.jpg)
-
 Mobile :
 
 ![About Us Mobile](img/about-us-mb.jpg)
@@ -777,49 +773,19 @@ Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**
 - **Margin** = `0 0 30 0`
 - **Padding** and **Padding (Mobile)** = `0 0 0 0`
 
-Drag & drop **Responsive | PapaThemes** widget widget below **Section Heading | PapaThemes Beautify** widget. To hide banner in tablet and show banner in mobile and desktop:
+Drag & drop **Flex Banners | PapaThemes Beautify** widget widget below **Section Heading | PapaThemes Beautify** widget. Delete all other **Banner** except the first one.
 
-- In **SCREEN SIZE 1** set **Min** = `0`, set **Max** = `550` and change **Display** = `Show`.
-- In **SCREEN SIZE 2** set **Min** = `551`, set **Max** = `800` and change **Display** = `Hide`.
-- In **SCREEN SIZE 3** set **Min** = `801`, set **Max** = `0` and change **Display** = `Show`.
-- In **APPLY** select `Only a layout or widget following this widget`.
-
-Drag & drop **Flex Banners | PapaThemes Beautify** widget widget below **Responsive | PapaThemes** widget. Delete all other **Banner** except the first one.
-
-To edit **Banner 1**, change your image, set **Image width** = `550px`, **Image height** = `344px`. **Image alt text** refers to modifying the caption of an image according to your preferences. **Border radius** = `8px`.
+To edit **Banner 1**, change your image, set **Image width** = `800px`, **Image height** = `500px`. **Image alt text** refers to modifying the caption of an image according to your preferences. **Border radius** = `8px`.
 
 In **Content** set invisible for all **Heading text**, **Description text**, **Action button**
 
-For the **Width**, select the unit `%` and specify the values for different devices as follows: **Desktop** = `100%`, **Tablet** = `100%` and **Mobile** = `100%`.
+For the **Width**, select the unit `auto`
 
 In the **Padding** section, set the values for different devices as follows: **Desktop**, **Tablet** and **Mobile** = `0 0 0 0`.
 
 In **Settings** > **General** :
 
-Choose **Padding**: set the values for different devices as follows: **Desktop** and **Mobile** = `0 0 15 0`, **Tablet** = `0 0 0 0`.
-
-Drag & drop **Responsive | PapaThemes** widget widget below **Flex Banners | PapaThemes Beautify** widget. To show banner in tablet and hide banner in mobile and desktop:
-
-- In **SCREEN SIZE 1** set **Min** = `0`, set **Max** = `550` and change **Display** = `Hide`.
-- In **SCREEN SIZE 2** set **Min** = `551`, set **Max** = `800` and change **Display** = `Show`.
-- In **SCREEN SIZE 3** set **Min** = `801`, set **Max** = `0` and change **Display** = `Hide`.
-- In **APPLY** select `Only a layout or widget following this widget`.
-
-Switching to the tablet preview tab.
-
-Drag & drop **Flex Banners | PapaThemes Beautify** widget widget below **Responsive | PapaThemes** widget. Delete all other **Banner** except the first one.
-
-To edit **Banner 1**, change your image, set **Image width** = `800px`, **Image height** = `250px`. **Image alt text** refers to modifying the caption of an image according to your preferences. **Border radius** = `8px`.
-
-In **Content** set invisible for all **Heading text**, **Description text**, **Action button**
-
-For the **Width**, select the unit `auto`.
-
-In the **Padding** section, set the values for different devices as follows: **Desktop**, **Tablet** and **Mobile** = `0 0 0 0`.
-
-In **Settings** > **General** :
-
-Choose **Padding**: set the values for different devices as follows: **Desktop** and **Mobile** = `0 0 0 0`, **Tablet** = `0 0 15 0`.
+Choose **Padding**: set the values for different devices as follows: **Desktop**, **Tablet** and **Mobile** = `0 0 15 0`.
 
 Drag & drop **Text** widget widget below **Flex Banners | PapaThemes Beautify** widget. Enter your text (example "Unlock Your Style Potential, Embrace Confidence: Discover the Epitome of Men's Fashion Excellence at Our Website!")
 
