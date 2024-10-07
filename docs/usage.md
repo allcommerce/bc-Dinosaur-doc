@@ -756,10 +756,6 @@ Desktop :
 
 ![About Us Desktop](img/about-us-dt.jpg)
 
-Mobile :
-
-![About Us Mobile](img/about-us-mb.jpg)
-
 To display the **About Us** on the home page.
 
 Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
