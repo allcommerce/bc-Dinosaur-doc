@@ -491,31 +491,6 @@ To change image in **Newsletter popup**, simply copy and paste your Image URL to
 
 ![edit-newsletter-popup](img/newletter-popup-edit.jpg)
 
-### Benefit
-
-Desktop :
-
-![Benefit](img/benefit.jpg)
-
-To create **Benefit**:
-
-In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
-
-Drag and drop **Callout Icons | PapaThemes Beautify** widget into **Column 1**. Delete all other callouts except the first one.
-
-Choose the `Large` option in the Icon section. 
-
-For the **Width**, select the unit `%` and specify the values for different devices as follows: **Desktop** = `16,5%`, **Tablet** = `33,33%`, **Mobile** = `50%`.
-
-In the **Padding** section, set the values for different devices as follows: **Desktop** = `45 5 45 5`, **Tablet** and **Mobile** = `20 5 20 5`.
-
-Select your desired icon in the **Icon** section, then change **icon color** follow your design.
-
-In **Show text**, **Text style** choose `Custom` then set **text color** = `#000000` and **text color (hover)** = `#FF7700 `.
-
-Enable **Show second text**, **Text style** choose `Custom` then set **text color** = `#000000` and **text color (hover)** = `#FF7700`
-
-Duplicate Icon-1 to 6 icon. Change the image and link for each duplicated icon.
 
 ### Footer
 
@@ -531,50 +506,6 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/A481Na0Ec0Y?si=l12B8xW6ZszZjqp7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Footer Map
-
-**Create map using widget**
-
-![map-script](img/map-script.jpg)
-
-Drag and drop the **Layout widget** to the desired position. Set the **Column** = `1`.
-
-Select Column 1 and set the **Padding** = `0 0 0 0`.
-
-Drag and drop the **HTML** widget into the Layout section.
-
-Obtain the embed map code by following these instructions:
-
-Go to https://www.google.com/maps and enter the desired location. On the left side of the screen, select **Share** and then choose **Embed a map**.
-Copy the HTML code provided.
-
-![get-script-map](img/get-map-script.jpg)
-
-Paste the map code into the HTML editor. Edit the **width** and **height** = `100%`, and click the Save HTML button.
-
-![map-script-edit](img/map-script-edit.jpg)
-
-
-**To display the map using an API key:**
-
-Configure Footer map in **Page Builder** > **Theme Styles** > **Footer** > **Main Footer**.
-
-![footer-map-api](img/footer-map-api.jpg)
-
-Enable the **Show Google map** option.
-
-Fill in your **Google Maps API key**. If you don't have an API key, please see instruction at the link: `https://developers.google.com/maps/documentation/javascript/get-api-key`
-
-Enter the **Latitude, Longitude, and Zoom level** for the map. Separate the values with commas and ensure they are contiguous.
-
-Example: `10.795005889833666, 106.72182056991105, 15`.
-
-To obtain the latitude and longitude values, follow these steps:
-
-Go to `https://www.google.com/maps` and enter the desired location.
-Right-click on the marker icon on the map and copy the longitude and latitude values.
-
-![gmap-lat-lng](img/gmap-lat-lng.jpg)
 
 ### Instagram photos
 
@@ -612,7 +543,7 @@ In the popup window, copy your web link to `URL`. On the **Open links..** field 
  
  ![Insert-links](img/insert-links.jpg)
 
-### Unique Sport-Inspired Fashion
+ ### Unique Sport-Inspired Fashion
 
 ![Product Tag Widget](img/product-tag-widget.jpg)
 
@@ -1296,7 +1227,7 @@ Videos displayed in **image gallery** option:
 
 Configuring the category pages in **Page Builder** > **Theme Styles** > **Products** > **Category Page**.
 
-### Category Layout Type
+### Category Layout
 
 Theme supports displaying category Page layout in `Full width` mode or `Left sidebar` mode. In **Layout**, select the particular display mode for default display.
 
@@ -1310,18 +1241,22 @@ Theme supports displaying category Page layout in `Full width` mode or `Left sid
 
 ### Products Display Type
 
-Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row), in list mode or bulk order mode. In **Products display type**, select the particular display mode for default display.
+Theme supports displaying products in **grid** mode (2, 3, 4 or 5 products per row), in **list mode** or **bulk order** mode. In **Products display type**, select the particular display mode for default display.
 
 - **Display type** on the right allow your customers to change product category display by themselves.
 ![products-display-type-by-customer](img/products-display-type-by-customer.jpg)
 
-**Grid 5 columns:**
+**Grid:**
 
-![products-display-type-grid5](img/products-display-type-grid5.jpg)
+![products-display-type-grid](img/products-display-type-grid.jpg)
 
-**List mode:**
+**List:**
 
 ![products-display-type-list](img/products-display-type-list.jpg)
+
+**Bulk order:**
+
+![products-display-type-bulk](img/products-display-type-bulk.jpg)
 
 ### Display Bulk Order layout
 
@@ -1368,9 +1303,9 @@ Select **Show quick search in category** = `Show` to enable it.
 
 - **+ Show results in descendent categories**: if selected, it also displays results in the descendent categories.
 
-### Display subcategory image thumbnails
+### Display subcategory in faceted filter
 
-This feature allow displaying subcategory thumbnails before products.
+This feature allow displaying subcategory on faceted filter.
 
 Select **Show subcategory thumbnails** to enable it.
 
@@ -1409,6 +1344,12 @@ In **Marketing** > **Marketing Banner**, click **Create a Banner** button.
 Watch the instruction video:
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796915050?h=fa4bc20f8c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-Brand description"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### Display product per page
+
+To change number products display per page in **Product** section find **Search page** then change **Number of products per page**:
+
+![Search-product-number](\img\product-search-page.jpg)
 
 ## Customizing Cart page
 
