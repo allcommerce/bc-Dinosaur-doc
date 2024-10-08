@@ -985,13 +985,21 @@ Configuring product cards in **Page Builder** > **Theme Styles** > **Products** 
 - **Alignment**: Specifying content alignment `left` or `center`.
 - **Product title color**: Specifying the product name's color.
 - + **Hover**: Specifying color when hover or focus.
-- **Button text color**: Specifying the button text color.
-- + **Background**: Specifying the button background color.
-- + **Border**: Specifying the button border color.
+- **Product countdown color**: specify number's color in countdown box.
+- - **Background**: Specify background's color of countdown box.
 - **Show second image on hover**: Displaying the second image when hover the product card.
-- **Show border**: toggle displaying the product card border.
+- **Show SKU**: toggle displaying the product SKU.
+- **Show Brand**: toggle displaying Brand of product.
+- **Show Add to Cart button**: toggle on to make Add to Cart button always visible.
+- **Show quantity input**: toggle on to display quantity input. If toggle of input field will not visible client cannot adjust the quantity in card.
+- + **Border**: Specifying the button border color.
 - **Show swatch/rectangle options**: Allows to display with swatch/rectangle type product option on every product card. It's helpful to display different product variants like colors or sizes.
+- **Show only option name**: enter the option name to display in card.
 - **Swatch sizes**: Specifying the swatch color/image size.
+- **Show countdown Flash Sale**: Display countdown timer for Flash Sale products.
+- **Show corresponding variant image when filtered**: toggle this option will help display variant image instead of thumbnail image when using Faceted filter. (Example: filter color Ogrance card will display image of variant Ogrance).
+- **Show call us for price**: to display call us for price message.
+- **Show custom fields**: enter the custom field name and seperate each custom field with `|` to display them in card.
 - **Badge position**: also to configure the sale badge position to `Top Left` or `Below image`.
 
 ### Displaying product price ranges
@@ -1093,19 +1101,19 @@ Checked **Show image thumbnails vertically**:
 
 ![thumbnails-vertically](img/thumbnail-vertical.jpg)
 
-### Displaying product bulk pricing slider
+### Setup bulk pricing 
 
-Instead of displaying bulk pricing in a popup modal. You can set the bulk pricing for that product. Then, on the product detail page, the bulk pricing slider will be displayed. You can drag or click on each discount level when purchasing a certain number of products. Alternatively, you can change the quantity in the input field, and the bulk pricing will be displayed correctly based on the number of products you’ve entered or when you increase or decrease the quantity in the input field.
+Bulk pricing discounts can be managed under the Pricing section when adding or editing a product. Click Show **Advanced Pricing** to view bulk pricing fields, among other pricing product fields. Bulk pricing of Dino theme auto display under price slider. customer can slide to to increase product quantity to reach each bulk pricing point.
 
-- `% Discount`:
+- **% Discount:** takes a percentage off the total product price when the quantity threshold is met ("Order 2 or more, get 10% off").
 
 ![bulk-pricing-discount](img/bulk-discount.jpg)
 
-- `$ Fixed Amount`:
+- **$ Fixed Amount:** specifies a fixed price for each unit when the quantity threshold is met ("Get 2 for $15 each"). This discount type is not available for category-level bulk discounts.
 
 ![bulk-pricing-discount](img/bulk-fixed.jpg)
 
-- `$ Off/Unit`:
+- **$ Off/Unit:** subtracts a fixed amount from the price of each unit when the quantity threshold is met ("Save $7 on each when you buy 2 or more")
 
 ![bulk-pricing-off-unit](img/bulk-off-unit.jpg)
 
