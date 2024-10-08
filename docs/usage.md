@@ -1031,14 +1031,12 @@ By default the quantity box shows up, to hide it, go to **Page Builder** > **The
 
 In **Page Builder** > **Theme Styles** > **Products** > **Popup after added to cart**:
 
-- `Default`: Displaying the large popup.
-- `Mini`: Displaying a smaller popup that has auto close.
 - `Cart Preview`: Displaying the whole shopping cart popup on the right side.
 - `Hide`: Not show any popup.
 
 Mini added to cart popup:
 
-![mini-add-to-cart-popup](img/mini-add-to-cart-popup.jpg)
+![cart-preview](img/cart-preview.jpg)
 
 ### Displaying Recently Viewed Products
 
@@ -1061,26 +1059,32 @@ Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 - Tick **Show product weight** checkbox.
 - Tick **Show product dimensions** checkbox.
 
-### Display sale badge / in-stock badge on PDP
+### Display sale badge on PDP
 
 Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
 
 - Tick **Show sale badge** checkbox.
-- Tick **Show in-stock badge** checkbox.
+
+### Sale badge, Condition badge and custom text badges
+
+![product-badges](img/product-badges.jpg)
+
+Displaying the sale badge in **Page Builder** > **Theme Styles** > **Products** > **Product sale badges**, tick **Show sale badges**.
+
+- **Label**: Specifying the badge text.
+- **Text color**: Specifying the badge text color.
+- **Background color**: Specifying the badge background color
+
+Displaying the condition badge in **Condition badges**, tick **Show condition badges**.
+
+Displaying the condition badge in **Custom badges**, tick **Enable custom badge from '__badge' custom field**. Edit product, add custom field with name `__badge` and value is the badge text.
+
+- **Text color**: Specifying the text color of the custom badge.
+- **Background color**: Specifying the background color of the custom badge.
 
 ### Displaying Image gallery 
 
-#### Image Gallery Position
-
-In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, In **Image gallery position** , select `Left` or `Right` to change Image gallery position .
-
-- `Right`
-
-![pdp-right](img/pdp-right.jpg)
-
-
-
-#### Displaying sub-image as a slider
+#### Displaying thumbnail as a slider
 
 In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, **Enable thumbnail carousel** section, you can change display thumbnail images to slider or grid.
 
@@ -1100,6 +1104,20 @@ In **Page Builder** > **Theme Styles** > **Products** > **Product Page**, checke
 Checked **Show image thumbnails vertically**:
 
 ![thumbnails-vertically](img/thumbnail-vertical.jpg)
+
+To specify the number thumbnail display in slider simply enter your desire number in **Number of visible thumbnails**.
+
+### Video image product detail page
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select `tab` or `image gallery` to change display video position.
+
+Videos displayed in **tab** options:
+
+![video image product detail tab option](img/video-image-PDP-tab.jpg)
+
+Videos displayed in **image gallery** option:
+
+![video image product detail image gallery option](img/video-image-PDP-image-gallery.jpg)
 
 ### Setup bulk pricing 
 
@@ -1161,8 +1179,6 @@ In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
 - **Number of Product Reviews**: Specifying number of product reviews displayed.
 - **Number of Related Products**: Specifying number of related products displayed.
 - **Number of Customers Also Viewed Products**: Specifying number of customer also viewed products displayed.
-- **Number of visible thumbnails**: Specifying number of images displayed in the product thumbnails slider.
-
 
 ### Displaying Swatch Options in the dropdown select box
 
@@ -1193,23 +1209,6 @@ Enabling this feature in **Page Builder** > **Theme Styles** > **Products** > **
 In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type** > Set **Swatch size**.
 
 
-### Sale badge, Condition badge and custom text badges
-
-![product-badges](img/product-badges.jpg)
-
-Displaying the sale badge in **Page Builder** > **Theme Styles** > **Products** > **Product sale badges**, tick **Show sale badges**.
-
-- **Label**: Specifying the badge text.
-- **Text color**: Specifying the badge text color.
-- **Background color**: Specifying the badge background color
-
-Displaying the condition badge in **Condition badges**, tick **Show condition badges**.
-
-Displaying the condition badge in **Custom badges**, tick **Enable custom badge from '__badge' custom field**. Edit product, add custom field with name `__badge` and value is the badge text.
-
-- **Text color**: Specifying the text color of the custom badge.
-- **Background color**: Specifying the background color of the custom badge.
-
 ### Configuring image sizes
 
 
@@ -1226,6 +1225,8 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 
 To enable shipping countdown, **Theme styles** > **Product page**  find **shipping countdown** field and input your cut off time. Find and copied your timezone from wikipedia `https://en.wikipedia.org/wiki/List_of_tz_database_time_zones` to **timezone** field.
 
+To disable shipping countdown simply leave **shipping countdown** field empty.
+
 Note: The time before cut off the message will show **shipping today** after cut off the message will show **shipping tomorrow**
 
 ### Flash sales
@@ -1234,11 +1235,11 @@ Note: The time before cut off the message will show **shipping today** after cut
 
 ![Flash-sales](img\flash-sales-card.jpg)
 
-To create flash sales bar for each product and product card, in **product** select the product that you want to add flash sale bar. 
+To create flash sales for each product and product card, in **product** section select the product that you want to add Flash Sales.
 
-Find customer fields, click on add **Add Custom Field**. Copy `__countdown_label` and paste into **Custom Field Name**. In **Custom Field Value**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
+Find customer fields, click on add **Add Custom Field**. Enter `__countdown_label` into **Custom Field Name**. In **Custom Field Value**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
 
-Create another custom field, Copy `__countdown_date` and paste into **Custom Field Name**. In **Custom Field Value**, enter your cut off time following the format: `<yyyy>-<mm>-<dd> <hh>:<mm>:<ss><timezone>` (example: 2023-03-15 17:00:00-7).
+Create second custom field, enter `__countdown_date` into **Custom Field Name**. In **Custom Field Value**, input your cut off time following the format: `<yyyy>-<mm>-<dd> <hh>:<mm>:<ss><timezone>` (example: 2023-03-15 17:00:00-7).
 
 Note:
 
@@ -1247,6 +1248,9 @@ Note:
 - `<hh>:<mm>:<ss>` is 24 hour format.
   
 - `<timezone>` only input `+ or -` and `number` example: `+7`. if timezone are not entered, the countdown time will be different in different countries.
+
+- Make sure you product also have sale price in orde for Flash Sale display. When you remove the **sale price** **Flash Sale** banner will auto disable.
+
 ### Brand logo in product detail
 
 ![brand logo in product detail](img/brand-logo.jpg)
@@ -1294,17 +1298,6 @@ In **Icon** change to `Choose Image`, in **Icon image** select your desire image
 To input your text into the widget, simply type it into the text field located in the design window.
 
 ![Below add to cart banner](img/banner-below-add-to-cart.jpg)
-### Video image product detail page
-
-In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **Show videos** select `tab` or `image gallery` to change display video position.
-
-Videos displayed in **tab** options:
-
-![video image product detail tab option](img/video-image-PDP-tab.jpg)
-
-Videos displayed in **image gallery** option:
-
-![video image product detail image gallery option](img/video-image-PDP-image-gallery.jpg)
 
 ## Customizing Category Pages
 
