@@ -715,6 +715,22 @@ To display the left sidebar on the home page, go to **Page Builder**. In **Theme
 
 Note: Leftside bar can only display three section above. To modify the header or configure each section, kindly scroll down to the specific section configuration you wish to alter.
 
+### Homepage Left Sidebar Banner
+
+![Left Sidebar Banner](img/left-sidebar-banner.jpg)
+
+To display the left sidebar banner on the home page, go to **Page Builder**.
+
+Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
+
+Drag & drop **Flex Banners | PapaThemes Beautify** widget into the **Layout**. Delete all other **Banner** except the first one.
+
+To edit **Banner 1**, change your image, set **Image width** = `800px`, **Image height** = `1000px`. **Image alt text** refers to modifying the caption of an image according to your preferences. **Border radius** = `8px`.
+
+In **Content** set invisible for all **Heading text**, **Description text**, **Action button**
+
+In the **Padding** section, set the values for different devices as follows: **Desktop**, **Tablet** and **Mobile** = `0 0 0 0`.
+
 ### Homepage Customer Reviews Left Sidebar
 
 ![Customer's Reviews](img/kid-customer-reviews.jpg)
@@ -734,7 +750,7 @@ Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**
 ![Customer's Reviews Heading Setting](img/customer-reviews-head-settings.jpg)
 
 
-Drag & drop **Customer Reviews | PapaThemes Beautify** widget widget below **Section Heading | PapaThemes Beautify** widget. Delete all other **Review** except the first one.
+Drag & drop **Customer Reviews | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Delete all other **Review** except the first one.
 
 To edit **Review 1**:
 
@@ -769,7 +785,7 @@ Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**
 - **Margin** = `0 0 30 0`
 - **Padding** and **Padding (Mobile)** = `0 0 0 0`
 
-Drag & drop **Flex Banners | PapaThemes Beautify** widget widget below **Section Heading | PapaThemes Beautify** widget. Delete all other **Banner** except the first one.
+Drag & drop **Flex Banners | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Delete all other **Banner** except the first one.
 
 To edit **Banner 1**, change your image, set **Image width** = `800px`, **Image height** = `500px`. **Image alt text** refers to modifying the caption of an image according to your preferences. **Border radius** = `8px`.
 
@@ -783,7 +799,7 @@ In **Settings** > **General** :
 
 Choose **Padding**: set the values for different devices as follows: **Desktop**, **Tablet** and **Mobile** = `0 0 15 0`.
 
-Drag & drop **Text** widget widget below **Flex Banners | PapaThemes Beautify** widget. Enter your text (example "Unlock Your Style Potential, Embrace Confidence: Discover the Epitome of Men's Fashion Excellence at Our Website!")
+Drag & drop **Text** widget below **Flex Banners | PapaThemes Beautify** widget. Enter your text (example "Unlock Your Style Potential, Embrace Confidence: Discover the Epitome of Men's Fashion Excellence at Our Website!")
 
 - **Text style** = `Custom`
 - **Font weight** = `Semi Bold`
@@ -792,7 +808,7 @@ Drag & drop **Text** widget widget below **Flex Banners | PapaThemes Beautify** 
 - **Margin** = `0 0 15 0`
 - **Padding** = `0 0 0 0`
 
-Drag & drop **Text** widget widget below **Text** widget. Enter your text (example "Welcome to our men's fashion website - the ideal destination to enhance your style. With a deep passion for men's fashion, we are confident in providing you with a fantastic shopping experience and the widest selection")
+Drag & drop **Text** widget below **Text** widget. Enter your text (example "Welcome to our men's fashion website - the ideal destination to enhance your style. With a deep passion for men's fashion, we are confident in providing you with a fantastic shopping experience and the widest selection")
 
 - **Text style** = `Custom`
 - **Font weight** = `Normal`
@@ -801,7 +817,7 @@ Drag & drop **Text** widget widget below **Text** widget. Enter your text (examp
 - **Margin** = `0 0 20 0`
 - **Padding** = `0 0 0 0`
 
-Drag & drop **HTML** widget widget below **Text** widget. Enter your content (example `<a href="#" class="readMore-button" style="">Read More<svg class="icon"><use xlink:href="#icon-circle-arrow-right"></use></svg></a>`).
+Drag & drop **HTML** widget below **Text** widget. Enter your content (example `<a href="#" class="readMore-button" style="">Read More<svg class="icon"><use xlink:href="#icon-circle-arrow-right"></use></svg></a>`).
 
 ## Setting Up Game Style Home Page
 
