@@ -1214,7 +1214,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 
 ### Shipping countdown
 
-![shipping-countdown](img\Shipping-countdown.jpg)
+![shipping-countdown](img\shipping-countdown.jpg)
 
 To enable shipping countdown, **Theme styles** > **Product page**  find **shipping countdown** field and input your cut off time. Find and copied your timezone from wikipedia `https://en.wikipedia.org/wiki/List_of_tz_database_time_zones` to **timezone** field.
 
@@ -1224,7 +1224,9 @@ Note: The time before cut off the message will show **shipping today** after cut
 
 ![Flash-sales](img\flash-sales.jpg)
 
-To create flash sales bar for each product, in **product** select the product that you want to add flash sale bar. 
+![Flash-sales](img\flash-sales-card.jpg)
+
+To create flash sales bar for each product and product card, in **product** select the product that you want to add flash sale bar. 
 
 Find customer fields, click on add **Add Custom Field**. Copy `__countdown_label` and paste into **Custom Field Name**. In **Custom Field Value**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
 
