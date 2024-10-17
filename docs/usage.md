@@ -1229,6 +1229,32 @@ To disable shipping countdown simply leave **shipping countdown** field empty.
 
 Note: The time before cut off the message will show **shipping today** after cut off the message will show **shipping tomorrow**
 
+### Coupon
+
+![Coupon-ticket](img/coupon-ticket.jpg)
+
+To create coupon for product detail page, In **Page Builder**, drag and drop widget **Coupons | PapaThemes Dinosaur** to corresponding position.
+
+![Coupon-ticket](img/coupon-region.jpg)
+
+To edit **Coupon**. To modify the title and details of the coupon ticket, simply click on the title or content of ticket and adjust them. Copy Simply click on the title of the ticket and adjust them according to the **Marketing** > **Coupon codes**. Then copy Coupon code of **Coupon codes** to input `Coupon code` of **Coupon** widget.
+
+![Coupon-ticket](img/set-coupon-code.jpg)
+
+Coupons will appear in the sections below.
+
+`Cart popup`:
+
+![Coupon-ticket](img/coupon-cartpopup.jpg)
+
+`Product quick view`:
+
+![Coupon-ticket](img/coupon-quickview.jpg)
+
+`Cart Page`:
+
+![Coupon-ticket](img/coupon-cartpage.jpg)
+
 ### Flash sales
 
 ![Flash-sales](img\flash-sales.jpg)
