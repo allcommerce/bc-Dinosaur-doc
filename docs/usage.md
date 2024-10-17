@@ -424,6 +424,27 @@ To change Background of button, go to **General** find **General colors** change
 
 To change **Text**, **Icon**, color go to **General** find **Links colors** change **Default** to your color.
 
+### About us
+
+You can add About us block on Home Page. Drag & drop **Leaderboard Banner | PapaThemes Beautify** widget to the corresponding position.
+
+On **BANNER** at `Content align`, click vertical top. Set `Banner height` and `Banner height (mobile)` = `364px`. Set `Background color` = `#FFFFFF`. Set your image on `Image`. In `Image fit` select `Fit to box`.
+
+![about-us](img/aboutus-banner.jpg)
+
+On **HEADING**. In `Heading style` select `Custom`. In `Font weight` select `Bold`. Set `Font size` = `32px`. Set `Heading color`, `Heading color (mobile)` = `#C72E2E`.
+
+![about-us](img/aboutus-heading.jpg)
+
+On **TEXT**. In `Heading style` select `Custom`. In `Font weight` select `Medium`. Set `Font size` = `18px`.
+
+![about-us](img/aboutus-text.jpg)
+
+On **ADVANCED**. In `Style for theme` select `Kitchenary`.
+
+![about-us](img/aboutus-advanced.jpg)
+
+
 ### Recent Blog Posts
 
 ![edit-recent-blog](img/edit-recent-blog.jpg)
