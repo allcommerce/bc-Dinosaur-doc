@@ -1247,10 +1247,6 @@ Coupons will appear in the sections below.
 
 ![Coupon-ticket](img/coupon-cartpopup.jpg)
 
-`Product quick view`:
-
-![Coupon-ticket](img/coupon-quickview.jpg)
-
 `Cart Page`:
 
 ![Coupon-ticket](img/coupon-cartpage.jpg)
