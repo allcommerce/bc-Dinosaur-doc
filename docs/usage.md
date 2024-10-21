@@ -1344,7 +1344,7 @@ Theme supports displaying category Page layout in `Full width` mode or `Left sid
 Theme supports displaying products in **grid** mode (2, 3, 4 or 5 products per row), in **list mode** or **bulk order** mode. In **Products display type**, select the particular display mode for default display.
 
 - **Display type** on the right allow your customers to change product category display by themselves.
-![products-display-type-by-customer](img/products-display-type-by-customer.jpg)
+![products-display-type-by-customer](img/products-display-type-by-customer.png)
 
 **Grid:**
 
