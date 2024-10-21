@@ -1233,7 +1233,9 @@ Note: The time before cut off the message will show **shipping today** after cut
 
 ![Coupon-ticket](img/coupon-ticket.jpg)
 
-To create coupon for product detail page, In **Page Builder**, drag and drop widget **Coupons | PapaThemes Dinosaur** to corresponding position.
+In **Page Builder**, drag and drop widget **Coupons | PapaThemes Dinosaur** to correct widget region as picture below.
+
+Set **Layout** > **Column** `padding` = `0`.
 
 ![Coupon-ticket](img/coupon-region.jpg)
 
