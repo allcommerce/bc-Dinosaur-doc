@@ -1154,6 +1154,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
 ### Custom tabs
 
 ![Custom-tab-sample](img\custom-tab-sample.jpg)
+
 To add the **custom tabs** in product pages, edit your product description, click on **HTML button** to open HTML Source Editor:
 
 ![Custom-tab](img\custom-tab.jpg)
