@@ -371,7 +371,7 @@ To change background image of this section. Enter link image into the **Best-sel
 
 ### Grid layout banners
 
-![grid-fashion-banners](img/three-men-banner.jpg)
+![grid-man-banners](img/three-men-banner.jpg)
 
 To create **grid layout banners** :
 
@@ -588,11 +588,11 @@ Click on the plus button next to **PRODUCT TAGS PAPATHEMES DINOSAUR** to create 
 
 ![Product Tag Widget](img/product-tag-widget-settings.jpg)
 
-## Setting Up Pharmacy Style Home Page
+## Setting Up Woman Style Home Page
 
 ### General
 
-You can read these common instructions in **Setting Up Cooking Style Home Page** chapter:
+You can read these common instructions in **Setting Up Man Style Home Page** chapter:
 
 - [Header](#header)
 - [Top Banner](#top-banner)
@@ -613,91 +613,50 @@ You can read these common instructions in **Setting Up Cooking Style Home Page**
 - [Footer](#footer)
 - [Footer Map](#footer-map)
 - [Display custom footer links](#display-custom-footer-links)
-### Shop for All Your Health & Wellness Needs
-Desktop :
 
-![Shop Health](img/shop-health.jpg)
+### Grid layout banners
 
-Mobile :
+![grid-woman-banners](img/three-woman-banner.jpg)
 
-![Shop Health](img/shop-health-mobile.jpg)
-
-Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
-
-Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Shop for All Your Health & Wellness Needs"), select `custom` in **Text style** field, set **Font size** = `20px`, **Font size(Mobile)** = `18px`, **Font weight** = `Extra Bold`, **Text color** = `#0F49A0`, **Padding** = `10 0 40 0` and **Padding (Mobile)** = `18 0 18 0`.
-
-Drag & drop **Callout Icons | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Delete all other callouts except the first one.
-
-Choose the `Circle` option in the **Icon** section.
-
-For the **Width**, select the unit `%` and specify the values for different devices as follows: **Desktop** = `12.5%`, **Tablet** = `15.5%` and **Mobile** = `23%`.
-
-In the **Padding** section, set the values for different devices as follows: **Desktop** = `0 15 30 15`, **Tablet** and **Mobile** = `0 8 0 8`.
-
-![shop-healthy-config](img/shop-healthy-config.jpg)
-
-Select **Icon** = `Choose Image`, change the image to suit your needs in the **Icon Image**. Paste the link into the designated **Link** box.
-
-Select `Custom` for the **Text style**. Set the **Font size** = `12px` for desktop devices. Adjust the **Font size(Mobile)** = `10px`. Customize the text content and choose your preferred **Text color**.
-
-Duplicate Icon-1 to create more similar icons. Change the image and link of the icons just created.
-### Four Banner
-
-Desktop :
-
-![four-banner](img/four.jpg)
-
-To create **Four Banner** :
+To create **grid layout banners**:
 
 In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
 
-Drag and drop **Flex Banners | PapaThemes Beautify** widget into **Column 1**.
+To edit **Banner 1**, change your image, set **Image width** = `564px`, **Image height** = `395px`. Click **Show different image on mobile**, change your image in mobile, set **Image width** = `550px`, **Image height** = `500px`. Set **Border radius** = `0px`.
 
-To edit **Banner 1**, change your image, set **Image width** = `1800`, **Image height** = `900`, **Border radius** = `0px`.
+In **CONTENT**, hide `Heading text`.
 
-In **Content** > **Content padding** = `15 20 15 20` for all values, you can choose the custom background color for the **Content background** as per your preference.
+In **GENERAL**. Set **Width (Desktop)** and **Width (Tablet)** = `32%`, **Width (Mobile)** = `100%`. Set **Padding (Desktop)** = `0 15 15 0`, **Padding (Tablet)** = `0 10 10 0`, **Padding (Mobile)** = `0 0 0 0`.
 
-In **Content** > **Heading text**, set **Text style** = `Custom`, **font weight** = `Light`, **font size** = `16px` and **font size(mobile)** = `14px`, **Text color** and **Text color hover** = `#0F49A0`.
+Duplicate banner 1 to 2 banners.
 
-In **Content** > activate the **Action button**, set **Position** = `Right`.
+In **Banner 2**, change your image, set **Image width** = `1126px`, **Image height** = `395px`. Click **Show different image on mobile**, change your image in mobile, set **Image width** = `550px`, **Image height** = `500px`. Set **Border radius** = `0px`.
 
-In **General**, choose **Width** = `%`, set **Value (Desktop)** and **Value (Tablet)** = `50%`, **Value (Mobile)** = `100%`. Set **Padding** for **Desktop** and **Tablet** =` 0 15 30 15`, **Mobile** = `0 0 15 0`.
+In **GENERAL**. Set **Width (Desktop)** and **Width (Tablet)** = `64,5%`, **Width (Mobile)** = `100%`. Set **Padding (Desktop)** = `0 0 15 15`, **Padding (Tablet)** = `0 0 10 10`, **Padding (Mobile)** = `0 0 0 0`.
 
-In **Settings** > **General**, set **Style for theme** = `Kitchenary`, unchecked `Display content overlaying banner on mobile`.
+In **Banner 3**, change your image, set **Image width** = `1720px`, **Image height** = `349px`. Click **Show different image on mobile**, change your image in mobile, set **Image width** = `550px`, **Image height** = `500px`. Set **Border radius** = `0px`.
 
-Duplicate **Banner 1** to 4 banners.
+In **GENERAL**. Set **Width (Desktop)**, **Width (Tablet)** , **Width (Mobile)** = `100%`. Set **Padding (Desktop)** = `15 0 0 0`, **Padding (Tablet)** = `10 0 0 0`, **Padding (Mobile)** = `0 0 0 0`.
 
-### Three Banners
+### Homepage Banner Under Product by Category
 
-Desktop : 
-
-![three banners](img/three-banners.jpg)
-
-To create **Three Banners** :
+![grid-woman-banners](img/woman-banner.jpg)
 
 In **Page Builder**, drag & drop **Layout** widget to the corresponding position. Change **Column** = `1`, set **Padding** = `0 0 0 0`.
 
-Drag and drop **Flex Banners | PapaThemes Beautify** widget.
+Drag & drop **Flex Banners | PapaThemes Beautify** widget into the **Layout**. Remove all banner except banner 1.
 
-To edit **Banner 1**, change your image, set **Image width** = `1170`, **Image height** = `781`, **Border radius** = `4px`.
+To edit **Banner 1**, change your image, set **Image width** = `1400px`, **Image height** = `350px`. Click **Show different image on mobile**, change your image in mobile, set **Image width** = `550px`, **Image height** = `290px`. Set **Border radius** = `0px`.
 
-In **Content** > **Content Padding** set `15 0 0 0` for all values.
+In **CONTENT**, hide `Heading text`.
 
-In **Content** > **Heading text**, set **Text style** = `Custom`, **font weight** = `Bold`, **font size** and **font size(mobile)** = `16px`, **Text color** = `#0F49A0`.
-
-In **Content** > activate the **Description text**, set **Font weight** = `Light`, **Font size** and **Font size (Mobile)** = `16px`, **Text color** and **Text color (Mobile)** = `#000000`, **Text color hover** and **Text color hover (Mobile)** = `#0F49A0`.
-
-In **General**, choose **Width** = `%`, set **Value (Desktop)** and **Value (Tablet)** = `33,33333%`, **Value (Mobile)** = `100%`. Set **Padding** for **Desktop** and **Tablet** =` 0 15 0 15`, **Mobile** = `0 0 30 0`.
-
-In **Settings** > **General**, set **Style for theme** = `Kansha Sport`, unchecked `Display content overlaying banner on mobile`.
-
-Duplicate **Banner 1** to 3 banners.
+In **GENERAL**. Set **Width (Desktop)** and **Width (Tablet)** = `32%`, **Width (Mobile)** = `100%`. Set **Padding (Desktop)**, **Padding (Tablet)** and **Padding (Mobile)** = `0 0 0 0`.
 
 ## Setting Up Kid Style Home Page
 
 ### General 
 
-You can read these common instructions in **Setting Up Cooking Style Home Page** and **Setting Up Pharmacy Style Home Page** chapter:
+You can read these common instructions in **Setting Up Man Style Home Page** and **Setting Up Woman Style Home Page** chapter:
 
 - [Header](#header)
 - [Top Banner](#top-banner)
