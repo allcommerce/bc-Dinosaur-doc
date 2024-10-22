@@ -1,4 +1,4 @@
-# How to update Kitchenary theme
+# How to update Dinosaur theme
 
 Log into your admin panel, go to **Storefront** > **My Themes** > click **Update Available** button appears on the theme thumbnail.
 
