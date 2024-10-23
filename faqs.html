@@ -65,10 +65,6 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">FAQs</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#display-the-product-image-on-the-left-column-on-pdp">Display the product image on the left column on PDP</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#display-mega-menu-with-4-columns">Display mega menu with 4 columns</a>
-    </li>
     </ul>
                 </li>
               </ul>
@@ -104,52 +100,6 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="faqs">FAQs<a class="headerlink" href="#faqs" title="Permanent link">&para;</a></h1>
-<h2 id="display-the-product-image-on-the-left-column-on-pdp">Display the product image on the left column on PDP<a class="headerlink" href="#display-the-product-image-on-the-left-column-on-pdp" title="Permanent link">&para;</a></h2>
-<p>Q: On the Product page, flip the product image so that its on the left and the description on the right. (Most US sites are like this)</p>
-<p>A:</p>
-<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
-<ul>
-<li><strong>Location on page</strong> = <code>Head</code></li>
-<li><strong>Select pages where script will be added</strong> = <code>All Pages</code></li>
-<li><strong>Script type</strong> = <code>Script</code></li>
-</ul>
-<p>Enter the script below to <strong>Scripts contents</strong>:</p>
-<pre><code class="language-html">&lt;script&gt;
-(function() {
-var style = document.createElement('style');
-style.innerHTML = '@media (min-width: 801px) {'
-+ '.productView-details { float: right; clear: right; padding-left: 1.5rem; padding-right: 0 }'
-+ '.productView-images, .productView-alsoBought--right { float: left; clear: left; padding-left: 0; padding-right: 1.5rem }'
-+ '}';
-document.head.appendChild(style);
-})();
-&lt;/script&gt;
-</code></pre>
-<h2 id="display-mega-menu-with-4-columns">Display mega menu with 4 columns<a class="headerlink" href="#display-mega-menu-with-4-columns" title="Permanent link">&para;</a></h2>
-<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
-<ul>
-<li><strong>Location on page</strong> = <code>Footer</code></li>
-<li><strong>Select pages where script will be added</strong> = <code>All Pages</code></li>
-<li><strong>Script type</strong> = <code>Script</code></li>
-</ul>
-<p>Enter the script below to <strong>Scripts contents</strong>:</p>
-<p>@media (min-width: 801px) {
-    .navPage-subMenu-list { grid-template-columns: repeat(4, minmax(max-content,350px)) }
-    .navPage-subMenu-item:nth-child(3n) { border-right: 1px solid #d6d6d6 }
-    .navPage-subMenu-item:nth-child(4n) { border-right: 0 }
-}</p>
-<pre><code class="language-html">&lt;script&gt;
-(function() {
-var style = document.createElement('style');
-style.innerHTML = '@media (min-width: 801px) {'
-+ '.navPage-subMenu-list { grid-template-columns: repeat(4, minmax(max-content,350px)) }'
-+ '.navPage-subMenu-item:nth-child(3n) { border-right: 1px solid #d6d6d6 }'
-+ '.navPage-subMenu-item:nth-child(4n) { border-right: 0 }'
-+ '}'
-;document.head.appendChild(style);
-})();
-&lt;/script&gt;
-</code></pre>
               
             </div>
           </div><footer>
