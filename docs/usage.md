@@ -1181,7 +1181,7 @@ Theme supports displaying products in **grid** mode (2, 3, 4 or 5 products per r
 
 **Grid:**
 
-![products-display-type-grid](img/products-display-type-grid.jpg)
+![products-display-type-grid](img/product-display-type-grid.jpg)
 
 **List:**
 
