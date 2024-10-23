@@ -556,7 +556,7 @@ In the popup window, copy your web link to `URL`. On the **Open links..** field 
  
  ![Insert-links](img/insert-links.jpg)
 
- ### Unique Sport-Inspired Fashion
+### Unique Sport-Inspired Fashion
 
 ![Product Tag Widget](img/product-tag-widget.jpg)
 
@@ -597,22 +597,27 @@ You can read these common instructions in **Setting Up Man Style Home Page** cha
 - [Header](#header)
 - [Top Banner](#top-banner)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
+- [Discount banner](#discount-banner)
 - [Main carousel](#main-carousel)
-- [Shopping Guide](#shopping-guide)
+- [Policy Delivery and Hotline Banner](#policy-delivery-and-hotline-banner)
+- [Product By Category](#product-by-category)
+- [Featured Brands](#featured-brands)
 - [Top Categories](#top-categories)
-- [Featured brands](#featured-brands)
-- [Bestselling products](#bestselling-products)
-- [Banner](#banner)
-- [Featured products](#featured-products)
-- [New products](#new-products)
+- [Special Products Tabs](#special-products-tabs)
+- [Featured Products](#featured-products)
+- [New Products](#new-products)
+- [Bestselling Products](#bestselling-products)
 - [Recently viewed products](#recently-viewed-products)
 - [Customer service](#customer-service)
+- [About us](#about-us)
 - [Recent blog posts](#recent-blog-posts)
 - [Customer reviews](#customer-reviews)
 - [Newsletter](#newsletter)
+- [Newsletter Popup](#newsletter-popup)
 - [Footer](#footer)
-- [Footer Map](#footer-map)
+- [Instagram photos](#instagram-photos)
 - [Display custom footer links](#display-custom-footer-links)
+- [Unique Sport-Inspired Fashion](#unique-sport-inspired-fashion)
 
 ### Grid layout banners
 
@@ -661,25 +666,28 @@ You can read these common instructions in **Setting Up Man Style Home Page** and
 - [Header](#header)
 - [Top Banner](#top-banner)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
+- [Discount banner](#discount-banner)
 - [Main carousel](#main-carousel)
-- [Homepage left sidebar layout](#homepage-left-sidebar-layout)
-- [Shopping Guide](#shopping-guide)
+- [Policy Delivery and Hotline Banner](#policy-delivery-and-hotline-banner)
+- [Product By Category](#product-by-category)
+- [Featured Brands](#featured-brands)
 - [Top Categories](#top-categories)
-- [Featured brands](#featured-brands)
-- [Banner](#banner)
-- [Bestselling products](#bestselling-products)
-- [Four Banner](#four-banner)
-- [Featured products](#featured-products)
-- [New products](#new-products)
-- [Three Banners](#three-banners)
+- [Special Products Tabs](#special-products-tabs)
+- [Featured Products](#featured-products)
+- [New Products](#new-products)
+- [Bestselling Products](#bestselling-products)
+- [Grid layout banners](#grid-layout-banners)
 - [Recently viewed products](#recently-viewed-products)
 - [Customer service](#customer-service)
+- [About us](#about-us)
 - [Recent blog posts](#recent-blog-posts)
 - [Customer reviews](#customer-reviews)
 - [Newsletter](#newsletter)
+- [Newsletter Popup](#newsletter-popup)
 - [Footer](#footer)
-- [Footer Map](#footer-map)
+- [Instagram photos](#instagram-photos)
 - [Display custom footer links](#display-custom-footer-links)
+- [Unique Sport-Inspired Fashion](#unique-sport-inspired-fashion)
 
 ### Homepage left sidebar layout
 
@@ -798,161 +806,6 @@ Drag & drop **Text** widget below **Text** widget. Enter your text (example "Wel
 - **Padding** = `0 0 0 0`
 
 Drag & drop **HTML** widget below **Text** widget. Enter your content (example `<a href="#" class="readMore-button" style="">Read More<svg class="icon"><use xlink:href="#icon-circle-arrow-right"></use></svg></a>`).
-
-## Setting Up Game Style Home Page
-
-### General
-
-You can read these common instructions in **Setting Up Man Style Home Page**, **Setting Up Pharmacy Style Home Page** and **Setting Up Fashion Style Home Page** chapter:
-
-- [Header](#header)
-- [Top Banner](#top-banner)
-- [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
-- [Main carousel](#main-carousel)
-- [Shopping Guide](#shopping-guide)
-- [Top Categories](#top-categories)
-- [Featured brands](#featured-brands)
-- [Banner](#banner)
-- [Bestselling products](#bestselling-products)
-- [Featured products](#featured-products)
-- [New products](#new-products)
-- [Three Banners](#three-banners)
-- [Recently viewed products](#recently-viewed-products)
-- [Customer service](#customer-service)
-- [Customer reviews](#customer-reviews)
-- [Newsletter](#newsletter)
-- [Footer](#footer)
-- [Footer Map](#footer-map)
-- [Display custom footer links](#display-custom-footer-links)
-
-### Browse Our Gaming Selections
-
-Desktop :
-
-![Browse Our](img/browse-our.jpg)
-
-Mobile :
-
-![Browse Our](img/browse-our-mobile.jpg)
-
-Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
-
-Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Browse Our Gaming Selections"), **Padding** = `40 0 30 0` and **Padding (Mobile)** = `16 0 18 0`.
-
-Drag & drop **Flex Banners | PapaThemes Beautify** widget below **Section Heading | PapaThemes Beautify** widget. Delete all other callouts except the first one.
-
-To edit **Banner 1**, change your image, set **Image width** = `100px`, **Image height** = `100px`. **Image alt text** refers to modifying the caption of an image according to your preferences. **Border radius** = `50px`.
-
-In **Content** > set **Content Align** = `Center` follow **vertical** = `Bottom`.
-
-In **Content** > **Heading text** set **Text style** = `Custom`, **Font Weight** = `Semi Bold`, **Font size** and **Font size(Mobile)** = `12px`, **Text color** and **Text color (Mobile)** = `#000000`, **Text color hover** and **Text color hover (Mobile)** = `#F2186B`
-
-For the **Width**, select the unit `%` and specify the values for different devices as follows: **Desktop** = `12.5%`, **Tablet** = `20%` and **Mobile** = `30%`.
-
-In the **Padding** section, set the values for different devices as follows: **Desktop** = `10 15 10 15`, **Tablet** and **Mobile** = `0 8 0 8`.
-
-In **Settings** > **General** :
-
-Choose **Row wrap**, checked **Row no wrap on table** and **Row no wrap on mobile**.
-
-Duplicate **Banner 1** to create more similar icons. Change the image and link of the icons just created.
-
-### Special game information display
-
-![special-customfields](img/special-customfields.jpg)
-
-#### Setup game version in product detail
-
-![special-customfields-info](img/special-customfields-info.jpg)
-
-
-To add custom fields, go to the **Product Editor**. Find **Custom Fields**, created new custom field. These special custom fields need to be name correctly to be displayed.
-
-The custom fields with specified **Custom Fields Name** are:
-
-`version`
-`item type`
-`promo`
-
-For example:
-
-![special-customfields-info-add](img/special-customfields-info-add.jpg)
-
-#### Setup Region/Popup restriction
-![special-customfields-info-region](img/special-customfields-info-region.jpg)
-
-The **Custom Fields Name** `region`, the **Custom Fields Value** should be in the format of Country Codes, written as (Country Codes|Country Codes...).
-
-For example: `(VN|US|BZ|CN)`.
-
-
-You can create more than one `region` custom field and add additional Country Codes values.
-
-![special-customfields-info-region-add](img/special-customfields-info-region-add.jpg)
-
-Note: you only need two or more custom fields `region` when the first **custom field value** have reach word limit.
-
-#### Setup product summary
-
-![special-customfields-summary](img/special-customfields-summary.jpg)
-
-To add custom fields, go to the **Product Editor**. Find **Custom Fields**, created new custom field. These special custom fields need to be name correctly to be displayed.
-
-The custom fields with specified **Custom Fields Name** are:
-
-`Developer`
-`Release Date`
-`Publisher`
-`Type`
-`Delivery`
-
-For example:
-
-![special-customfields-summary-add](img/special-customfields-summary-add.jpg)
-
-
-#### Setup - Platform
-
-![special-customfields-summary-platform](img/special-customfields-summary-platform.jpg)
-
-For the **Platform** section, it is constructed from 3 **Custom Fields Name**: `platform`, `activation label`, `activation link`.
-
-The `platform` corresponds to the name of the games platform. The **Logo** of the platform will display correctly when you set **Custom Fields Value** according to the configuration names specified below:
-
-`battle.net`
-`ea`
-`epic games`
-`gog.com`
-`green gift`
-`nintendo`
-`origin`
-`pc`
-`play station`
-`rock star`
-`steam`
-`ubisoft connect`
-`windows`
-`xbox-live`
-`other`
-
-The `activation label` in the illustration above is **Activation Guide**, and the `activation link` is the browser path when clicked on the `activation label`.
-
-For example:
-
-![special-customfields-summary-platform-add](img/special-customfields-summary-platform-add.jpg)
-
-#### Setup - Language
-![special-customfields-summary-language](img/special-customfields-summary-language.jpg)
-
-The **Custom Fields Name** 'language', the **Custom Fields Value** should be in the format of Country Codes, written as (Country Codes|Country Codes...).
-
-For example: `(US|KR|BR)`.
-
-You can create more than one = `language` custom field and add additional Country Codes values.
-
-![special-customfields-summary-language-add](img/special-customfields-summary-language-add.jpg)
-
-Note: you only need two or more custom fields `language` when the first custom field value have reach word limit.
 
 ## Customizing Products Display
 
