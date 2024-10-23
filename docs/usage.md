@@ -1209,6 +1209,30 @@ To disable shipping countdown simply leave **shipping countdown** field empty.
 
 Note: The time before cut off the message will show **shipping today** after cut off the message will show **shipping tomorrow**
 
+### Coupon
+
+![Coupon-ticket](img/coupon-ticket.jpg)
+
+In **Page Builder**, drag and drop widget **Coupons | PapaThemes Dinosaur** to correct widget region as picture below.
+
+Set **Layout** > **Column** `padding` = `0`.
+
+![Coupon-ticket](img/coupon-region.jpg)
+
+To edit **Coupon**. To modify the title and details of the coupon ticket, simply click on the title or content of ticket and adjust them. Copy Simply click on the title of the ticket and adjust them according to the **Marketing** > **Coupon codes**. Then copy Coupon code of **Coupon codes** to input `Coupon code` of **Coupon** widget.
+
+![Coupon-ticket](img/set-coupon-code.jpg)
+
+Coupons will appear in the sections below.
+
+`Cart popup`:
+
+![Coupon-ticket](img/coupon-cartpopup.jpg)
+
+`Cart Page`:
+
+![Coupon-ticket](img/coupon-cartpage.jpg)
+
 ### Flash sales
 
 ![Flash-sales](img\flash-sales.jpg)
@@ -1300,7 +1324,7 @@ Theme supports displaying category Page layout in `Full width` mode or `Left sid
 Theme supports displaying products in **grid** mode (2, 3, 4 or 5 products per row), in **list mode** or **bulk order** mode. In **Products display type**, select the particular display mode for default display.
 
 - **Display type** on the right allow your customers to change product category display by themselves.
-![products-display-type-by-customer](img/products-display-type-by-customer.jpg)
+![products-display-type-by-customer](img/products-display-type-by-customer.png)
 
 **Grid:**
 
