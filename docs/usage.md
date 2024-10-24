@@ -1236,14 +1236,6 @@ Select **Show quick search in category** = `Show` to enable it.
 
 - **+ Show results in descendent categories**: if selected, it also displays results in the descendent categories.
 
-### Display subcategory in faceted filter
-
-This feature allow displaying subcategory on faceted filter.
-
-Select **Show subcategory thumbnails** to enable it.
-
-![subcategory-thumbnails](img/subcategory-thumbnails.jpg)
-
 ### Common Settings
 
 - **Number of products per page**: Specifying number of products to display per page.
