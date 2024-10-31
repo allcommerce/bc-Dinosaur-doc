@@ -71,7 +71,7 @@ To configure the header, click on **Theme Styles** > **Header** section, here yo
 
 **Watch the instruction video:**
 
-<iframe width="760" height="515" src="https://www.youtube.com/embed/Ry8ANybgdSI?si=ZIJXrTKBdDY4IXn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/AFpgodrjqxg?si=5kDqYIO4jkK4WyX5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 To edit the background of the top header, click on Theme **Styles** > **Header**. Dinosaur theme provides users with three options to change the background by modifying the **Background Image Link** field as shown below:
 
@@ -162,13 +162,17 @@ Affer:
 
 ![hidden-web-links](img/hidden-web-links.jpg)
 
+**Watch the instruction video:**
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/8gJ2qS92AUg?si=zJJ9CwFmVu0Jk1HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
+
 ### Top Banner
 
 Go back to **Storefront** > **My Themes** > click **Customize** button beside the theme thumbnail. You can see the top banner appears above the header. To change the colors of the top banner, go to **Theme Styles** > **General** > **Top banners** section. Here you can change the text color and the background color.
 
 **Watch the instruction video:**
 
-<iframe width="760" height="515" src="https://www.youtube.com/embed/yvkQCvDx3Fc?si=WJek4U1BstkN2sFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/NL1QiC3INpU?si=oMcyYeScMlBQl28f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 You can also create **top banner** by drag and drop **HTML widget** into corresponding position:
@@ -197,7 +201,7 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 
 **Watch the instruction video:**
 
-<iframe width="760" height="515" src="https://www.youtube.com/embed/X-0U2gh2S54?si=LuJfGRh2pjO7FSL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/bxD_I4ZbMi0?si=b9dDgPVcNsiazSX5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
 ### Discount banner
 
@@ -227,7 +231,7 @@ To adjust the image height in mobile view, simply modify the **Mobile Image Heig
 
 **Watch the instruction video:**
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796542010?h=3030ce28cf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-home carousel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/IvW6T-P3Oxs?si=vGlWYu6UDo4n11HP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
 ### Policy Delivery and Hotline Banner
 
@@ -307,6 +311,10 @@ To make the text color lighter, click on **Text color** then click `+` icon, cho
 
 Duplicate callout 1, 3 times to create 3 similar icons. Change the image and link of the icons just created.
 
+Watch the instruction video:
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/OBCNgKE6GPQ?si=CUJp8nHvLZgJhbik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
+
 ### Product By Category
 
 ![Product by category](img/Product-by-category.jpg)
@@ -364,6 +372,42 @@ To edit background image of sections **Top Categories**. Dinosaur theme provides
 ![Top-categories](img/top-category-edit-bgimg-2.jpg)
 
 This section allow user change section tiltle, in **Hompage** find **Top Categories** type your text in **Heading**.
+
+### Unique Sport-Inspired Fashion
+
+![Product Tag Widget](img/product-tag-widget.jpg)
+
+Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
+
+Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Unique Sport-Inspired Fashion"), select `custom` in **Text style** field, set **Font size** = `32px`, **Font size(Mobile)** = ` 20px`, **Font weight** = `Bold`, **Text color** = `#000000`, **Padding** = `10 0 40 0` and **Padding (Mobile)** = `18 0 18 0`.
+
+Drag & drop **Product Tags PapaThemes Dinosaur** widget below **Section Heading | PapaThemes Beautify** widget.
+
+In **Settings** > **General**:
+
+Upload your **Image**, Set **width** and **Height** follow Image size.
+
+Checked **Display in a container DIV** and **Lazyload image**.
+
+Select `Fit to box` for the **Image fit**.
+
+![Product Tag Widget](img/product-tag-widget-settings-general.jpg)
+
+In **Product 1**:
+
+Enter **Product SKU** (Hover over the tag icon to check whether SKU added to the tag).
+
+Select `Tag` for the **Tag Icon**, set **Tag Icon Color** = `#67DAC5`.
+
+Click the **Set Tag Position** button to activate the function that allows you to change the tag's position. Select the tag and then choose the position where you want to move it. Alternatively, you can also set the position manually by entering the position value in **Position - X** and **Position - Y**.
+
+Click on the plus button next to **PRODUCT TAGS PAPATHEMES DINOSAUR** to create more products and set up the same as **Product 1**.
+
+![Product Tag Widget](img/product-tag-widget-settings.jpg)
+
+**Watch the instruction video:**
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/Kq7EcW4wAmQ?si=k2_EUcsCyJubNkRF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
 ### Special Products Tabs
 
@@ -521,6 +565,11 @@ To maintain consistency in the theme, select `Beautify Furniture` in the **Style
 
 If you want to add more reviews, duplicate the first review as many times as needed and update the content for each review.
 
+**Watch the instruction video:**
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/CKuhCOSMPR4?si=HomGPI60tzLj5bQD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 ### Newsletter
 
@@ -534,7 +583,7 @@ Make sure **Show newsletter form** is selected. You can change the **Heading**, 
 
 **Watch the instruction video:**
 
-<iframe width="760" height="515" src="https://www.youtube.com/embed/5HxXt7uaX5c?si=QjmxVqePqgfLxxm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/K25Fthor0jE?si=LcO3xJm3V_f8-HAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Newsletter Popup
 
@@ -561,7 +610,7 @@ In **Page Builder** > **Theme Styles** > **Footer**, you can configure the newsl
 
 **Watch the instruction video:**
 
-<iframe width="760" height="515" src="https://www.youtube.com/embed/A481Na0Ec0Y?si=l12B8xW6ZszZjqp7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/qIK4uCQxIJ8?si=yqS1NXihsqslwgV3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ### Instagram photos
@@ -584,7 +633,7 @@ To create the title, drag & drop the **Section Heading** widget to above the Ins
 
 **Watch the instruction video:**
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795504772?h=06cb1784a7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="instr-instagram"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/iUCG6iXI0zg?si=MMQGRbdEEY3D6KBP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Display Custom Footer Links
 
@@ -600,37 +649,6 @@ In the popup window, copy your web link to `URL`. On the **Open links..** field 
  
  ![Insert-links](img/insert-links.jpg)
 
-### Unique Sport-Inspired Fashion
-
-![Product Tag Widget](img/product-tag-widget.jpg)
-
-Drag & drop **Layout widget** to the corresponding position, change **Column** = `1`, set **Padding** = `0 0 0 0`.
-
-Drag & drop **Section Heading | PapaThemes Beautify** widget into the **Layout**. Typing your text (example "Unique Sport-Inspired Fashion"), select `custom` in **Text style** field, set **Font size** = `32px`, **Font size(Mobile)** = ` 20px`, **Font weight** = `Bold`, **Text color** = `#000000`, **Padding** = `10 0 40 0` and **Padding (Mobile)** = `18 0 18 0`.
-
-Drag & drop **Product Tags PapaThemes Dinosaur** widget below **Section Heading | PapaThemes Beautify** widget.
-
-In **Settings** > **General**:
-
-Upload your **Image**, Set **width** and **Height** follow Image size.
-
-Checked **Display in a container DIV** and **Lazyload image**.
-
-Select `Fit to box` for the **Image fit**.
-
-![Product Tag Widget](img/product-tag-widget-settings-general.jpg)
-
-In **Product 1**:
-
-Enter **Product SKU** (Hover over the tag icon to check whether SKU added to the tag).
-
-Select `Tag` for the **Tag Icon**, set **Tag Icon Color** = `#67DAC5`.
-
-Click the **Set Tag Position** button to activate the function that allows you to change the tag's position. Select the tag and then choose the position where you want to move it. Alternatively, you can also set the position manually by entering the position value in **Position - X** and **Position - Y**.
-
-Click on the plus button next to **PRODUCT TAGS PAPATHEMES DINOSAUR** to create more products and set up the same as **Product 1**.
-
-![Product Tag Widget](img/product-tag-widget-settings.jpg)
 
 ## Setting Up Woman Style Home Page
 
@@ -707,6 +725,10 @@ In **GENERAL**. Set **Width (Desktop)** and **Width (Tablet)** = `32%`, **Width 
 
 You can read these common instructions in **Setting Up Man Style Home Page** and **Setting Up Woman Style Home Page** chapter:
 
+- [Homepage Left Sidebar Layout](#homepage-left-sidebar-layout)
+- [Homepage Left Sidebar Banner](#homepage-left-sidebar-banner)
+- [Homepage Customer Reviews Left Sidebar](#homepage-customer-reviews-left-sidebar)
+- [Homepage About Us Left Sidebar](#homepage-about-us-left-sidebar)
 - [Header](#header)
 - [Top Banner](#top-banner)
 - [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
@@ -733,7 +755,7 @@ You can read these common instructions in **Setting Up Man Style Home Page** and
 - [Display custom footer links](#display-custom-footer-links)
 - [Unique Sport-Inspired Fashion](#unique-sport-inspired-fashion)
 
-### Homepage left sidebar layout
+### Homepage Left Sidebar Layout
 
 ![Left Sidebar](img/left-sidebar-img.jpg)
 
@@ -746,6 +768,10 @@ To display the left sidebar on the home page, go to **Page Builder**. In **Theme
 ![Left Sidebar](img/left-sidebar-settings.jpg)
 
 Note: Leftside bar can only display three section above. To modify the header or configure each section, kindly scroll down to the specific section configuration you wish to alter.
+
+**Watch the instruction video:**
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/8gpBh4eSM90?si=zUAJFNSdIzfX1kNP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
 ### Homepage Left Sidebar Banner
 
@@ -798,6 +824,10 @@ Duplicate review 1 if you have more than 1 review want to display and change the
 
 ![Customer's Reviews Heading Setting](img/customer-reviews-settings.jpg)
 
+**Watch the instruction video:**
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/IPmMqh3xJN0?si=hUpUiQGEYsysF8IS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
+
 ### Homepage About Us Left Sidebar
 
 Desktop :
@@ -849,7 +879,11 @@ Drag & drop **Text** widget below **Text** widget. Enter your text (example "Wel
 - **Margin** = `0 0 20 0`
 - **Padding** = `0 0 0 0`
 
-Drag & drop **HTML** widget below **Text** widget. Enter your content (example `<a href="#" class="readMore-button" style="">Read More<svg class="icon"><use xlink:href="#icon-circle-arrow-right"></use></svg></a>`).
+Drag & drop **HTML** widget below **Text** widget. Enter follow code to create read more button:
+
+**Watch the instruction video:**
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/LQfMYvQbykg?si=ObcCnReuSzbPVDu-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
 ## Customizing Products Display
 
@@ -1130,6 +1164,10 @@ Coupons will appear in the sections below.
 
 ![Coupon-ticket](img/coupon-cartpage.jpg)
 
+**Watch the instruction video:**
+
+<iframe width="760" height="515" src="https://www.youtube.com/embed/TFaHUPuuzKg?si=8LjKIj4aHZkS4fFR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
+
 ### Flash sales
 
 ![Flash-sales](img\flash-sales.jpg)
@@ -1312,7 +1350,7 @@ In **Marketing** > **Marketing Banner**, click **Create a Banner** button.
 
 Watch the instruction video:
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/796915050?h=fa4bc20f8c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Instr-Brand description"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/T_V5ESUEq2M?si=GvRIRsv8OkWSS6gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
 ### Display product per page
 
