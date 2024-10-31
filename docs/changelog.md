@@ -1,5 +1,5 @@
 # Release Notes
 
-## 1.1.0
-- Initial release
+## 1.0.0 (10-31-2024)
+- Initial release.
 
