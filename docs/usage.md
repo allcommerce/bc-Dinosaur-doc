@@ -349,7 +349,7 @@ This section allow user change section tiltle and display/hide brands logo, in *
 
 ### Top Categories
 
-![Top-categories](img/Top-categories.jpg)
+![Top-categories](img/top-categories.jpg)
 
 **Top Categories** will automatic load first level categories of your store.
 
@@ -1132,7 +1132,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 
 ### Shipping countdown
 
-![shipping-countdown](img\shipping-countdown.jpg)
+![shipping-countdown](img/shipping-countdown.jpg)
 
 To enable shipping countdown, **Theme styles** > **Product page**  find **shipping countdown** field and input your cut off time. Find and copied your timezone from wikipedia `https://en.wikipedia.org/wiki/List_of_tz_database_time_zones` to **timezone** field.
 
@@ -1352,7 +1352,7 @@ Watch the instruction video:
 
 <iframe width="760" height="515" src="https://www.youtube.com/embed/T_V5ESUEq2M?si=GvRIRsv8OkWSS6gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pictre-in-picture; web-share" allowfullscreen></iframe>
 
-### Display product per page
+### Display product in Search page
 
 To change number products display per page in **Product** section find **Search page** then change **Number of products per page**:
 
