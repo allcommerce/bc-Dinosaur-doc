@@ -138,6 +138,32 @@ Click on **edit menu widget** button to open Mega menu in design mode.
 
 ![edit-widget-megamenu](img/edit-widget-button.jpg)
 
+To customize Banner on bottom of sub menu on mobile. Drag and drop **Flex Banners | PapaThemes Beautify** into corresponding position:
+
+![edit-widget-megamenu](img/edit-flex-banner-bottom.jpg)
+
+In **Column 1**, set padding = `0`.
+
+Click **Settings** of **Flex Banners | PapaThemes Beautify**. In `Row wrap`, choose `Row no wrap on table` and `Row no wrap on mobile`.
+
+![edit-widget-megamenu](img/edit-flex-banner-bottom-wrap.jpg)
+
+Remove all banner except banner 1. Selet your image want to upload. Set `Image width` = `350px`, `Image height` = `209px`. Set `Border radius` = `0px`.
+
+In **CONTENT**, hide `Heading text`.
+
+![edit-widget-megamenu](img/edit-setting-flex-banner.jpg)
+
+Duplicate 1 banner to 2 banners.
+
+To hide on desktop and show on mobile. Drag and drop **Responsive | PapaThemes** on top **Flex Banners | PapaThemes Beautify** created.
+
+In **Screen Size 1**. Set `Max` = `800px` and set `Display` = `Show`.
+
+In **Screen Size 2**. Set `Min` = `801px` and `Max` = `0px`. Set `Display` = `Hide`.
+
+![edit-widget-megamenu](img/edit-flex-banner-response.jpg)
+
 
 #### Hide webpage links
 
@@ -188,16 +214,13 @@ Enter your content inside `<p></p>`.
 
 ```
 
-### Ad Banner displays on all pages
+### Ad Banner Top header
 
 To display the ad banner appearing on all pages on the header, drag and drop the HTML widget to the corresponding position, paste the given code below to the HTML editor, then click Save HTML button.
 
 ```html
-<p style="display:flex; align-items: center">
-  <span>STAY AHEAD OF THE STYLE CURVE WITH OUR LATEST ARRIVALS -<a href="/shipping-returns/" style="font-weight: 500"> Discover Now</a></span>
-</p>
+<p>STAY AHEAD OF THE STYLE CURVE WITH OUR LATEST ARRIVALS -<a href="/shipping-returns/" style="font-weight: 500"> Discover Now</a></p>
 ```
-
 
 **Watch the instruction video:**
 
