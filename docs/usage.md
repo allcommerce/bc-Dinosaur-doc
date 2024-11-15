@@ -681,7 +681,7 @@ You can read these common instructions in **Setting Up Man Style Home Page** cha
 
 - [Header](#header)
 - [Top Banner](#top-banner)
-- [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
+- [Ad Banner displays on all pages](#ad-banner-top-header)
 - [Discount banner](#discount-banner)
 - [Main carousel](#main-carousel)
 - [Policy Delivery and Hotline Banner](#policy-delivery-and-hotline-banner)
@@ -754,7 +754,7 @@ You can read these common instructions in **Setting Up Man Style Home Page** and
 - [Homepage About Us Left Sidebar](#homepage-about-us-left-sidebar)
 - [Header](#header)
 - [Top Banner](#top-banner)
-- [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
+- [Ad Banner displays on all pages](#ad-banner-top-header)
 - [Discount banner](#discount-banner)
 - [Main carousel](#main-carousel)
 - [Policy Delivery and Hotline Banner](#policy-delivery-and-hotline-banner)
@@ -1379,7 +1379,7 @@ Watch the instruction video:
 
 To change number products display per page in **Product** section find **Search page** then change **Number of products per page**:
 
-![Search-product-number](\img\product-search-page.jpg)
+![Search-product-number](img/product-search-page.jpg)
 
 ## Customizing Cart page
 
@@ -1387,11 +1387,11 @@ To change number products display per page in **Product** section find **Search 
 
 Not qualify message
 
-![Not-qualify](\img\not-egilible.jpg)
+![Not-qualify](img/not-egilible.jpg)
 
 Qualify message
 
-![qualify](\img\promotion-qualify.jpg)
+![qualify](img/promotion-qualify.jpg)
 
 In **Marketing** > **Promotion** click on **create** and select **With legacy editor**
 
@@ -1399,11 +1399,11 @@ In **Promotion detail** name your promotion
 
 In **promotion type** select `Orders totaling more than X amount get free shipping to specific shipping zones` at the field **spend at least** type your amount
 
-![free-shipping-editor](\img\free-shipping.jpg)
+![free-shipping-editor](img/free-shipping.jpg)
 
 In **Promotion option** type your message at **Congratulations Banner Message** to display for cart have qualified and type your message for cart have not qualify at **Upsell Banner Message** with format `[your text] %%condition.remaining%% [your text]` then click save
 
-![promotion-message](\img\Promotion-message.jpg)
+![promotion-message](img/Promotion-message.jpg)
 
 
 
