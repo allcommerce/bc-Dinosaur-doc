@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.0.2 (12-13-2024)
+- Show quick payment buttons on PDP
+- Display custom badges on recently viewed products (#271)
+- Fix top banner carousel (#273)
+- Fix duplicated qty box of simple pre-order products of FBT
+- Improve performance of open menu on mobile and preview cart popup
+
 ## 1.0.1 (11-15-2024)
 - Hide custom field name display in product cards (#264)
 - Fix undefined 'input-font-color' in add payment methods account page
