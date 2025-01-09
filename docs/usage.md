@@ -138,6 +138,31 @@ Click on **edit menu widget** button to open Mega menu in design mode.
 
 ![edit-widget-megamenu](img/edit-widget-button.jpg)
 
+To customize Banner on bottom of sub menu on mobile. Drag and drop **Flex Banners | PapaThemes Beautify** into corresponding position:
+
+![edit-widget-megamenu](img/edit-flex-banner-bottom.jpg)
+
+In **Column 1**, set padding = `0`.
+
+Click **Settings** of **Flex Banners | PapaThemes Beautify**. In `Row wrap`, choose `Row no wrap on table` and `Row no wrap on mobile`.
+
+![edit-widget-megamenu](img/edit-flex-banner-bottom-wrap.jpg)
+
+Remove all banner except banner 1. Selet your image want to upload. Set `Image width` = `350px`, `Image height` = `209px`. Set `Border radius` = `0px`.
+
+In **CONTENT**, hide `Heading text`.
+
+![edit-widget-megamenu](img/edit-setting-flex-banner.jpg)
+
+Duplicate 1 banner to 2 banners.
+
+To hide on desktop and show on mobile. Drag and drop **Responsive | PapaThemes** on top **Flex Banners | PapaThemes Beautify** created.
+
+In **Screen Size 1**. Set `Max` = `800px` and set `Display` = `Show`.
+
+In **Screen Size 2**. Set `Min` = `801px` and `Max` = `0px`. Set `Display` = `Hide`.
+
+![edit-widget-megamenu](img/edit-flex-banner-response.jpg)
 
 #### Hide webpage links
 
@@ -188,14 +213,12 @@ Enter your content inside `<p></p>`.
 
 ```
 
-### Ad Banner displays on all pages
+### Ad Banner Top header
 
 To display the ad banner appearing on all pages on the header, drag and drop the HTML widget to the corresponding position, paste the given code below to the HTML editor, then click Save HTML button.
 
 ```html
-<p style="display:flex; align-items: center">
-  <span>STAY AHEAD OF THE STYLE CURVE WITH OUR LATEST ARRIVALS -<a href="/shipping-returns/" style="font-weight: 500"> Discover Now</a></span>
-</p>
+<p>STAY AHEAD OF THE STYLE CURVE WITH OUR LATEST ARRIVALS -<a href="/shipping-returns/" style="font-weight: 500"> Discover Now</a></p>
 ```
 
 
@@ -658,7 +681,7 @@ You can read these common instructions in **Setting Up Man Style Home Page** cha
 
 - [Header](#header)
 - [Top Banner](#top-banner)
-- [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
+- [Ad Banner displays on all pages](#ad-banner-top-header)
 - [Discount banner](#discount-banner)
 - [Main carousel](#main-carousel)
 - [Policy Delivery and Hotline Banner](#policy-delivery-and-hotline-banner)
@@ -731,7 +754,7 @@ You can read these common instructions in **Setting Up Man Style Home Page** and
 - [Homepage About Us Left Sidebar](#homepage-about-us-left-sidebar)
 - [Header](#header)
 - [Top Banner](#top-banner)
-- [Ad Banner displays on all pages](#ad-banner-displays-on-all-pages)
+- [Ad Banner displays on all pages](#ad-banner-top-header)
 - [Discount banner](#discount-banner)
 - [Main carousel](#main-carousel)
 - [Policy Delivery and Hotline Banner](#policy-delivery-and-hotline-banner)
@@ -1364,7 +1387,7 @@ Watch the instruction video:
 
 To change number products display per page in **Product** section find **Search page** then change **Number of products per page**:
 
-![Search-product-number](\img\product-search-page.jpg)
+![Search-product-number](img/product-search-page.jpg)
 
 ## Customizing Cart page
 
@@ -1372,11 +1395,11 @@ To change number products display per page in **Product** section find **Search 
 
 Not qualify message
 
-![Not-qualify](\img\not-egilible.jpg)
+![Not-qualify](img/not-egilible.jpg)
 
 Qualify message
 
-![qualify](\img\promotion-qualify.jpg)
+![qualify](img/promotion-qualify.jpg)
 
 In **Marketing** > **Promotion** click on **create** and select **With legacy editor**
 
@@ -1384,11 +1407,11 @@ In **Promotion detail** name your promotion
 
 In **promotion type** select `Orders totaling more than X amount get free shipping to specific shipping zones` at the field **spend at least** type your amount
 
-![free-shipping-editor](\img\free-shipping.jpg)
+![free-shipping-editor](img/free-shipping.jpg)
 
 In **Promotion option** type your message at **Congratulations Banner Message** to display for cart have qualified and type your message for cart have not qualify at **Upsell Banner Message** with format `[your text] %%condition.remaining%% [your text]` then click save
 
-![promotion-message](\img\Promotion-message.jpg)
+![promotion-message](img/Promotion-message.jpg)
 
 
 
