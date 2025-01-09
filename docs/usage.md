@@ -164,6 +164,7 @@ In **Screen Size 2**. Set `Min` = `801px` and `Max` = `0px`. Set `Display` = `Hi
 
 ![edit-widget-megamenu](img/edit-flex-banner-response.jpg)
 
+
 #### Hide webpage links
 
 To hide Weboage links such as **Contact us**, **About Us**, **Shipping and return** from header, in **Themes style** > **Header** Find **Hide Webpage links** option checked to hide all the links except **Categories** link.
@@ -220,7 +221,6 @@ To display the ad banner appearing on all pages on the header, drag and drop the
 ```html
 <p>STAY AHEAD OF THE STYLE CURVE WITH OUR LATEST ARRIVALS -<a href="/shipping-returns/" style="font-weight: 500"> Discover Now</a></p>
 ```
-
 
 **Watch the instruction video:**
 
