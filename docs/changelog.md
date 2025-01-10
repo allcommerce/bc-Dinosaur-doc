@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.0.3 (01-10-2025)
+- Add theme option to display product description full width (#275)
+
 ## 1.0.2 (12-13-2024)
 - Show quick payment buttons on PDP
 - Display custom badges on recently viewed products (#271)
