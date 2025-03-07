@@ -1,5 +1,14 @@
 # Release Notes
 
+## 1.1.1 (03-07-2025)
+- fixes #279: you save text not display if product has no default option
+- fix js error when card_show_swatches = false and card_show_variantImg = true
+- fix saved price calculation
+
+## 1.1.0 (01-24-2025)
+- [CORNERSTONE] Add nonce to scripts in checkout and account pages [#2525](https://github.com/bigcommerce/cornerstone/pull/2525)
+- [CORNERSTONE] Use fetch when updating variants in cart ([#2521](https://github.com/bigcommerce/cornerstone/pull/2521))
+
 ## 1.0.3 (01-10-2025)
 - Add theme option to display product description full width (#275)
 
@@ -19,4 +28,3 @@
 
 ## 1.0.0 (10-31-2024)
 - Initial release.
-
