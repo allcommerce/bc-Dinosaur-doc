@@ -1094,6 +1094,14 @@ To add the **custom tabs** in product pages, edit your product description, clic
 
 Use the editor at the **[link](https://bc-supermarket-docs.papathemes.com/customization/product-page#custom-tabs)** to generate HTML for your **custom tabs**. Click Export HTML button, copy & paste the generated HTML at the end of HTML Source Editor.
 
+### Displaying product tabs description full width
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
+
+- Tick **Tab description full width** checkbox to display tabs description full width in Product page.
+
+![Tabs-fullwidth](img\product-tabs-fullwidth.jpg)
+
 ### Displaying Delivery & Returns tab
 
 In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
