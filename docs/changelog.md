@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.1.2 (03-28-2025)
+- remove hide condition of product_sale_label in theme editor
+- fix PLP product grid columns respect theme settings (#282)
+
 ## 1.1.1 (03-07-2025)
 - fixes #279: you save text not display if product has no default option
 - fix js error when card_show_swatches = false and card_show_variantImg = true
