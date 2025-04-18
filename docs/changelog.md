@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.1.3 (04-18-2025)
+- Add option show sale badge discount amount (#281)
+- Add schema config show/hide compare button of product card (#285)
+- Fix z-index of sale badges on PDP. Position slick button of product feed widget (#288)
+
 ## 1.1.2 (03-28-2025)
 - remove hide condition of product_sale_label in theme editor
 - fix PLP product grid columns respect theme settings (#282)
