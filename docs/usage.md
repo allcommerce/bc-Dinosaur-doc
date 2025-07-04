@@ -4,13 +4,80 @@
 
 Thanks for using our theme!
 
-To set up the theme exactly like our demo stores, you may need to install the our free app **[PapaThemes Widgets](https://www.bigcommerce.com/apps/papathemes-widgets/)**. This app provides additional widgets to build the content in Page Builder visually without coding skill. 
+To set up the theme exactly like our demo stores, you may need to install the our free app **[PapaThemes Widgets](https://www.bigcommerce.com/apps/papathemes-widgets/)**. This app provides additional widgets to build the content in Page Builder visually without coding skill.
 
 For displaying your Instagram photos on your website, you can use our free tool **[PapaThemes Instagram](https://instagram.papathemes.com/)**. We will guide you step by step later in this manual.
 
 ### Customizing Typography, Fonts and Colors
 
 Customizing Typography, Fonts and Colors, Buttons in **Page Builder** > **Theme Styles** > **General**. There are dozens of options to help you customize your website beautifully and uniquely.
+
+#### Using Google Fonts
+
+The Dinosaur theme supports Google Fonts integration for both general text and headings. Here's how to configure custom Google Fonts:
+
+![edit-google-font](img/edit-google-font.jpg)
+
+##### Setting Up General Text Font
+
+1. Navigate to **Page Builder** > **Theme Styles** > **General**
+2. In the **Font family** dropdown, select your preferred font or choose to use a custom Google Font
+3. To use a custom Google Font, enter the font name in the text field below the dropdown using this format:
+   ```
+   Google_FontName_FontWeight
+   ```
+
+**Examples:**
+
+- `Google_Quicksand_400` - for Quicksand font with regular weight (400)
+- `Google_Roboto_300` - for Roboto font with light weight (300)
+- `Google_Open+Sans_600` - for Open Sans font with semi-bold weight (600)
+
+**Note:** Use `+` to replace spaces in font names (e.g., `Open+Sans` instead of `Open Sans`)
+
+##### Setting Up Headings Font
+
+1. In the same **General** section, scroll down to the **Headings** area
+2. Use the **Font family** dropdown to select a different font for headings
+3. For custom Google Fonts in headings, enter the font name using the same format:
+   ```
+   Google_FontName+FontVariant_FontWeight
+   ```
+
+**Examples:**
+
+- `Google_Quicksand+Black_700` - for Quicksand Black variant with bold weight (700)
+- `Google_Montserrat+Bold_700` - for Montserrat Bold variant
+- `Google_Poppins+Medium_500` - for Poppins Medium variant
+
+##### Font Weight Reference
+
+Common font weights you can use:
+
+- `100` - Thin
+- `200` - Extra Light
+- `300` - Light
+- `400` - Regular (Normal)
+- `500` - Medium
+- `600` - Semi Bold
+- `700` - Bold
+- `800` - Extra Bold
+- `900` - Black
+
+##### Best Practices
+
+1. **Font Availability**: Ensure the Google Font you're using is available in the weight you specify
+2. **Performance**: Limit the number of different font weights to improve page loading speed
+3. **Readability**: Choose fonts that are easy to read on all devices
+4. **Consistency**: Use a maximum of 2-3 different fonts throughout your website
+
+##### Troubleshooting
+
+If your custom Google Font doesn't appear:
+1. Check the font name spelling and format
+2. Verify the font weight is available for that font family
+3. Ensure you're using underscores (_) and plus signs (+) correctly
+4. Clear your browser cache and refresh the page
 
 ### Customizing Checkout Page's Typography and Colors
 
@@ -669,7 +736,7 @@ In **design** you can type your link content and click on the **insert/edit link
 ![footer-links](img/footer-link-widget.jpg)
 
 In the popup window, copy your web link to `URL`. On the **Open links..** field you can select how your link could be open in **New Window** or **Current Window**
- 
+
  ![Insert-links](img/insert-links.jpg)
 
 
@@ -744,7 +811,7 @@ In **GENERAL**. Set **Width (Desktop)** and **Width (Tablet)** = `32%`, **Width 
 
 ## Setting Up Kid Style Home Page
 
-### General 
+### General
 
 You can read these common instructions in **Setting Up Man Style Home Page** and **Setting Up Woman Style Home Page** chapter:
 
@@ -981,7 +1048,7 @@ To enable it, go to **Page Builder** > **Theme Styles** > **Products** > **Show 
 
 ### Customizing Price Labels
 
-You can customize sale price label, before sale price label, retail price label or regular price label in 
+You can customize sale price label, before sale price label, retail price label or regular price label in
 **Page Builder** > **Theme Styles** > **Products** > **Price Labels**
 
 ![configure-price-labels](img/configure-price-labels.jpg)
@@ -1016,7 +1083,7 @@ Displaying the condition badge in **Custom badges**, tick **Enable custom badge 
 - **Text color**: Specifying the text color of the custom badge.
 - **Background color**: Specifying the background color of the custom badge.
 
-### Displaying Image gallery 
+### Displaying Image gallery
 
 #### Displaying thumbnail as a slider
 
@@ -1053,7 +1120,7 @@ Videos displayed in **image gallery** option:
 
 ![video image product detail image gallery option](img/video-image-PDP-image-gallery.jpg)
 
-### Setup bulk pricing 
+### Setup bulk pricing
 
 Bulk pricing discounts can be managed under the Pricing section when adding or editing a product. Click Show **Advanced Pricing** to view bulk pricing fields, among other pricing product fields. Bulk pricing of Dino theme auto display under price slider. customer can slide to to increase product quantity to reach each bulk pricing point.
 
@@ -1207,16 +1274,16 @@ Coupons will appear in the sections below.
 
 To create flash sales for each product and product card, in **product** section select the product that you want to add Flash Sales.
 
-Find customer fields, click on add **Add Custom Field**. Enter `__countdown_label` into **Custom Field Name**. In **Custom Field Value**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN). 
+Find customer fields, click on add **Add Custom Field**. Enter `__countdown_label` into **Custom Field Name**. In **Custom Field Value**, type your content following format: `<your banner name>|<end in>` (example: FLASH SALES|ENDS IN).
 
 Create second custom field, enter `__countdown_date` into **Custom Field Name**. In **Custom Field Value**, input your cut off time following the format: `<yyyy>-<mm>-<dd> <hh>:<mm>:<ss><timezone>` (example: 2023-03-15 17:00:00-7).
 
 Note:
 
 - `<yyyy>-<mm>-<dd>` is optional. If the date is not entered, the banner will repeat automatically right after pass cut off time.
-  
+
 - `<hh>:<mm>:<ss>` is 24 hour format.
-  
+
 - `<timezone>` only input `+ or -` and `number` example: `+7`. if timezone are not entered, the countdown time will be different in different countries.
 
 - Make sure you product also have sale price in orde for Flash Sale display. When you remove the **sale price** **Flash Sale** banner will auto disable.
@@ -1282,7 +1349,7 @@ Theme supports displaying category Page layout in `Full width` mode or `Left sid
 ![full-width](img/category-fullwidth.jpg)
 
 - **Layout** = `Left sidebar`
- 
+
 ![left-sidebar](img/category-leftsidebar.jpg)
 
 ### Products Display Type
@@ -1372,7 +1439,7 @@ Configuring the search results page in **Page Builder** > **Theme Styles** > **P
 
 ![brand-quick-view](img/brand-quick-view.jpg)
 
-In **Marketing** > **Marketing Banner**, click **Create a Banner** button. 
+In **Marketing** > **Marketing Banner**, click **Create a Banner** button.
 
 - Enter the brand introduction content to **Banner Content**.
 - Select **Show on Page** = `For a Specific Brand` and select the corresponding brand.
@@ -1403,7 +1470,7 @@ Qualify message
 
 In **Marketing** > **Promotion** click on **create** and select **With legacy editor**
 
-In **Promotion detail** name your promotion 
+In **Promotion detail** name your promotion
 
 In **promotion type** select `Orders totaling more than X amount get free shipping to specific shipping zones` at the field **spend at least** type your amount
 
@@ -1412,7 +1479,3 @@ In **promotion type** select `Orders totaling more than X amount get free shippi
 In **Promotion option** type your message at **Congratulations Banner Message** to display for cart have qualified and type your message for cart have not qualify at **Upsell Banner Message** with format `[your text] %%condition.remaining%% [your text]` then click save
 
 ![promotion-message](img/Promotion-message.jpg)
-
-
-
-
