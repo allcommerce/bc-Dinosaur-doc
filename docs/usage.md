@@ -1302,6 +1302,43 @@ In **Page Builder** > **Theme Styles** > **Products** > **Product Page** find **
 ![ask question](img/ask-question.jpg)
 
 
+### Product Designer Tool
+
+The Product Designer Tool allows customers to customize product designs directly on your website. When enabled, customers can create custom designs that will be packaged and attached to their order.
+
+![Product Designer Tool](img/product-designer-tool.jpg)
+
+**Setting Up Product Designer Tool:**
+
+#### 1. Configure in Theme Editor
+
+   - Navigate to **Theme Editor** > **Products** > **Product Page**
+   - Find **Product Designer Modifier Name** field
+   - Enter the exact name of your modifier, for example: `"Design File"`
+   - **Important:** The modifier name must match exactly (case-sensitive)
+
+   ![Product Designer Tool Configuration](img/theme-editor-product-designer-modifier.jpg)
+
+#### 2. Create Product Modifier
+
+   - Go to your product settings
+   - Create a new modifier with the exact name you configured above (e.g., "Design File")
+   - Set modifier type to **File**
+   - Enable support for **.zip** file format
+   - This modifier will store the customer's design files
+
+   ![Add Design File Modifier](img/add-design-file-modifier.jpg)
+
+#### 3. How It Works
+
+   - After configuration, products with the "Design File" modifier will display a **Customize Design** button on the Product Details page
+   - Customers can click this button to access the design tool
+   - Once customers complete their design, all design files are packaged into a Zip file
+   - The packaged file is automatically attached to the product when added to cart
+
+**Note:** Only products that have the configured modifier will show the Customize Design button. Make sure to add the modifier to all products that need design customization capability.
+
+
 ### Instruction & size guide
 
 ![Instruction & size guide](img/Instruction-size.jpg)
