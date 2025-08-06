@@ -227,6 +227,16 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#ask-question">Ask question</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#product-designer-tool">Product Designer Tool</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#1-configure-in-theme-editor">1. Configure in Theme Editor</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#2-create-product-modifier">2. Create Product Modifier</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#3-how-it-works">3. How It Works</a>
+    </li>
+        </ul>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#instruction-size-guide">Instruction &amp; size guide</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#below-add-to-cart-banner">Below add to cart banner</a>
@@ -1184,6 +1194,35 @@ To add the <strong>custom tabs</strong> in product pages, edit your product desc
 <h3 id="ask-question">Ask question<a class="headerlink" href="#ask-question" title="Permanent link">&para;</a></h3>
 <p>In <strong>Page Builder</strong> &gt; <strong>Theme Styles</strong> &gt; <strong>Products</strong> &gt; <strong>Product Page</strong> find <strong>Ask question (contact page URL)</strong> and enter <code>/contact-us/</code> to display <strong>Ask Questions?</strong>.</p>
 <p><img alt="ask question" src="img/ask-question.jpg" /></p>
+<h3 id="product-designer-tool">Product Designer Tool<a class="headerlink" href="#product-designer-tool" title="Permanent link">&para;</a></h3>
+<p>The Product Designer Tool allows customers to customize product designs directly on your website. When enabled, customers can create custom designs that will be packaged and attached to their order.</p>
+<p><img alt="Product Designer Tool" src="img/product-designer-tool.jpg" /></p>
+<p><strong>Setting Up Product Designer Tool:</strong></p>
+<h4 id="1-configure-in-theme-editor">1. Configure in Theme Editor<a class="headerlink" href="#1-configure-in-theme-editor" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Navigate to <strong>Theme Editor</strong> &gt; <strong>Products</strong> &gt; <strong>Product Page</strong></li>
+<li>Find <strong>Product Designer Modifier Name</strong> field</li>
+<li>Enter the exact name of your modifier, for example: <code>"Design File"</code></li>
+<li><strong>Important:</strong> The modifier name must match exactly (case-sensitive)</li>
+</ul>
+<p><img alt="Product Designer Tool Configuration" src="img/theme-editor-product-designer-modifier.jpg" /></p>
+<h4 id="2-create-product-modifier">2. Create Product Modifier<a class="headerlink" href="#2-create-product-modifier" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Go to your product settings</li>
+<li>Create a new modifier with the exact name you configured above (e.g., "Design File")</li>
+<li>Set modifier type to <strong>File</strong></li>
+<li>Enable support for <strong>.zip</strong> file format</li>
+<li>This modifier will store the customer's design files</li>
+</ul>
+<p><img alt="Add Design File Modifier" src="img/add-design-file-modifier.jpg" /></p>
+<h4 id="3-how-it-works">3. How It Works<a class="headerlink" href="#3-how-it-works" title="Permanent link">&para;</a></h4>
+<ul>
+<li>After configuration, products with the "Design File" modifier will display a <strong>Customize Design</strong> button on the Product Details page</li>
+<li>Customers can click this button to access the design tool</li>
+<li>Once customers complete their design, all design files are packaged into a Zip file</li>
+<li>The packaged file is automatically attached to the product when added to cart</li>
+</ul>
+<p><strong>Note:</strong> Only products that have the configured modifier will show the Customize Design button. Make sure to add the modifier to all products that need design customization capability.</p>
 <h3 id="instruction-size-guide">Instruction &amp; size guide<a class="headerlink" href="#instruction-size-guide" title="Permanent link">&para;</a></h3>
 <p><img alt="Instruction &amp; size guide" src="img/Instruction-size.jpg" /></p>
 <p>To create additional information link:</p>
