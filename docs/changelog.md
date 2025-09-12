@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.2.1 (09-12-2025)
+- [CORNERSTONE]Add a section to display the payment promotion widget in the drop-down of the cart preview. ([#2523](https://github.com/bigcommerce/cornerstone/pull/2523))
+- fix(designer-tool): export all slides correctly and skip empty slides
+
 ## 1.2.0 (08-01-2025)
 - [CORNERTSONE] PAYPAL-5000 Quick pay buttons are seen on PDP before 'required' option selection (#290)
 - [CORNERTSONE] Update to support multiple date fields and remove blank space (#291)
