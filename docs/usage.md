@@ -573,6 +573,9 @@ In **Banner 3**, change your image, set **Image width** = `2560px`, **Image heig
 
 In **GENERAL**. Set **Width (Desktop)**, **Width (Tablet)** , **Width (Mobile)** = `100%`. Set **Padding (Desktop)** = `15 0 0 0`, **Padding (Tablet)** = `10 0 0 0`, **Padding (Mobile)** = `0 0 0 0`.
 
+**Watch the step-by-step setup video:**
+
+<div style="position: relative; padding-bottom: 80.59701492537313%; height: 0;"><iframe src="https://www.loom.com/embed/18daf9bc2f664ee28e8f26a43c926c20?sid=4f2b7361-913e-449f-ac7e-128b1b51a9eb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Recently Viewed Products
 
