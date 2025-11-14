@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.2.3 (11-14-2025)
+- fix(infinite-scroll): horizontal filter not working when infinite loading enabled and faceted filters disabled
+
 ## 1.2.2 (10-03-2025)
 - fix(pdp): js error when product has bulk pricing and shows price with tax
 
