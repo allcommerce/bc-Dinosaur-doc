@@ -104,6 +104,60 @@ Verify the widgets installed successfully if they appear in Page Builder:
 ![custom-widgets-appear](img/custom-widgets-appear.jpg)
 
 
+## Importing Sample Products
+
+To set up your store to work exactly like our demo stores, you can import sample products using the following steps:
+
+**Available Sample Products:**
+
+- **Hoodie Sweatshirt Loose Fit Fashion Pullover Hoodie Casual**
+    - Product link: [https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/](https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/)
+    - Download: [samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json](./samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json)
+
+
+**Import Steps:**
+
+1. Go to **[BC Tools](https://bc-tools.papathemes.com/)**
+2. Click the **Store Manager** menu item and enter your store API key
+3. Click the **Import Product** menu item
+4. Select your store as the target store
+5. Under **Product JSON File**, upload the downloaded JSON file from above
+6. Click the **Import Product** button to import the product into your store
+
+![import-product](img/import-product.png){ loading=lazy }
+
+## Importing Widgets to Pages
+
+To import widgets to pages (Home, Product, Cart, global regions) in your store to work exactly like our demo stores:
+
+**Available Widget Dumps:**
+
+- **For Man Demo Store**
+    - Download: [samples/man-bc-widgets-dump.json](samples/man-bc-widgets-dump.json)
+
+- **For Woman Demo Store**
+    - Download: [samples/woman-bc-widgets-dump.json](samples/woman-bc-widgets-dump.json)
+
+- **For Kid Demo Store**
+    - Download: [samples/kid-bc-widgets-dump.json](samples/kid-bc-widgets-dump.json)
+
+**Import Steps:**
+
+1. Go to **[BC Tools](https://bc-tools.papathemes.com/)**
+2. Click the **Store Manager** menu item and enter your store API key (skip if already entered)
+3. Click the **Import Widgets** menu item
+4. Select your store as the target store
+5. Enter your **Channel ID** (default is `1` if you only have one storefront)
+6. Click the **Load Widget Templates** button to load existing widget templates in your store
+7. Under **Widgets JSON File**, upload the downloaded JSON file from above. After selecting the file, a list of widgets and pages to be imported will appear
+8. Check **"Auto-create new custom widget templates"** if you want to automatically create widget templates that are not yet available in your store but are required for our theme
+9. In the **Page List**, select the pages you want to import widgets into
+10. Click the **Import Widgets** button to import the widgets into your store
+11. Preview your storefront with pages like Home, Product, Cart, which will look like our demo stores
+
+![import-widgets](img/import-widgets.jpg){ loading=lazy }
+
+
 ## Setting Up Man Style Home Page
 
 To start customizing the theme, login to your admin panel, go to **Storefront** > **My Themes**, click **Customize** button next to theme thumbnail.
