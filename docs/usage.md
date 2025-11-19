@@ -110,21 +110,10 @@ To set up your store to work exactly like our demo stores, you can import sample
 
 **Available Sample Products:**
 
-- **Double Pocket TWill Shirt**
-    - Product link: [https://dinosaur-man-demo.mybigcommerce.com/double-pocket-twill-shirt/](https://dinosaur-man-demo.mybigcommerce.com/double-pocket-twill-shirt/)
-    - Download: [samples/double-pocket-twill-shirt.json](./samples/double-pocket-twill-shirt.json)
-
 - **Hoodie Sweatshirt Loose Fit Fashion Pullover Hoodie Casual**
     - Product link: [https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/](https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/)
     - Download: [samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json](./samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json)
 
-- **(Pre-order) Hoodies For Men Sweatshirt Tie Dye**
-    - Product link: [https://dinosaur-man-demo.mybigcommerce.com/prer-order-hoodies-for-men-sweatshirt-tie-dye/](https://dinosaur-man-demo.mybigcommerce.com/prer-order-hoodies-for-men-sweatshirt-tie-dye/)
-    - Download: [samples/prer-order-hoodies-for-men-sweatshirt-tie-dye.json](./samples/prer-order-hoodies-for-men-sweatshirt-tie-dye.json)
-
-- **(Full Options) Telli Short Sleeve Windbreaker (Bulk price)**
-    - Product link: [https://dinosaur-man-demo.mybigcommerce.com/full-options-telli-short-sleeve-windbreaker-bulk-price/](https://dinosaur-man-demo.mybigcommerce.com/full-options-telli-short-sleeve-windbreaker-bulk-price/)
-    - Download: [samples/full-options-telli-short-sleeve-windbreaker-bulk-price.json](./samples/full-options-telli-short-sleeve-windbreaker-bulk-price.json)
 
 **Import Steps:**
 
@@ -135,7 +124,7 @@ To set up your store to work exactly like our demo stores, you can import sample
 5. Under **Product JSON File**, upload the downloaded JSON file from above
 6. Click the **Import Product** button to import the product into your store
 
-![import-product](../img/import-product.jpg){ loading=lazy }
+![import-product](../img/import-product.png){ loading=lazy }
 
 ## Importing Widgets to Pages
 
@@ -143,14 +132,14 @@ To import widgets to pages (Home, Product, Cart, global regions) in your store t
 
 **Available Widget Dumps:**
 
-- **For Shirt Demo Store**
-    - Download: [samples/glasses-bc-widgets-dump.json](./samples/shirt-bc-widgets-dump.json)
+- **For Man Demo Store**
+    - Download: [samples/man-bc-widgets-dump.json](./samples/man-bc-widgets-dump.json)
 
-- **For Sofas Demo Store**
-    - Download: [samples/sofas-bc-widgets-dump.json](./samples/sofas-bc-widgets-dump.json)
+- **For Woman Demo Store**
+    - Download: [samples/woman-bc-widgets-dump.json](./samples/woman-bc-widgets-dump.json)
 
-- **For Laptops Demo Store**
-    - Download: [samples/laptops-bc-widgets-dump.json](./samples/laptops-bc-widgets-dump.json)
+- **For Kid Demo Store**
+    - Download: [samples/kid-bc-widgets-dump.json](./samples/kid-bc-widgets-dump.json)
 
 **Import Steps:**
 
