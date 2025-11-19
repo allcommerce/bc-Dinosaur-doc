@@ -124,7 +124,7 @@ To set up your store to work exactly like our demo stores, you can import sample
 5. Under **Product JSON File**, upload the downloaded JSON file from above
 6. Click the **Import Product** button to import the product into your store
 
-![import-product](../img/import-product.png){ loading=lazy }
+![import-product](img/import-product.png){ loading=lazy }
 
 ## Importing Widgets to Pages
 
@@ -133,13 +133,13 @@ To import widgets to pages (Home, Product, Cart, global regions) in your store t
 **Available Widget Dumps:**
 
 - **For Man Demo Store**
-    - Download: [samples/man-bc-widgets-dump.json](./samples/man-bc-widgets-dump.json)
+    - Download: [samples/man-bc-widgets-dump.json](samples/man-bc-widgets-dump.json)
 
 - **For Woman Demo Store**
-    - Download: [samples/woman-bc-widgets-dump.json](./samples/woman-bc-widgets-dump.json)
+    - Download: [samples/woman-bc-widgets-dump.json](samples/woman-bc-widgets-dump.json)
 
 - **For Kid Demo Store**
-    - Download: [samples/kid-bc-widgets-dump.json](./samples/kid-bc-widgets-dump.json)
+    - Download: [samples/kid-bc-widgets-dump.json](samples/kid-bc-widgets-dump.json)
 
 **Import Steps:**
 
@@ -155,7 +155,7 @@ To import widgets to pages (Home, Product, Cart, global regions) in your store t
 10. Click the **Import Widgets** button to import the widgets into your store
 11. Preview your storefront with pages like Home, Product, Cart, which will look like our demo stores
 
-![import-widgets](../img/import-widgets.jpg){ loading=lazy }
+![import-widgets](img/import-widgets.jpg){ loading=lazy }
 
 
 ## Setting Up Man Style Home Page
