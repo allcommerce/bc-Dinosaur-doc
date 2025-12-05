@@ -1573,3 +1573,52 @@ In **promotion type** select `Orders totaling more than X amount get free shippi
 In **Promotion option** type your message at **Congratulations Banner Message** to display for cart have qualified and type your message for cart have not qualify at **Upsell Banner Message** with format `[your text] %%condition.remaining%% [your text]` then click save
 
 ![promotion-message](img/Promotion-message.jpg)
+
+## Customize Design
+
+![customize-design-general](img/customize-design-general.jpg)
+
+### Configuration
+
+- Inside the Page Builder, go to: `Theme Styles` → `Products` → `Product Designer Modifier Name`, then enter **“Design File”** into this field.
+
+![customize-design-pb-setting](img/customize-design-PB-setting.jpg)
+
+- ⚠️ If this field is left **empty**, the Customize Design feature will be automatically **disabled**.
+
+To activate **Customize Design** for a product, create a Product **Modifier** with:
+
+- **Name** that **matches exactly** the value set in `Product Designer Modifier Name`.
+
+- **Type** set to `File Upload`
+
+- Set the **Maximum File Size** within the system **limit of 524,288 KB** (For example, we recommend using 51,200 KB for optimal performance.)
+
+- Set **File Types** as: Select `Only allow certain file types to be uploaded`, Choose `Other file types`, Enter `ZIP` to allow only ZIP file.
+
+![customize-design-product-modifier-detail](img/customize-design-product-modifier-detail.jpg)
+
+### How to find Design file in order
+
+**Design Data Attached to the Order**
+
+- After the customer finishes designing, adds the product to the cart, and successfully completes checkout, the system will automatically attach the **design file** to the order.
+This file contains all design information, including: `Customer-uploaded images`, `All added texts`, `Complete design layout data`.
+
+**Download Design File in Order Management**
+
+- In the **Store Manager**, open the **Order Detail** page.
+
+- Locate the section whose name **matches** the value set in the **“Product Designer Modifier Name”** field in the `Page Builder`.
+
+- Click on `design.zip` to **download** the product’s design file to your device.
+
+![customize-design-order](img/customize-design-order.jpg)
+
+**Use Design Data for Production**
+
+- Inside the downloaded `design.zip` file, all original design data will be stored, including: `Design structure`, `Uploaded images`, `Customer texts`.
+
+![customize-design-file-1](img/customize-design-file-1.jpg)
+
+![customize-design-file-2](img/customize-design-file-2.jpg)
