@@ -1573,3 +1573,162 @@ In **promotion type** select `Orders totaling more than X amount get free shippi
 In **Promotion option** type your message at **Congratulations Banner Message** to display for cart have qualified and type your message for cart have not qualify at **Upsell Banner Message** with format `[your text] %%condition.remaining%% [your text]` then click save
 
 ![promotion-message](img/Promotion-message.jpg)
+
+## Customize Design
+
+### General
+
+**Customize Design** is a powerful feature that allows customers to personalize product designs directly on your store. Users can add images and text, adjust size, position, rotation, and layout in real time through an intuitive design interface.
+
+After the order is created, all customer designs are included together with the order information. This makes it easy for the store to understand exactly what the customer wants and produce the final product with high accuracy.
+
+![customize-design-general](img/customize-design-general.jpg)
+
+### Configuration
+
+**Step 1: Open Theme Page Builder**
+
+- From your Store Manager, go to: `Storefront → Themes`, then find your `Current Theme` and click `Customize` to open the `Theme Page Builder`.
+
+![customize-design-open-pb](img/customize-design-open-PB.jpg)
+
+**Step 2: Configure the Product Designer Modifier Name**
+
+- Inside the `Page Builder`, navigate to: `Theme Styles → Products → Product Designer Modifier Name`
+
+- This setting is used to define the `name of the Product Modifier` that will store the customer’s design information.
+
+![customize-design-pb-setting](img/customize-design-PB-setting.jpg)
+
+- **⚠️ If this setting is left empty, the Customize Design feature will be automatically disabled.**
+
+**Step 3: Apply Customize Design to Products**
+
+- The **Customize Design** feature will be activated automatically for any product that meets **both** of the following conditions:
+
+- The product has a **Modifier** with a name that **matches exactly** the value set in `Product Designer Modifier Name`.
+
+- The Modifier’s **Type** is set to **“File Upload”**, and it must allow ZIP files to be uploaded.
+
+- Once these conditions are met, **Customize Design will be applied to that product.**
+
+![customize-design-product-modifier](img/customize-design-product-modifier.jpg)
+
+![customize-design-product-modifier-detail](img/customize-design-product-modifier-detail.jpg)
+
+**Storefront Interface Preview**
+
+`Before enabling` **Customize Design**: The product page does not display the Customize Design button.
+
+![customize-design-product-not](img/customize-design-product-not.jpg)
+
+`After enabling` **Customize Design**: The product page will display the Customize Design button, allowing customers to start designing immediately.
+
+![customize-design-product-has](img/customize-design-product-has.jpg)
+
+### How to Use
+
+#### Customize Design on Product Detail Page
+
+- When a product has **Customize Design enabled**, a** “Customize Design”** button will appear on the **Product Detail Page**.
+
+- Clicking this button will open the **design interface** for that product.
+
+- By default, the images shown in the design interface are the **base product images**.
+
+- For products with **variants** (product options), if you want to design based on a specific variant image, **select the desired options first**. Then open the **Customize Design** interface. The correct **variant image** will be loaded into the design area.
+
+(Detailed design instructions are provided in the section below.)
+
+![customize-design-layout](img/customize-design-layout.png)
+
+#### Customize Design from Cart
+
+- For products with **Customize Design enabled**, customers can **add or edit their design even after the product has been added to the cart.**
+
+This works in both: `Preview Cart` and `Cart Detail Page`
+
+- Click the product’s **option button** to expand product options.
+
+- Inside the option details, the **“Customize Design” button** will appear.
+
+![customize-design-card](img/customize-design-card.jpg)
+
+#### Design Features Overview
+
+**Main Preview Area (1)**
+
+![customize-design-layout-detail](img/customize-design-layout-detail.jpg)
+
+- Displays the product image with all customer designs applied.
+
+**Product Image List (2)**
+
+- Shows all product images. Click an image to switch the main preview.
+
+**CANCEL & CLOSE (3)**
+
+- Closes the design interface without saving any changes.
+
+**IMPORT (4)**
+
+- Imports an existing design and applies it to the current product.
+
+- **How to get the design file for importing**: After a customer finishes a design and adds the product to the cart, go to the **Cart Preview** and click on **design.zip**. The system will automatically download this file to the customer’s device. This file contains all design data. When you import this file into another design, all saved design elements will be loaded into the new design.
+
+![customize-design-file-save](img/customize-design-file-save.jpg)
+
+**SAVE & CLOSE (5)**
+
+- Saves all current designs and closes the design interface. When reopened, previous designs will still be available.
+
+**SAVE & ADD TO CART (6)**
+
+- Saves the current designs, closes the design interface, and adds the product to the cart.
+
+**_Note: When saving a design, all product images that have been designed will be saved together, not only the currently active image being edited. This ensures that every customized view of the product is fully preserved with the order._**
+
+**Upload Image (7)**
+
+- Allows customers to upload an image from their device into the design. The uploaded image can be: `Resized`, `Rotated`, `Moved` freely to the desired position
+
+**Add Text (8)**
+
+- Adds a text layer to the current design. Customers can: `Edit` the text content, `Move` the text freely, `Customize` `font size`, `font family`, `text color`, `background color`, and `more`
+
+**Design Item List (Layers Panel) (9)**
+
+This area shows all image and text items that have been added:
+
+- Clicking an item will select it on the design canvas
+
+- Dragging items to change their order will also change their layer priority on the design. Items placed higher in the list will appear above others on the canvas.
+
+- Clicking the delete icon will remove that item from both the list and the design
+
+#### Order & Design Data
+
+**Design Data Attached to the Order**
+
+- After the customer finishes designing, adds the product to the cart, and successfully completes checkout, the system will automatically attach the **design file** to the order.
+This file contains all design information, including: `Customer-uploaded images`, `All added texts`, `Complete design layout data`.
+
+**Download Design File in Order Management**
+
+- In the **Store Manager**, open the **Order Detail** page.
+
+- Locate the **Product Modifier** that was configured for the **Customize Design** feature.
+
+_At this section:_
+
+- The design file will appear as `design.zip`
+
+- The store administrator can click this file to **download it directly**
+
+![customize-design-order](img/customize-design-order.jpg)
+
+**Use Design Data for Production**
+
+- Inside the downloaded design.zip file, all original design data will be stored, including: `Design structure`, `Uploaded images`, `Customer texts`.
+
+- The production team can use this information as the **exact reference** to manufacture the product according to the customer’s custom design.
