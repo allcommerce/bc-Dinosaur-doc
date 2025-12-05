@@ -1580,13 +1580,11 @@ In **Promotion option** type your message at **Congratulations Banner Message** 
 
 ### Configuration
 
-- Inside the Page Builder, go to: `Theme Styles` → `Products` → `Product Designer Modifier Name`, then enter the name of the Product Modifier that will store the design file.
+- Inside the Page Builder, go to: `Theme Styles` → `Products` → `Product Designer Modifier Name`, then enter **“Design File”** into this field.
 
 ![customize-design-pb-setting](img/customize-design-PB-setting.jpg)
 
 - ⚠️ If this field is left **empty**, the Customize Design feature will be automatically **disabled**.
-
-**Apply Customize Design to Products**
 
 To activate **Customize Design** for a product, create a Product **Modifier** with:
 
@@ -1611,17 +1609,15 @@ This file contains all design information, including: `Customer-uploaded images`
 
 - In the **Store Manager**, open the **Order Detail** page.
 
-- Locate the **Product Modifier** that was configured for the **Customize Design** feature.
+- Locate the section whose name **matches** the value set in the **“Product Designer Modifier Name”** field in the `Page Builder`.
 
-- The design file will appear as `design.zip`
-
-- The store administrator can click this file to **download it directly**
+- Click on `design.zip` to **download** the product’s design file to your device.
 
 ![customize-design-order](img/customize-design-order.jpg)
 
 **Use Design Data for Production**
 
-- Inside the downloaded design.zip file, all original design data will be stored, including: `Design structure`, `Uploaded images`, `Customer texts`.
+- Inside the downloaded `design.zip` file, all original design data will be stored, including: `Design structure`, `Uploaded images`, `Customer texts`.
 
 ![customize-design-file-1](img/customize-design-file-1.jpg)
 
