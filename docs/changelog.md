@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.3.0 (12-12-2025)
+- feat(quick-search): [add keyword suggestion feature](./usage.md#keyword-suggestions) (#298)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mMg9aPb5SJY" title="Quick Search - Keyword Suggestions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 1.2.3 (11-14-2025)
 - fix(infinite-scroll): horizontal filter not working when infinite loading enabled and faceted filters disabled
 
