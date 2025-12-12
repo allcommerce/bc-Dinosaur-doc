@@ -104,6 +104,60 @@ Verify the widgets installed successfully if they appear in Page Builder:
 ![custom-widgets-appear](img/custom-widgets-appear.jpg)
 
 
+## Importing Sample Products
+
+To set up your store to work exactly like our demo stores, you can import sample products using the following steps:
+
+**Available Sample Products:**
+
+- **Hoodie Sweatshirt Loose Fit Fashion Pullover Hoodie Casual**
+    - Product link: [https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/](https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/)
+    - Download: [samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json](./samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json)
+
+
+**Import Steps:**
+
+1. Go to **[BC Tools](https://bc-tools.papathemes.com/)**
+2. Click the **Store Manager** menu item and enter your store API key
+3. Click the **Import Product** menu item
+4. Select your store as the target store
+5. Under **Product JSON File**, upload the downloaded JSON file from above
+6. Click the **Import Product** button to import the product into your store
+
+![import-product](img/import-product.png){ loading=lazy }
+
+## Importing Widgets to Pages
+
+To import widgets to pages (Home, Product, Cart, global regions) in your store to work exactly like our demo stores:
+
+**Available Widget Dumps:**
+
+- **For Man Demo Store**
+    - Download: [samples/man-bc-widgets-dump.json](samples/man-bc-widgets-dump.json)
+
+- **For Woman Demo Store**
+    - Download: [samples/woman-bc-widgets-dump.json](samples/woman-bc-widgets-dump.json)
+
+- **For Kid Demo Store**
+    - Download: [samples/kid-bc-widgets-dump.json](samples/kid-bc-widgets-dump.json)
+
+**Import Steps:**
+
+1. Go to **[BC Tools](https://bc-tools.papathemes.com/)**
+2. Click the **Store Manager** menu item and enter your store API key (skip if already entered)
+3. Click the **Import Widgets** menu item
+4. Select your store as the target store
+5. Enter your **Channel ID** (default is `1` if you only have one storefront)
+6. Click the **Load Widget Templates** button to load existing widget templates in your store
+7. Under **Widgets JSON File**, upload the downloaded JSON file from above. After selecting the file, a list of widgets and pages to be imported will appear
+8. Check **"Auto-create new custom widget templates"** if you want to automatically create widget templates that are not yet available in your store but are required for our theme
+9. In the **Page List**, select the pages you want to import widgets into
+10. Click the **Import Widgets** button to import the widgets into your store
+11. Preview your storefront with pages like Home, Product, Cart, which will look like our demo stores
+
+![import-widgets](img/import-widgets.jpg){ loading=lazy }
+
+
 ## Setting Up Man Style Home Page
 
 To start customizing the theme, login to your admin panel, go to **Storefront** > **My Themes**, click **Customize** button next to theme thumbnail.
@@ -1805,3 +1859,52 @@ In **promotion type** select `Orders totaling more than X amount get free shippi
 In **Promotion option** type your message at **Congratulations Banner Message** to display for cart have qualified and type your message for cart have not qualify at **Upsell Banner Message** with format `[your text] %%condition.remaining%% [your text]` then click save
 
 ![promotion-message](img/Promotion-message.jpg)
+
+## Customize Design
+
+![customize-design-general](img/customize-design-general.jpg)
+
+### Configuration
+
+- Inside the Page Builder, go to: `Theme Styles` → `Products` → `Product Designer Modifier Name`, then enter **“Design File”** into this field.
+
+![customize-design-pb-setting](img/customize-design-PB-setting.jpg)
+
+- ⚠️ If this field is left **empty**, the Customize Design feature will be automatically **disabled**.
+
+To activate **Customize Design** for a product, create a Product **Modifier** with:
+
+- **Name** that **matches exactly** the value set in `Product Designer Modifier Name`.
+
+- **Type** set to `File Upload`
+
+- Set the **Maximum File Size** within the system **limit of 524,288 KB** (For example, we recommend using 51,200 KB for optimal performance.)
+
+- Set **File Types** as: Select `Only allow certain file types to be uploaded`, Choose `Other file types`, Enter `ZIP` to allow only ZIP file.
+
+![customize-design-product-modifier-detail](img/customize-design-product-modifier-detail.jpg)
+
+### How to find Design file in order
+
+**Design Data Attached to the Order**
+
+- After the customer finishes designing, adds the product to the cart, and successfully completes checkout, the system will automatically attach the **design file** to the order.
+This file contains all design information, including: `Customer-uploaded images`, `All added texts`, `Complete design layout data`.
+
+**Download Design File in Order Management**
+
+- In the **Store Manager**, open the **Order Detail** page.
+
+- Locate the section whose name **matches** the value set in the **“Product Designer Modifier Name”** field in the `Page Builder`.
+
+- Click on `design.zip` to **download** the product’s design file to your device.
+
+![customize-design-order](img/customize-design-order.jpg)
+
+**Use Design Data for Production**
+
+- Inside the downloaded `design.zip` file, all original design data will be stored, including: `Design structure`, `Uploaded images`, `Customer texts`.
+
+![customize-design-file-1](img/customize-design-file-1.jpg)
+
+![customize-design-file-2](img/customize-design-file-2.jpg)
