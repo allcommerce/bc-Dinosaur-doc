@@ -71,13 +71,19 @@
     </li>
         </ul>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#importing-sample-products">Importing Sample Products</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#importing-widgets-to-pages">Importing Widgets to Pages</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#setting-up-man-style-home-page">Setting Up Man Style Home Page</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#multistore-guide">Multistore guide</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#header">Header</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#quick-search">Quick search</a>
+    <li class="toctree-l4"><a class="reference internal" href="#quick-search">Quick Search</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#keyword-suggestions">Keyword Suggestions</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#main-navigation">Main Navigation</a>
     </li>
@@ -277,6 +283,14 @@
     </li>
         </ul>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#customize-design">Customize Design</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#configuration_1">Configuration</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-to-find-design-file-in-order">How to find Design file in order</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -394,6 +408,64 @@
 <p><img alt="click-theme-customize" src="img/click-theme-customize.jpg" /></p>
 <p>Verify the widgets installed successfully if they appear in Page Builder:</p>
 <p><img alt="custom-widgets-appear" src="img/custom-widgets-appear.jpg" /></p>
+<h2 id="importing-sample-products">Importing Sample Products<a class="headerlink" href="#importing-sample-products" title="Permanent link">&para;</a></h2>
+<p>To set up your store to work exactly like our demo stores, you can import sample products using the following steps:</p>
+<p><strong>Available Sample Products:</strong></p>
+<ul>
+<li><strong>Hoodie Sweatshirt Loose Fit Fashion Pullover Hoodie Casual</strong><ul>
+<li>Product link: <a href="https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/">https://dinosaur-man-demo.mybigcommerce.com/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual/</a></li>
+<li>Download: <a href="samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json">samples/hoodie-sweatshirt-loose-fit-fashion-pullover-hoodie-casual.json</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Import Steps:</strong></p>
+<ol>
+<li>Go to <strong><a href="https://bc-tools.papathemes.com/">BC Tools</a></strong></li>
+<li>Click the <strong>Store Manager</strong> menu item and enter your store API key</li>
+<li>Click the <strong>Import Product</strong> menu item</li>
+<li>Select your store as the target store</li>
+<li>Under <strong>Product JSON File</strong>, upload the downloaded JSON file from above</li>
+<li>Click the <strong>Import Product</strong> button to import the product into your store</li>
+</ol>
+<p><img alt="import-product" loading="lazy" src="img/import-product.png" /></p>
+<h2 id="importing-widgets-to-pages">Importing Widgets to Pages<a class="headerlink" href="#importing-widgets-to-pages" title="Permanent link">&para;</a></h2>
+<p>To import widgets to pages (Home, Product, Cart, global regions) in your store to work exactly like our demo stores:</p>
+<p><strong>Available Widget Dumps:</strong></p>
+<ul>
+<li>
+<p><strong>For Man Demo Store</strong></p>
+<ul>
+<li>Download: <a href="samples/man-bc-widgets-dump.json">samples/man-bc-widgets-dump.json</a></li>
+</ul>
+</li>
+<li>
+<p><strong>For Woman Demo Store</strong></p>
+<ul>
+<li>Download: <a href="samples/woman-bc-widgets-dump.json">samples/woman-bc-widgets-dump.json</a></li>
+</ul>
+</li>
+<li>
+<p><strong>For Kid Demo Store</strong></p>
+<ul>
+<li>Download: <a href="samples/kid-bc-widgets-dump.json">samples/kid-bc-widgets-dump.json</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Import Steps:</strong></p>
+<ol>
+<li>Go to <strong><a href="https://bc-tools.papathemes.com/">BC Tools</a></strong></li>
+<li>Click the <strong>Store Manager</strong> menu item and enter your store API key (skip if already entered)</li>
+<li>Click the <strong>Import Widgets</strong> menu item</li>
+<li>Select your store as the target store</li>
+<li>Enter your <strong>Channel ID</strong> (default is <code>1</code> if you only have one storefront)</li>
+<li>Click the <strong>Load Widget Templates</strong> button to load existing widget templates in your store</li>
+<li>Under <strong>Widgets JSON File</strong>, upload the downloaded JSON file from above. After selecting the file, a list of widgets and pages to be imported will appear</li>
+<li>Check <strong>"Auto-create new custom widget templates"</strong> if you want to automatically create widget templates that are not yet available in your store but are required for our theme</li>
+<li>In the <strong>Page List</strong>, select the pages you want to import widgets into</li>
+<li>Click the <strong>Import Widgets</strong> button to import the widgets into your store</li>
+<li>Preview your storefront with pages like Home, Product, Cart, which will look like our demo stores</li>
+</ol>
+<p><img alt="import-widgets" loading="lazy" src="img/import-widgets.jpg" /></p>
 <h2 id="setting-up-man-style-home-page">Setting Up Man Style Home Page<a class="headerlink" href="#setting-up-man-style-home-page" title="Permanent link">&para;</a></h2>
 <p>To start customizing the theme, login to your admin panel, go to <strong>Storefront</strong> &gt; <strong>My Themes</strong>, click <strong>Customize</strong> button next to theme thumbnail.</p>
 <h3 id="multistore-guide">Multistore guide<a class="headerlink" href="#multistore-guide" title="Permanent link">&para;</a></h3>
@@ -428,11 +500,311 @@
 <li><code>link</code>: Top header will be the link you provided in the input to set the background.</li>
 </ul>
 <p><img alt="link-bg-img" src="img/link-bg-img.jpg" /></p>
-<h4 id="quick-search">Quick search<a class="headerlink" href="#quick-search" title="Permanent link">&para;</a></h4>
+<h4 id="quick-search">Quick Search<a class="headerlink" href="#quick-search" title="Permanent link">&para;</a></h4>
 <p><strong>Quick Search</strong> allows user to change the colors of the search form.</p>
 <p>To configure the <strong>Quick Search</strong>, click on <strong>Theme Styles</strong> &gt; <strong>Header</strong>. In <strong>Quick Search</strong> section you can change text colors, hover, border, and background of the search field.</p>
 <p>To change popular search keywords, type your text in <strong>popular search keywords</strong> field as picture below.</p>
 <p><img alt="header-quick-search" src="img/quick-search.jpg" /></p>
+<h4 id="keyword-suggestions">Keyword Suggestions<a class="headerlink" href="#keyword-suggestions" title="Permanent link">&para;</a></h4>
+<p>The keyword suggestions feature enhances the search experience by displaying popular keyword suggestions when users interact with the search box. This feature includes autocomplete functionality similar to Google Search and keyboard navigation support.</p>
+<p><img alt="Keyword suggestions in action" src="img/keyword-suggestions.jpg" /></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/mMg9aPb5SJY" title="Quick Search - Keyword Suggestions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+<h5 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Permanent link">&para;</a></h5>
+<ol>
+<li>
+<p><strong>Generate keywords</strong>:</p>
+<ul>
+<li>Go to <strong><a href="https://bc-tools.papathemes.com/">BC Tools</a></strong> and click <strong>"Keyword Extractor"</strong> menu item</li>
+<li>Enter your store URL and extract keywords (includes free credits)</li>
+<li>Download the generated CSV files</li>
+</ul>
+</li>
+<li>
+<p><strong>Upload CSV files</strong>:</p>
+<ul>
+<li>Upload the downloaded files to BigCommerce WebDAV <code>/content/</code> folder</li>
+<li>Or upload to your own server/CDN</li>
+</ul>
+</li>
+<li>
+<p><strong>Enable feature</strong>:</p>
+<ul>
+<li>Go to <strong>Theme Editor</strong> &gt; <strong>Header</strong> &gt; <strong>Quick search</strong></li>
+<li>Enable <strong>"Enable keyword suggestions"</strong></li>
+<li>Configure the CSV file paths</li>
+<li>Save &amp; Publish</li>
+</ul>
+</li>
+<li>
+<p><strong>Test</strong>: Try searching on your storefront!</p>
+</li>
+</ol>
+<h5 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Smart Display</strong>: Shows top 10 popular keywords when focusing on the search box</li>
+<li><strong>Realtime Filtering</strong>: Updates suggestions as users type, matching keywords that start with the search query</li>
+<li><strong>Inline Autocomplete</strong>: Like Google Search, displays suggested completion directly in the search input<ul>
+<li>Type "bo" → Shows "bo<strong>ok</strong>" with "ok" dimmed</li>
+<li>Press Right Arrow (→) to accept and continue suggesting</li>
+</ul>
+</li>
+<li><strong>Keyboard Navigation</strong>:<ul>
+<li><code>→</code> (Right Arrow): Accept autocomplete suggestion</li>
+<li><code>↑/↓</code>: Navigate between suggestions</li>
+<li><code>Enter</code>: Select highlighted suggestion</li>
+<li><code>Esc</code>: Clear selection and autocomplete</li>
+</ul>
+</li>
+<li><strong>Responsive Design</strong>: Adapts to mobile and desktop layouts</li>
+<li><strong>Smart Loading</strong>: Uses lazy loading for optimal performance</li>
+</ul>
+<h5 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h5>
+<p><strong>Enable/Disable the Feature</strong></p>
+<p>Go to <strong>Theme Editor</strong> &gt; <strong>Header</strong> &gt; <strong>Quick search</strong> section:</p>
+<ol>
+<li>Enable <strong>Enable keyword suggestions</strong> checkbox</li>
+<li>Configure CSV file paths (see below)</li>
+<li>Save &amp; Publish</li>
+</ol>
+<p><strong>CSV File Configuration</strong></p>
+<p>You can specify up to 3 CSV files containing keywords:</p>
+<ul>
+<li><strong>Keywords file 1</strong>: Single-word keywords (e.g., "laptop", "phone")</li>
+<li><strong>Keywords file 2</strong>: Two-word keywords (e.g., "gaming laptop", "wireless mouse")</li>
+<li><strong>Keywords file 3</strong>: Three+ word keywords (e.g., "best gaming laptop 2024")</li>
+</ul>
+<p><strong>File Path Options:</strong></p>
+<p>You can use either relative paths or full URLs:</p>
+<pre><code>Relative path: /content/suggest-keywords-1.csv
+Full URL: https://example.com/data/suggest-keywords-1.csv
+</code></pre>
+<p><strong>Note about Lazy Loading:</strong></p>
+<ul>
+<li>If <strong>any</strong> file uses a relative path, CSV files load only when users focus on search (lazy loading) - except on the search page where they load immediately</li>
+<li>If <strong>all</strong> files use full URLs, CSV files load immediately on page load</li>
+<li>Lazy loading reduces traffic since BigCommerce servers don't support browser cache headers</li>
+</ul>
+<p><strong>To Disable</strong></p>
+<p><strong>Method 1</strong>: Uncheck "Enable keyword suggestions" in Theme Editor</p>
+<p><strong>Method 2</strong>: Leave all 3 file paths empty</p>
+<h5 id="csv-file-format">CSV File Format<a class="headerlink" href="#csv-file-format" title="Permanent link">&para;</a></h5>
+<p>Each CSV file should have 2 columns <strong>without a header row</strong>:</p>
+<ol>
+<li><strong>Keyword</strong> (text)</li>
+<li><strong>Rank</strong> (number - <strong>higher rank = better match, higher priority</strong>)</li>
+</ol>
+<p><strong>Example CSV file:</strong></p>
+<pre><code class="language-csv">laptop,80000
+phone,70000
+tablet,60000
+computer,50000
+monitor,40000
+</code></pre>
+<p><strong>Important:</strong> Higher rank numbers mean the keyword will appear first in suggestions. Keywords are sorted by rank in descending order.</p>
+<h5 id="creating-csv-files">Creating CSV Files<a class="headerlink" href="#creating-csv-files" title="Permanent link">&para;</a></h5>
+<p><strong>Method 1: Use the Keyword Extractor Tool (Recommended)</strong></p>
+<p>The easiest way to create keyword CSV files is to use our <strong>Keyword Extractor</strong> tool:</p>
+<p><strong>Step-by-step instructions:</strong></p>
+<ol>
+<li>
+<p><strong>Open BC Tools</strong>:</p>
+<ul>
+<li>Go to <strong><a href="https://bc-tools.papathemes.com/">https://bc-tools.papathemes.com/</a></strong></li>
+<li>Click on the <strong>"Keyword Extractor"</strong> menu item to access the tool</li>
+</ul>
+</li>
+<li>
+<p><strong>Extract Keywords</strong>:</p>
+<ul>
+<li>Enter your BigCommerce store URL in the input field</li>
+<li>Click the extract button</li>
+<li>The tool will automatically analyze your store's products and extract relevant keywords</li>
+<li>Keywords will be organized by word count with appropriate rank values</li>
+</ul>
+</li>
+<li>
+<p><strong>Download CSV Files</strong>:</p>
+<ul>
+<li>Once extraction is complete, download the generated CSV files</li>
+<li>You'll typically get 3 files:<ul>
+<li><code>suggest-keywords-1.csv</code> (single-word keywords)</li>
+<li><code>suggest-keywords-2.csv</code> (two-word keywords)</li>
+<li><code>suggest-keywords-3.csv</code> (three+ word keywords)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Upload to Your Store</strong>:</p>
+<ul>
+<li><strong>Option A - Upload to BigCommerce WebDAV</strong>:<ul>
+<li>Connect to your store via WebDAV</li>
+<li>Create a <code>/content/</code> folder if it doesn't exist</li>
+<li>Upload the 3 CSV files to <code>/content/</code> folder</li>
+</ul>
+</li>
+<li><strong>Option B - Upload to Your Own Server/CDN</strong>:<ul>
+<li>Upload the CSV files to your own hosting/CDN</li>
+<li>Use the full URLs in Theme Editor settings (e.g., <code>https://yourdomain.com/keywords/suggest-keywords-1.csv</code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Configure in Theme Editor</strong> (see Configuration section above)</p>
+</li>
+</ol>
+<p>This tool analyzes your actual product data and generates keyword suggestions with appropriate rank values automatically.</p>
+<p><strong>Note:</strong> The Keyword Extractor tool includes a few free credits to extract keywords. If you need to extract more keywords beyond the free credits, you'll need to purchase additional credits.</p>
+<p><strong>Method 2: Create Manually</strong></p>
+<p>If you prefer to create CSV files manually:</p>
+<ol>
+<li><strong>Create the CSV files</strong> on your computer using the format above</li>
+<li>Use a spreadsheet program (Excel, Google Sheets) or text editor</li>
+<li>Save as CSV format with 2 columns: keyword, rank (no header row)</li>
+<li>Name your files:<ul>
+<li><code>suggest-keywords-1.csv</code> (single-word keywords)</li>
+<li><code>suggest-keywords-2.csv</code> (two-word keywords)</li>
+<li><code>suggest-keywords-3.csv</code> (three+ word keywords)</li>
+</ul>
+</li>
+</ol>
+<p><strong>Then upload using one of these options:</strong></p>
+<ul>
+<li>
+<p><strong>Upload to BigCommerce WebDAV</strong>:</p>
+<ul>
+<li>Connect to your store via WebDAV</li>
+<li>Create a <code>/content/</code> folder if it doesn't exist</li>
+<li>Upload the 3 CSV files to the <code>/content/</code> folder</li>
+<li>Use relative paths in Theme Editor: <code>/content/suggest-keywords-1.csv</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Upload to Your Own Server/CDN</strong>:</p>
+<ul>
+<li>Upload to your hosting or CDN service</li>
+<li>Use full URLs in Theme Editor: <code>https://yourdomain.com/keywords/suggest-keywords-1.csv</code></li>
+</ul>
+</li>
+</ul>
+<p>After uploading, configure the file paths in <strong>Theme Editor</strong> &gt; <strong>Header</strong> &gt; <strong>Quick search</strong> section.</p>
+<p><strong>Sample Data (based on actual demo data):</strong></p>
+<p><strong>suggest-keywords-1.csv</strong> (single words):</p>
+<pre><code class="language-csv">set,80023
+usb,70042
+travel,70002
+new,60028
+wireless,60016
+original,60007
+fashion,60004
+men,60000
+high,50044
+bag,50013
+phone,45000
+laptop,40000
+tablet,35000
+computer,30000
+monitor,25000
+keyboard,20000
+mouse,15000
+camera,12000
+watch,10000
+shoes,8000
+</code></pre>
+<p><strong>suggest-keywords-2.csv</strong> (two words):</p>
+<pre><code class="language-csv">micro sd,30007
+high heels,30000
+sd card,20010
+card reader,20008
+memory card,20007
+gaming laptop,18000
+wireless mouse,16000
+bluetooth headphone,14000
+mechanical keyboard,12000
+usb cable,10000
+running shoes,8000
+smart watch,7000
+leather bag,6000
+phone case,5000
+laptop stand,4000
+</code></pre>
+<p><strong>suggest-keywords-3.csv</strong> (three+ words):</p>
+<pre><code class="language-csv">micro sd card,20006
+breathable mesh men,20000
+cotton baby hat,10001
+baby hat scarf,10001
+gaming laptop 2024,9000
+wireless gaming mouse,8000
+noise cancelling headphone,7000
+mechanical keyboard rgb,6000
+fast charging cable,5000
+leather travel bag,4000
+running shoes men,3000
+smart watch women,2500
+phone case clear,2000
+laptop stand adjustable,1500
+</code></pre>
+<p><strong>Live Examples:</strong> You can download actual working CSV files from the demo site:</p>
+<ul>
+<li><a href="http://supermarket-yellow-demo.mybigcommerce.com/content/suggest-keywords-1.csv">suggest-keywords-1.csv</a></li>
+<li><a href="http://supermarket-yellow-demo.mybigcommerce.com/content/suggest-keywords-2.csv">suggest-keywords-2.csv</a></li>
+<li><a href="http://supermarket-yellow-demo.mybigcommerce.com/content/suggest-keywords-3.csv">suggest-keywords-3.csv</a></li>
+</ul>
+<h5 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h5>
+<ol>
+<li>
+<p><strong>On Page Load</strong>:</p>
+<ul>
+<li>If using full URLs: CSV files load with low priority (doesn't block page)</li>
+<li>If using relative paths: Waits until user focuses on search box (or on search page)</li>
+</ul>
+</li>
+<li>
+<p><strong>On Search Focus</strong>: Displays top 10 keywords sorted by rank</p>
+</li>
+<li>
+<p><strong>While Typing</strong>:</p>
+<ul>
+<li>Filters keywords that <strong>start with</strong> the typed text</li>
+<li>Shows inline autocomplete suggestion (first match)</li>
+<li>Updates in realtime (debounced 100ms)</li>
+</ul>
+</li>
+<li>
+<p><strong>Selecting Keyword</strong>: Fills the search box and triggers quick search</p>
+</li>
+</ol>
+<h5 id="advanced-configuration">Advanced Configuration<a class="headerlink" href="#advanced-configuration" title="Permanent link">&para;</a></h5>
+<p>For advanced users who want to use external CDN or customize file paths, you can:</p>
+<ol>
+<li>Upload CSV files to your own CDN</li>
+<li>Use full URLs in the Theme Editor settings</li>
+<li>This enables immediate loading with browser caching support</li>
+</ol>
+<p><strong>Example with CDN:</strong></p>
+<pre><code>Keywords file 1: https://cdn.yourstore.com/keywords/single-words.csv
+Keywords file 2: https://cdn.yourstore.com/keywords/two-words.csv
+Keywords file 3: https://cdn.yourstore.com/keywords/three-words.csv
+</code></pre>
+<h5 id="tips-for-best-results">Tips for Best Results<a class="headerlink" href="#tips-for-best-results" title="Permanent link">&para;</a></h5>
+<ol>
+<li><strong>Use the Keyword Extractor Tool</strong>: Start with our <strong><a href="https://bc-tools.papathemes.com/">Keyword Extractor</a></strong> to automatically generate keywords from your actual products - this is the fastest and most accurate way</li>
+<li><strong>Rank Keywords by Popularity</strong>: Assign higher rank numbers to more popular search terms (e.g., "laptop,80000" appears before "mouse,15000")</li>
+<li><strong>Use Meaningful Rank Gaps</strong>: Leave gaps between ranks (e.g., 80000, 70000, 60000) so you can easily insert new keywords later</li>
+<li><strong>Organize by Word Count</strong>: Use the 3 files to separate keywords by length for better matching:<ul>
+<li>File 1: Single words ("laptop", "phone")</li>
+<li>File 2: Two words ("gaming laptop", "wireless mouse")</li>
+<li>File 3: Three+ words ("best gaming laptop 2024")</li>
+</ul>
+</li>
+<li><strong>Base on Search Analytics</strong>: Use your store's actual search data to identify popular keywords</li>
+<li><strong>Update Regularly</strong>: Refresh your keyword lists based on seasonal trends and new products</li>
+<li><strong>Start Small</strong>: Begin with 20-30 keywords per file and expand as needed</li>
+<li><strong>Test Thoroughly</strong>: After uploading CSV files, test on different devices to ensure smooth performance</li>
+<li><strong>Match Your Products</strong>: Include keywords that actually match products in your store</li>
+</ol>
 <h4 id="main-navigation">Main Navigation<a class="headerlink" href="#main-navigation" title="Permanent link">&para;</a></h4>
 <p><strong>Main Navigation</strong> allows to customize this navigation bar like changing the menu type to column, dropdown menu or mega menu; changing colors of the top menu as well as the sub-menus. There is an option "<strong>Hide webpage links</strong>" that allows to hide the static web page links on the main navigation.</p>
 <p>To configure the Main navigation, click on <strong>Theme Styles</strong> &gt; <strong>Header</strong>. In <strong>Main navigation</strong> section you can change:</p>
@@ -1350,6 +1722,57 @@ To add the <strong>custom tabs</strong> in product pages, edit your product desc
 <p><img alt="free-shipping-editor" src="img/free-shipping.jpg" /></p>
 <p>In <strong>Promotion option</strong> type your message at <strong>Congratulations Banner Message</strong> to display for cart have qualified and type your message for cart have not qualify at <strong>Upsell Banner Message</strong> with format <code>[your text] %%condition.remaining%% [your text]</code> then click save</p>
 <p><img alt="promotion-message" src="img/Promotion-message.jpg" /></p>
+<h2 id="customize-design">Customize Design<a class="headerlink" href="#customize-design" title="Permanent link">&para;</a></h2>
+<p><img alt="customize-design-general" src="img/customize-design-general.jpg" /></p>
+<h3 id="configuration_1">Configuration<a class="headerlink" href="#configuration_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Inside the Page Builder, go to: <code>Theme Styles</code> → <code>Products</code> → <code>Product Designer Modifier Name</code>, then enter <strong>“Design File”</strong> into this field.</li>
+</ul>
+<p><img alt="customize-design-pb-setting" src="img/customize-design-PB-setting.jpg" /></p>
+<ul>
+<li>⚠️ If this field is left <strong>empty</strong>, the Customize Design feature will be automatically <strong>disabled</strong>.</li>
+</ul>
+<p>To activate <strong>Customize Design</strong> for a product, create a Product <strong>Modifier</strong> with:</p>
+<ul>
+<li>
+<p><strong>Name</strong> that <strong>matches exactly</strong> the value set in <code>Product Designer Modifier Name</code>.</p>
+</li>
+<li>
+<p><strong>Type</strong> set to <code>File Upload</code></p>
+</li>
+<li>
+<p>Set the <strong>Maximum File Size</strong> within the system <strong>limit of 524,288 KB</strong> (For example, we recommend using 51,200 KB for optimal performance.)</p>
+</li>
+<li>
+<p>Set <strong>File Types</strong> as: Select <code>Only allow certain file types to be uploaded</code>, Choose <code>Other file types</code>, Enter <code>ZIP</code> to allow only ZIP file.</p>
+</li>
+</ul>
+<p><img alt="customize-design-product-modifier-detail" src="img/customize-design-product-modifier-detail.jpg" /></p>
+<h3 id="how-to-find-design-file-in-order">How to find Design file in order<a class="headerlink" href="#how-to-find-design-file-in-order" title="Permanent link">&para;</a></h3>
+<p><strong>Design Data Attached to the Order</strong></p>
+<ul>
+<li>After the customer finishes designing, adds the product to the cart, and successfully completes checkout, the system will automatically attach the <strong>design file</strong> to the order.
+This file contains all design information, including: <code>Customer-uploaded images</code>, <code>All added texts</code>, <code>Complete design layout data</code>.</li>
+</ul>
+<p><strong>Download Design File in Order Management</strong></p>
+<ul>
+<li>
+<p>In the <strong>Store Manager</strong>, open the <strong>Order Detail</strong> page.</p>
+</li>
+<li>
+<p>Locate the section whose name <strong>matches</strong> the value set in the <strong>“Product Designer Modifier Name”</strong> field in the <code>Page Builder</code>.</p>
+</li>
+<li>
+<p>Click on <code>design.zip</code> to <strong>download</strong> the product’s design file to your device.</p>
+</li>
+</ul>
+<p><img alt="customize-design-order" src="img/customize-design-order.jpg" /></p>
+<p><strong>Use Design Data for Production</strong></p>
+<ul>
+<li>Inside the downloaded <code>design.zip</code> file, all original design data will be stored, including: <code>Design structure</code>, <code>Uploaded images</code>, <code>Customer texts</code>.</li>
+</ul>
+<p><img alt="customize-design-file-1" src="img/customize-design-file-1.jpg" /></p>
+<p><img alt="customize-design-file-2" src="img/customize-design-file-2.jpg" /></p>
               
             </div>
           </div><footer>
