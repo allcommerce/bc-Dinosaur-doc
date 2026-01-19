@@ -79,6 +79,52 @@ If your custom Google Font doesn't appear:
 3. Ensure you're using underscores (_) and plus signs (+) correctly
 4. Clear your browser cache and refresh the page
 
+#### Using Custom Font
+
+##### Add Custom Font
+
+- Open theme’s `Page Builder`, navigate to `Theme Styles` → `General`.
+
+- Paste the **Custom Font URL** into the `Web Font URL` input field.
+
+- **For regular text**: Enter the font family name into the `Or use web font` input field.
+
+![web-front-url_pb2](img/web-front-url_pb2.png)
+
+- **For headings**: Go to `Headings` → `Font family` →` Or use web font`, then enter the font family name.
+
+![web-front-url_pb3](img/web-front-url_pb3.png)
+
+- Then click **Save button** to finish.
+
+##### How to Get Custom Font URL
+
+1. Visit Adobe Fonts at <https://fonts.adobe.com/>, sign in to your Adobe account.
+
+2. Browse and select the font you want to use.
+
+![web-front-url__adobe_fronts](img/web-front-url__adobe_fronts.png)
+
+3. Click on the font to view its available styles.
+
+- To use the font on your website, click `Add to Web Project`, then select one of your existing Web Projects or create a new one.
+
+**Note:** If a font does not have the `Add to Web Project` option, it means the font is a paid font and cannot be used as a web font.
+
+![web-front-url__adobe_fronts-detail](img/web-front-url__adobe_fronts-detail.png)
+
+4. After adding the font to a Web Project, Adobe Fonts will display the embed information:
+
+- The `href` URL inside the `<link>` tag is the Font URL. Copy this **URL** and paste it into the `Web Font URL` input field in the `Page Builder` to add the font to your theme.
+
+- The `font-family` name can be found in the CSS style snippet below. Copy and paste it into the `Or use web font` input field in the `Page Builder` to apply the font to text in your theme.
+
+![web-front-url__adobe_fronts-font-url](img/web-front-url__adobe_fronts-font-url.png)
+
+- You can also revisit your Web Project at any time to review all added fonts, including their Web Font URL and font-family values.
+
+![web-front-url__adobe_fronts-list-font](img/web-front-url__adobe_fronts-list-font.png)
+
 ### Customizing Checkout Page's Typography and Colors
 
 Customizing the checkout page's typography and colors in **Page Builder** > **Theme Styles** > **Optimized Checkout**
