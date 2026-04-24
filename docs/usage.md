@@ -1908,3 +1908,312 @@ This file contains all design information, including: `Customer-uploaded images`
 ![customize-design-file-1](img/customize-design-file-1.jpg)
 
 ![customize-design-file-2](img/customize-design-file-2.jpg)
+
+## Social Proof & Marketing Features
+
+From theme version **1.4.0**, Dinosaur ships with a suite of social-proof and marketing popups: PDP urgency widget, cart-goal progress bar, recent-sales notifications, promotional popup, and exit-intent popup. All features are configured through a single `window.dinosaurThemeSettings` object injected via BigCommerce **Script Manager**, so merchants can tune behavior without touching theme files.
+
+### Overview
+
+| Feature | Default state | Enable method |
+|---|---|---|
+| PDP Urgency Widget | **Disabled** | `urgency.enabled: true` |
+| Cart Goal Bar | **Disabled** | `cartGoal.enabled: true` + configure `items` |
+| Recent Sales Popup | **Disabled** | `recentSales.enabled: true` |
+| Promotional Popup | **Disabled** | `promo.enabled: true` |
+| Exit-Intent Popup | **Disabled** | `exit.enabled: true` |
+| Newsletter Popup | Configured via Theme Editor | `nl_popup_show` theme setting (unchanged) |
+
+### Configuration via Script Manager
+
+All settings live in one JavaScript snippet injected through the BigCommerce Script Manager. No theme-editor changes are required.
+
+1. Log in to **BigCommerce Admin**.
+2. Go to **Storefront** > **Script Manager**.
+3. Click **Create a Script**.
+4. Set the fields:
+
+   - **Name of Script**: `Papathemes Social Proof`
+   - **Placement**: `Footer`
+   - **Location on page**: `All pages`
+   - **Select script category**: `Essential`
+   - **Script type**: `Script`
+5. Paste your snippet (see examples below) wrapped in `<script>` tags.
+6. Click **Save**.
+
+### Starter Snippet
+
+Copy this as a starting point and adjust per feature. Keys you don't include fall back to the theme defaults. All features are **disabled by default** — you only need to include the keys you want to enable.
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    urgency: {
+      enabled: true,
+      viewRange: [3, 25],
+      orderRange: [1, 48],
+      refresh: true
+    },
+    cartGoal: {
+      enabled: true,
+      currency: 'USD',
+      hideForGuests: false,
+      items: [
+        { amount: 50,  icon: 'shipping', label: 'Free Shipping' },
+        { amount: 100, icon: 'discount', label: '10% Off' },
+        { amount: 150, icon: 'gift',     label: 'Free Gift' }
+      ]
+    },
+    recentSales: {
+      enabled: true,
+      source: 'best-sellers',
+      timing: { delay: 8, duration: 5, interval: 20, maxShows: 3 },
+      position: 'bottom-left',
+      pages: 'all'
+    },
+    promo: {
+      enabled: true,
+      title: 'Special Offer',
+      description: 'Get 15% off your first order!',
+      coupon: 'WELCOME15',
+      timing: { delay: 10, freqDays: 7 }
+    },
+    exit: {
+      enabled: true,
+      mode: 'discount',
+      title: 'Wait! Before you go...',
+      description: 'Here\'s 10% off to help you decide.',
+      coupon: 'STAY10',
+      buttonText: 'Copy Code',
+      mobileDelay: 45,
+      freqDays: 7
+    }
+  };
+</script>
+```
+
+### PDP Urgency Widget
+
+Shows live-like social proof on product pages: _"12 people are viewing this"_ and _"Last ordered 8 minutes ago"_. Numbers are deterministic per product + visitor using a hashed PRNG so repeat views look consistent.
+
+![PDP Urgency Widget](img/socialproof-urgency.png)
+
+| Key | Type | Default | Description |
+|---|---|---|---|
+| `enabled` | boolean | `false` | Master switch |
+| `viewCount` | boolean | `true` | Show "X viewing now" line |
+| `viewRange` | `[min, max]` | `[3, 25]` | Viewer count range |
+| `lastOrder` | boolean | `true` | Show "Bought X ago" line |
+| `orderRange` | `[min, max]` | `[1, 48]` | Last-order hours range |
+| `refresh` | boolean | `true` | Drift the viewer count every 30 s |
+
+Disable the widget:
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    urgency: { enabled: false }
+  };
+</script>
+```
+
+### Cart Goal Bar
+
+A progress bar on the cart page and mini-cart that gamifies reaching checkout thresholds (free shipping, percentage discount, free gift, etc.). Thresholds are **display-only** — create a matching BigCommerce promotion so customers actually receive the reward.
+
+![Cart Goal Bar](img/socialproof-cart-goal-bar.png)
+
+| Key | Type | Default | Description |
+|---|---|---|---|
+| `enabled` | boolean | `false` | Master switch |
+| `items` | array of `{ amount, icon, label }` | `[]` | Ordered list of milestones |
+| `items[].amount` | number | — | Subtotal threshold (in store currency) |
+| `items[].icon` | string | `check` | One of: `shipping`, `discount`, `gift`, `check`, `bag`, `star` |
+| `items[].label` | string | — | Text shown next to the icon |
+| `currency` | string | store default | ISO currency code used for formatting |
+| `hideForGuests` | boolean | `false` | If `true`, bar only shows for logged-in customers |
+
+**Example — 3-milestone ladder:**
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    cartGoal: {
+      enabled: true,
+      currency: 'USD',
+      items: [
+        { amount: 50,  icon: 'shipping', label: 'Free Shipping' },
+        { amount: 100, icon: 'discount', label: '10% Off' },
+        { amount: 150, icon: 'gift',     label: 'Free Gift' }
+      ]
+    }
+  };
+</script>
+```
+
+**Example — single milestone (free shipping only):**
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    cartGoal: {
+      enabled: true,
+      items: [
+        { amount: 75, icon: 'shipping', label: 'Free Shipping' }
+      ]
+    }
+  };
+</script>
+```
+
+> **Important**: Each `amount` must correspond to a real BigCommerce promotion (**Marketing** > **Promotions**). The bar only reflects progress visually — it does not create discounts automatically.
+
+### Recent Sales Popup
+
+A small popup in the corner of the page saying _"Someone in Chicago just bought [Product Name] — 3 minutes ago"_. Products are fetched from BigCommerce via the Storefront GraphQL API.
+
+![Recent Sales Popup](img/socialproof-recent-sales.png)
+
+| Key | Type | Default | Description |
+|---|---|---|---|
+| `enabled` | boolean | `false` | Master switch |
+| `source` | string | `best-sellers` | One of: `best-sellers`, `new`, `featured`, `manual` |
+| `items` | array | `[]` | Required when `source: 'manual'` — see below |
+| `items[].productId` | number | — | BigCommerce product ID (OR use `sku`) |
+| `items[].sku` | string | — | Product SKU (OR use `productId`) |
+| `items[].location` | string | — | e.g. `"Chicago, IL"` |
+| `items[].timeAgo` | string | — | e.g. `"3 minutes ago"` |
+| `timing.delay` | number (s) | `8` | Delay before first popup |
+| `timing.duration` | number (s) | `5` | How long each popup stays visible |
+| `timing.interval` | number (s) | `20` | Gap between popups |
+| `timing.maxShows` | number | `3` | Max popups per session (0 = unlimited) |
+| `position` | string | `bottom-left` | `bottom-left` or `bottom-right` |
+| `pages` | string | `all` | `all`, `home`, `product`, `category`, or `none` |
+| `excludePages` | array of strings | `['checkout', 'order-confirmation', 'login', 'account']` | Page types to skip |
+
+**Example — manual product list:**
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    recentSales: {
+      enabled: true,
+      source: 'manual',
+      items: [
+        { sku: 'SKU-001', location: 'New York, NY',    timeAgo: '2 minutes ago' },
+        { sku: 'SKU-002', location: 'Los Angeles, CA', timeAgo: '5 minutes ago' },
+        { sku: 'SKU-003', location: 'Chicago, IL',     timeAgo: '12 minutes ago' }
+      ],
+      timing: { delay: 5, duration: 6, interval: 15, maxShows: 5 },
+      position: 'bottom-right'
+    }
+  };
+</script>
+```
+
+**Troubleshooting — popup not showing?**
+
+- Verify the GraphQL Storefront API token is available (the theme emits a console warning if missing).
+- Check browser ad-blockers / privacy extensions — some strip the popup container.
+- Confirm `pages` includes the current page type and the URL is not in `excludePages`.
+- Clear `sessionStorage` — dismissing the popup sets a `papathemes-recentsales-dismissed` key that suppresses it for the rest of the session.
+- Open DevTools and look for `[papathemes-socialproof]` warnings in the console.
+
+### Promotional Popup
+
+A centered modal advertising a coupon or campaign with click-to-copy coupon code.
+
+![Promotional Popup](img/socialproof-promo-popup.png)
+
+| Key | Type | Default | Description |
+|---|---|---|---|
+| `enabled` | boolean | `false` | Master switch |
+| `title` | string | `''` | Heading text |
+| `description` | string | `''` | Body text |
+| `coupon` | string | `''` | Coupon code rendered as a click-to-copy chip |
+| `timing.delay` | number (s) | `5` | Delay before popup appears |
+| `timing.duration` | number (s) | `0` | Auto-close after N seconds (0 = no auto-close) |
+| `timing.freqDays` | number | `7` | Dismissal cool-down in days |
+
+**Example:**
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    promo: {
+      enabled: true,
+      title: 'Spring Sale — 20% Off',
+      description: 'Use the code below at checkout for 20% off sitewide.',
+      coupon: 'SPRING20',
+      timing: { delay: 8, freqDays: 14 }
+    }
+  };
+</script>
+```
+
+### Exit-Intent Popup
+
+Appears when the user is about to leave the page. On **desktop**, triggered by the mouse moving out the top of the viewport. On **mobile**, triggered by `mobileDelay` seconds of inactivity (no scroll / tap).
+
+![Exit-Intent Popup](img/socialproof-exit-popup.png)
+
+| Key | Type | Default | Description |
+|---|---|---|---|
+| `enabled` | boolean | `false` | Master switch |
+| `mode` | string | `'discount'` | Currently only `'discount'` is supported |
+| `title` | string | `''` | Heading text |
+| `description` | string | `''` | Body text |
+| `coupon` | string | `''` | Coupon code rendered as a click-to-copy chip |
+| `buttonText` | string | `'Copy Code & Checkout Now'` | CTA button label (shown only when cart has items) |
+| `buttonUrl` | string | `'/'` | URL the CTA button links to |
+| `mobileDelay` | number (s) | `45` | Mobile inactivity threshold |
+| `freqDays` | number | `1` | Dismissal cool-down in days |
+
+**Example:**
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    exit: {
+      enabled: true,
+      mode: 'discount',
+      title: 'Wait! Here\'s 10% off',
+      description: 'Don\'t leave empty-handed — use this code at checkout.',
+      coupon: 'STAY10',
+      buttonText: 'Claim Discount',
+      mobileDelay: 45,
+      freqDays: 7
+    }
+  };
+</script>
+```
+
+### Newsletter Popup
+
+The existing Newsletter popup is **unchanged** — all theme-editor settings (`nl_popup_show`, `nl_popup_start`, `nl_popup_hide`) and the `NL_POPUP_HIDE` cookie continue to work exactly as before.
+
+From theme **1.4.0** onward, the newsletter popup is coordinated with the new social-proof popups through a priority queue so only one popup is shown at a time. Priority order (highest first): **Exit Intent** → **Promo** → **Newsletter**. No configuration is required — this activates automatically when the new popups are enabled.
+
+### Disable All
+
+All features are disabled by default — no Script Manager snippet is needed if you don't want any social-proof widgets. To explicitly disable features from a previously-active snippet:
+
+```html
+<script>
+  window.dinosaurThemeSettings = {
+    urgency:     { enabled: false },
+    cartGoal:    { enabled: false },
+    recentSales: { enabled: false },
+    promo:       { enabled: false },
+    exit:        { enabled: false }
+  };
+</script>
+```
+
+### Debugging
+
+- Run `console.log(window.dinosaurThemeSettings)` in DevTools to confirm your snippet loaded.
+- Look for `[papathemes-socialproof]` warnings in the console — they indicate missing tokens, invalid config, or GraphQL errors.
+- Filter the **Network** tab for `graphql` to diagnose failed Storefront API calls (common for `recentSales` with automatic sources).
+- Under **Application** > **Session Storage** / **Local Storage**, delete `papathemes-*` keys to reset dismiss state while testing.
+- Confirm the module initialized: `window.__papathemesSocialproofActive === true`. If `undefined`, hard-reload the page to clear a cached bundle.

@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.4.0
+- feat(socialproof): add social proof & marketing features — PDP urgency widget, cart goal bar, recent sales popup, promotional popup, exit-intent popup. See [Social Proof & Marketing Features](./usage.md#social-proof--marketing-features).
+
 ## 1.3.0 (12-12-2025)
 - feat(quick-search): [add keyword suggestion feature](./usage.md#keyword-suggestions) (#298)
 
