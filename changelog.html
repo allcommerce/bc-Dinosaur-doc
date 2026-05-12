@@ -133,7 +133,29 @@
 <li>[CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)</li>
 <li>[CORNERSTONE] Fix: swap content/data keys in onProductOptionsChanged event detail (#2640)</li>
 <li>feat(page-transition): add page transition splash overlay (#302)</li>
-<li>feat(socialproof): port social proof feature from Supermarket — urgency widget, stock pill, cart goal bar, recent sales popup, exit-intent popup, promo popup, newsletter popup coordination</li>
+<li>feat(socialproof): port social proof feature from Supermarket — urgency widget, stock pill, cart goal bar, recent sales popup, exit-intent popup, promo popup, newsletter popup coordination. See <a href="usage.html#social-proof-marketing-features">Social Proof &amp; Marketing Features</a>.</li>
+<li>Feature: Add PDP urgency widget (viewing count + last purchase time). Disabled by default. Enable via Script Manager with <code>window.dinosaurThemeSettings.urgency</code>. See <a href="usage.html#pdp-urgency-widget">PDP Urgency Widget</a>.</li>
+</ul>
+<p><img alt="PDP Urgency Widget" src="img/socialproof-urgency.png" /></p>
+<ul>
+<li>Feature: Add cart goal progress bar with multi-milestone support (free shipping, discount, gift, etc.). Disabled by default. Enable via Script Manager with <code>window.dinosaurThemeSettings.cartGoal</code>. See <a href="usage.html#cart-goal-bar">Cart Goal Bar</a>.</li>
+</ul>
+<p><img alt="Cart Goal Bar" src="img/socialproof-cart-goal-bar.png" /></p>
+<ul>
+<li>Feature: Add recent sales mini-popup sourced from best-sellers / new / featured / manual products. Disabled by default. Enable via <code>window.dinosaurThemeSettings.recentSales</code> (safe defaults: delay 8s, max 3 shows per session). See <a href="usage.html#recent-sales-popup">Recent Sales Popup</a>.</li>
+</ul>
+<p><img alt="Recent Sales Popup" src="img/socialproof-recent-sales.png" /></p>
+<ul>
+<li>Feature: Add promotional popup with coupon code and clipboard copy. Disabled by default. Configure via <code>window.dinosaurThemeSettings.promo</code>. See <a href="usage.html#promotional-popup">Promotional Popup</a>.</li>
+</ul>
+<p><img alt="Promotional Popup" src="img/socialproof-promo-popup.png" /></p>
+<ul>
+<li>Feature: Add exit-intent popup (desktop mouse-leave / mobile inactivity). Disabled by default. Configure via <code>window.dinosaurThemeSettings.exit</code>. See <a href="usage.html#exit-intent-popup">Exit-Intent Popup</a>.</li>
+</ul>
+<p><img alt="Exit-Intent Popup" src="img/socialproof-exit-popup.png" /></p>
+<ul>
+<li>Change: Existing newsletter popup now coordinates with new popups through a priority queue to prevent overlap. Priority order (highest first): Exit Intent → Promo → Newsletter. Theme settings (<code>nl_popup_*</code>) and cookie (<code>NL_POPUP_HIDE</code>) preserved.</li>
+<li>Docs: New user guide section <a href="usage.html#social-proof-marketing-features">Social Proof &amp; Marketing Features</a> covering configuration and examples.</li>
 </ul>
 <h2 id="130-12-12-2025">1.3.0 (12-12-2025)<a class="headerlink" href="#130-12-12-2025" title="Permanent link">&para;</a></h2>
 <ul>
