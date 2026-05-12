@@ -1,7 +1,10 @@
 # Release Notes
 
-## 1.4.0
-- feat(socialproof): add social proof & marketing features — PDP urgency widget, cart goal bar, recent sales popup, promotional popup, exit-intent popup. See [Social Proof & Marketing Features](./usage.md#social-proof--marketing-features).
+## 1.4.0 (05-12-2026)
+- [CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)
+- [CORNERSTONE] Fix: swap content/data keys in onProductOptionsChanged event detail (#2640)
+- feat(page-transition): add page transition splash overlay (#302)
+- feat(socialproof): port social proof feature from Supermarket — urgency widget, stock pill, cart goal bar, recent sales popup, exit-intent popup, promo popup, newsletter popup coordination
 
 ## 1.3.0 (12-12-2025)
 - feat(quick-search): [add keyword suggestion feature](./usage.md#keyword-suggestions) (#298)
