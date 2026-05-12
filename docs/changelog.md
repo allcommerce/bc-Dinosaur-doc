@@ -4,7 +4,29 @@
 - [CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)
 - [CORNERSTONE] Fix: swap content/data keys in onProductOptionsChanged event detail (#2640)
 - feat(page-transition): add page transition splash overlay (#302)
-- feat(socialproof): port social proof feature from Supermarket — urgency widget, stock pill, cart goal bar, recent sales popup, exit-intent popup, promo popup, newsletter popup coordination
+- feat(socialproof): port social proof feature from Supermarket — urgency widget, stock pill, cart goal bar, recent sales popup, exit-intent popup, promo popup, newsletter popup coordination. See [Social Proof & Marketing Features](./usage.md#social-proof-marketing-features).
+- Feature: Add PDP urgency widget (viewing count + last purchase time). Disabled by default. Enable via Script Manager with `window.dinosaurThemeSettings.urgency`. See [PDP Urgency Widget](./usage.md#pdp-urgency-widget).
+
+  ![PDP Urgency Widget](img/socialproof-urgency.png)
+
+- Feature: Add cart goal progress bar with multi-milestone support (free shipping, discount, gift, etc.). Disabled by default. Enable via Script Manager with `window.dinosaurThemeSettings.cartGoal`. See [Cart Goal Bar](./usage.md#cart-goal-bar).
+
+  ![Cart Goal Bar](img/socialproof-cart-goal-bar.png)
+
+- Feature: Add recent sales mini-popup sourced from best-sellers / new / featured / manual products. Disabled by default. Enable via `window.dinosaurThemeSettings.recentSales` (safe defaults: delay 8s, max 3 shows per session). See [Recent Sales Popup](./usage.md#recent-sales-popup).
+
+  ![Recent Sales Popup](img/socialproof-recent-sales.png)
+
+- Feature: Add promotional popup with coupon code and clipboard copy. Disabled by default. Configure via `window.dinosaurThemeSettings.promo`. See [Promotional Popup](./usage.md#promotional-popup).
+
+  ![Promotional Popup](img/socialproof-promo-popup.png)
+
+- Feature: Add exit-intent popup (desktop mouse-leave / mobile inactivity). Disabled by default. Configure via `window.dinosaurThemeSettings.exit`. See [Exit-Intent Popup](./usage.md#exit-intent-popup).
+
+  ![Exit-Intent Popup](img/socialproof-exit-popup.png)
+
+- Change: Existing newsletter popup now coordinates with new popups through a priority queue to prevent overlap. Priority order (highest first): Exit Intent → Promo → Newsletter. Theme settings (`nl_popup_*`) and cookie (`NL_POPUP_HIDE`) preserved.
+- Docs: New user guide section [Social Proof & Marketing Features](./usage.md#social-proof-marketing-features) covering configuration and examples.
 
 ## 1.3.0 (12-12-2025)
 - feat(quick-search): [add keyword suggestion feature](./usage.md#keyword-suggestions) (#298)
