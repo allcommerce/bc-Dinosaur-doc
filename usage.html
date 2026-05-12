@@ -291,6 +291,32 @@
     </li>
         </ul>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#social-proof-marketing-features">Social Proof &amp; Marketing Features</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#configuration-via-script-manager">Configuration via Script Manager</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#starter-snippet">Starter Snippet</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#pdp-urgency-widget">PDP Urgency Widget</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cart-goal-bar">Cart Goal Bar</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#recent-sales-popup">Recent Sales Popup</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#promotional-popup">Promotional Popup</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#exit-intent-popup">Exit-Intent Popup</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#newsletter-popup_1">Newsletter Popup</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#disable-all">Disable All</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#debugging">Debugging</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -424,7 +450,7 @@
 <li>Click the <strong>Store Manager</strong> menu item and enter your store API key</li>
 <li>Click the <strong>Import Product</strong> menu item</li>
 <li>Select your store as the target store</li>
-<li>Under <strong>Product JSON File</strong>, upload the downloaded JSON file from above</li>
+<li>Select <strong>Quick Import from Samples</strong> or Under <strong>Product JSON File</strong>, upload the downloaded JSON file from above</li>
 <li>Click the <strong>Import Product</strong> button to import the product into your store</li>
 </ol>
 <p><img alt="import-product" loading="lazy" src="img/import-product.png" /></p>
@@ -459,7 +485,7 @@
 <li>Select your store as the target store</li>
 <li>Enter your <strong>Channel ID</strong> (default is <code>1</code> if you only have one storefront)</li>
 <li>Click the <strong>Load Widget Templates</strong> button to load existing widget templates in your store</li>
-<li>Under <strong>Widgets JSON File</strong>, upload the downloaded JSON file from above. After selecting the file, a list of widgets and pages to be imported will appear</li>
+<li>Select <strong>Quick Import from Samples</strong> or Under <strong>Widgets JSON File</strong>, upload the downloaded JSON file from above. After selecting the file or sample, a list of widgets and pages to be imported will appear</li>
 <li>Check <strong>"Auto-create new custom widget templates"</strong> if you want to automatically create widget templates that are not yet available in your store but are required for our theme</li>
 <li>In the <strong>Page List</strong>, select the pages you want to import widgets into</li>
 <li>Click the <strong>Import Widgets</strong> button to import the widgets into your store</li>
@@ -1773,6 +1799,561 @@ This file contains all design information, including: <code>Customer-uploaded im
 </ul>
 <p><img alt="customize-design-file-1" src="img/customize-design-file-1.jpg" /></p>
 <p><img alt="customize-design-file-2" src="img/customize-design-file-2.jpg" /></p>
+<h2 id="social-proof-marketing-features">Social Proof &amp; Marketing Features<a class="headerlink" href="#social-proof-marketing-features" title="Permanent link">&para;</a></h2>
+<p>From theme version <strong>1.4.0</strong>, Dinosaur ships with a suite of social-proof and marketing popups: PDP urgency widget, cart-goal progress bar, recent-sales notifications, promotional popup, and exit-intent popup. All features are configured through a single <code>window.dinosaurThemeSettings</code> object injected via BigCommerce <strong>Script Manager</strong>, so merchants can tune behavior without touching theme files.</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Default state</th>
+<th>Enable method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PDP Urgency Widget</td>
+<td><strong>Disabled</strong></td>
+<td><code>urgency.enabled: true</code></td>
+</tr>
+<tr>
+<td>Cart Goal Bar</td>
+<td><strong>Disabled</strong></td>
+<td><code>cartGoal.enabled: true</code> + configure <code>items</code></td>
+</tr>
+<tr>
+<td>Recent Sales Popup</td>
+<td><strong>Disabled</strong></td>
+<td><code>recentSales.enabled: true</code></td>
+</tr>
+<tr>
+<td>Promotional Popup</td>
+<td><strong>Disabled</strong></td>
+<td><code>promo.enabled: true</code></td>
+</tr>
+<tr>
+<td>Exit-Intent Popup</td>
+<td><strong>Disabled</strong></td>
+<td><code>exit.enabled: true</code></td>
+</tr>
+<tr>
+<td>Newsletter Popup</td>
+<td>Configured via Theme Editor</td>
+<td><code>nl_popup_show</code> theme setting (unchanged)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="configuration-via-script-manager">Configuration via Script Manager<a class="headerlink" href="#configuration-via-script-manager" title="Permanent link">&para;</a></h3>
+<p>All settings live in one JavaScript snippet injected through the BigCommerce Script Manager. No theme-editor changes are required.</p>
+<ol>
+<li>Log in to <strong>BigCommerce Admin</strong>.</li>
+<li>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>.</li>
+<li>Click <strong>Create a Script</strong>.</li>
+<li>Set the fields:</li>
+</ol>
+<ul>
+<li><strong>Name of Script</strong>: <code>Papathemes Social Proof</code></li>
+<li><strong>Placement</strong>: <code>Footer</code></li>
+<li><strong>Location on page</strong>: <code>All pages</code></li>
+<li><strong>Select script category</strong>: <code>Essential</code></li>
+<li><strong>Script type</strong>: <code>Script</code>
+5. Paste your snippet (see examples below) wrapped in <code>&lt;script&gt;</code> tags.
+6. Click <strong>Save</strong>.</li>
+</ul>
+<h3 id="starter-snippet">Starter Snippet<a class="headerlink" href="#starter-snippet" title="Permanent link">&para;</a></h3>
+<p>Copy this as a starting point and adjust per feature. Keys you don't include fall back to the theme defaults. All features are <strong>disabled by default</strong> — you only need to include the keys you want to enable.</p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    urgency: {
+      enabled: true,
+      viewRange: [3, 25],
+      orderRange: [1, 48],
+      refresh: true
+    },
+    cartGoal: {
+      enabled: true,
+      currency: 'USD',
+      hideForGuests: false,
+      items: [
+        { amount: 50,  icon: 'shipping', label: 'Free Shipping' },
+        { amount: 100, icon: 'discount', label: '10% Off' },
+        { amount: 150, icon: 'gift',     label: 'Free Gift' }
+      ]
+    },
+    recentSales: {
+      enabled: true,
+      source: 'best-sellers',
+      timing: { delay: 8, duration: 5, interval: 20, maxShows: 3 },
+      position: 'bottom-left',
+      pages: 'all'
+    },
+    promo: {
+      enabled: true,
+      title: 'Special Offer',
+      description: 'Get 15% off your first order!',
+      coupon: 'WELCOME15',
+      timing: { delay: 10, freqDays: 7 }
+    },
+    exit: {
+      enabled: true,
+      mode: 'discount',
+      title: 'Wait! Before you go...',
+      description: 'Here\'s 10% off to help you decide.',
+      coupon: 'STAY10',
+      buttonText: 'Copy Code',
+      mobileDelay: 45,
+      freqDays: 7
+    }
+  };
+&lt;/script&gt;
+</code></pre>
+<h3 id="pdp-urgency-widget">PDP Urgency Widget<a class="headerlink" href="#pdp-urgency-widget" title="Permanent link">&para;</a></h3>
+<p>Shows live-like social proof on product pages: <em>"12 people are viewing this"</em> and <em>"Last ordered 8 minutes ago"</em>. Numbers are deterministic per product + visitor using a hashed PRNG so repeat views look consistent.</p>
+<p><img alt="PDP Urgency Widget" src="img/socialproof-urgency.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>Master switch</td>
+</tr>
+<tr>
+<td><code>viewCount</code></td>
+<td>boolean</td>
+<td><code>true</code></td>
+<td>Show "X viewing now" line</td>
+</tr>
+<tr>
+<td><code>viewRange</code></td>
+<td><code>[min, max]</code></td>
+<td><code>[3, 25]</code></td>
+<td>Viewer count range</td>
+</tr>
+<tr>
+<td><code>lastOrder</code></td>
+<td>boolean</td>
+<td><code>true</code></td>
+<td>Show "Bought X ago" line</td>
+</tr>
+<tr>
+<td><code>orderRange</code></td>
+<td><code>[min, max]</code></td>
+<td><code>[1, 48]</code></td>
+<td>Last-order hours range</td>
+</tr>
+<tr>
+<td><code>refresh</code></td>
+<td>boolean</td>
+<td><code>true</code></td>
+<td>Drift the viewer count every 30 s</td>
+</tr>
+</tbody>
+</table>
+<p>Disable the widget:</p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    urgency: { enabled: false }
+  };
+&lt;/script&gt;
+</code></pre>
+<h3 id="cart-goal-bar">Cart Goal Bar<a class="headerlink" href="#cart-goal-bar" title="Permanent link">&para;</a></h3>
+<p>A progress bar on the cart page and mini-cart that gamifies reaching checkout thresholds (free shipping, percentage discount, free gift, etc.). Thresholds are <strong>display-only</strong> — create a matching BigCommerce promotion so customers actually receive the reward.</p>
+<p><img alt="Cart Goal Bar" src="img/socialproof-cart-goal-bar.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>Master switch</td>
+</tr>
+<tr>
+<td><code>items</code></td>
+<td>array of <code>{ amount, icon, label }</code></td>
+<td><code>[]</code></td>
+<td>Ordered list of milestones</td>
+</tr>
+<tr>
+<td><code>items[].amount</code></td>
+<td>number</td>
+<td>—</td>
+<td>Subtotal threshold (in store currency)</td>
+</tr>
+<tr>
+<td><code>items[].icon</code></td>
+<td>string</td>
+<td><code>check</code></td>
+<td>One of: <code>shipping</code>, <code>discount</code>, <code>gift</code>, <code>check</code>, <code>bag</code>, <code>star</code></td>
+</tr>
+<tr>
+<td><code>items[].label</code></td>
+<td>string</td>
+<td>—</td>
+<td>Text shown next to the icon</td>
+</tr>
+<tr>
+<td><code>currency</code></td>
+<td>string</td>
+<td>store default</td>
+<td>ISO currency code used for formatting</td>
+</tr>
+<tr>
+<td><code>hideForGuests</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>If <code>true</code>, bar only shows for logged-in customers</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — 3-milestone ladder:</strong></p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    cartGoal: {
+      enabled: true,
+      currency: 'USD',
+      items: [
+        { amount: 50,  icon: 'shipping', label: 'Free Shipping' },
+        { amount: 100, icon: 'discount', label: '10% Off' },
+        { amount: 150, icon: 'gift',     label: 'Free Gift' }
+      ]
+    }
+  };
+&lt;/script&gt;
+</code></pre>
+<p><strong>Example — single milestone (free shipping only):</strong></p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    cartGoal: {
+      enabled: true,
+      items: [
+        { amount: 75, icon: 'shipping', label: 'Free Shipping' }
+      ]
+    }
+  };
+&lt;/script&gt;
+</code></pre>
+<blockquote>
+<p><strong>Important</strong>: Each <code>amount</code> must correspond to a real BigCommerce promotion (<strong>Marketing</strong> &gt; <strong>Promotions</strong>). The bar only reflects progress visually — it does not create discounts automatically.</p>
+</blockquote>
+<h3 id="recent-sales-popup">Recent Sales Popup<a class="headerlink" href="#recent-sales-popup" title="Permanent link">&para;</a></h3>
+<p>A small popup in the corner of the page saying <em>"Someone in Chicago just bought [Product Name] — 3 minutes ago"</em>. Products are fetched from BigCommerce via the Storefront GraphQL API.</p>
+<p><img alt="Recent Sales Popup" src="img/socialproof-recent-sales.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>Master switch</td>
+</tr>
+<tr>
+<td><code>source</code></td>
+<td>string</td>
+<td><code>best-sellers</code></td>
+<td>One of: <code>best-sellers</code>, <code>new</code>, <code>featured</code>, <code>manual</code></td>
+</tr>
+<tr>
+<td><code>items</code></td>
+<td>array</td>
+<td><code>[]</code></td>
+<td>Required when <code>source: 'manual'</code> — see below</td>
+</tr>
+<tr>
+<td><code>items[].productId</code></td>
+<td>number</td>
+<td>—</td>
+<td>BigCommerce product ID (OR use <code>sku</code>)</td>
+</tr>
+<tr>
+<td><code>items[].sku</code></td>
+<td>string</td>
+<td>—</td>
+<td>Product SKU (OR use <code>productId</code>)</td>
+</tr>
+<tr>
+<td><code>items[].location</code></td>
+<td>string</td>
+<td>—</td>
+<td>e.g. <code>"Chicago, IL"</code></td>
+</tr>
+<tr>
+<td><code>items[].timeAgo</code></td>
+<td>string</td>
+<td>—</td>
+<td>e.g. <code>"3 minutes ago"</code></td>
+</tr>
+<tr>
+<td><code>timing.delay</code></td>
+<td>number (s)</td>
+<td><code>8</code></td>
+<td>Delay before first popup</td>
+</tr>
+<tr>
+<td><code>timing.duration</code></td>
+<td>number (s)</td>
+<td><code>5</code></td>
+<td>How long each popup stays visible</td>
+</tr>
+<tr>
+<td><code>timing.interval</code></td>
+<td>number (s)</td>
+<td><code>20</code></td>
+<td>Gap between popups</td>
+</tr>
+<tr>
+<td><code>timing.maxShows</code></td>
+<td>number</td>
+<td><code>3</code></td>
+<td>Max popups per session (0 = unlimited)</td>
+</tr>
+<tr>
+<td><code>position</code></td>
+<td>string</td>
+<td><code>bottom-left</code></td>
+<td><code>bottom-left</code> or <code>bottom-right</code></td>
+</tr>
+<tr>
+<td><code>pages</code></td>
+<td>string</td>
+<td><code>all</code></td>
+<td><code>all</code>, <code>home</code>, <code>product</code>, <code>category</code>, or <code>none</code></td>
+</tr>
+<tr>
+<td><code>excludePages</code></td>
+<td>array of strings</td>
+<td><code>['checkout', 'order-confirmation', 'login', 'account']</code></td>
+<td>Page types to skip</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example — manual product list:</strong></p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    recentSales: {
+      enabled: true,
+      source: 'manual',
+      items: [
+        { sku: 'SKU-001', location: 'New York, NY',    timeAgo: '2 minutes ago' },
+        { sku: 'SKU-002', location: 'Los Angeles, CA', timeAgo: '5 minutes ago' },
+        { sku: 'SKU-003', location: 'Chicago, IL',     timeAgo: '12 minutes ago' }
+      ],
+      timing: { delay: 5, duration: 6, interval: 15, maxShows: 5 },
+      position: 'bottom-right'
+    }
+  };
+&lt;/script&gt;
+</code></pre>
+<p><strong>Troubleshooting — popup not showing?</strong></p>
+<ul>
+<li>Verify the GraphQL Storefront API token is available (the theme emits a console warning if missing).</li>
+<li>Check browser ad-blockers / privacy extensions — some strip the popup container.</li>
+<li>Confirm <code>pages</code> includes the current page type and the URL is not in <code>excludePages</code>.</li>
+<li>Clear <code>sessionStorage</code> — dismissing the popup sets a <code>papathemes-recentsales-dismissed</code> key that suppresses it for the rest of the session.</li>
+<li>Open DevTools and look for <code>[papathemes-socialproof]</code> warnings in the console.</li>
+</ul>
+<h3 id="promotional-popup">Promotional Popup<a class="headerlink" href="#promotional-popup" title="Permanent link">&para;</a></h3>
+<p>A centered modal advertising a coupon or campaign with click-to-copy coupon code.</p>
+<p><img alt="Promotional Popup" src="img/socialproof-promo-popup.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>Master switch</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>string</td>
+<td><code>''</code></td>
+<td>Heading text</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>string</td>
+<td><code>''</code></td>
+<td>Body text</td>
+</tr>
+<tr>
+<td><code>coupon</code></td>
+<td>string</td>
+<td><code>''</code></td>
+<td>Coupon code rendered as a click-to-copy chip</td>
+</tr>
+<tr>
+<td><code>timing.delay</code></td>
+<td>number (s)</td>
+<td><code>5</code></td>
+<td>Delay before popup appears</td>
+</tr>
+<tr>
+<td><code>timing.duration</code></td>
+<td>number (s)</td>
+<td><code>0</code></td>
+<td>Auto-close after N seconds (0 = no auto-close)</td>
+</tr>
+<tr>
+<td><code>timing.freqDays</code></td>
+<td>number</td>
+<td><code>7</code></td>
+<td>Dismissal cool-down in days</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example:</strong></p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    promo: {
+      enabled: true,
+      title: 'Spring Sale — 20% Off',
+      description: 'Use the code below at checkout for 20% off sitewide.',
+      coupon: 'SPRING20',
+      timing: { delay: 8, freqDays: 14 }
+    }
+  };
+&lt;/script&gt;
+</code></pre>
+<h3 id="exit-intent-popup">Exit-Intent Popup<a class="headerlink" href="#exit-intent-popup" title="Permanent link">&para;</a></h3>
+<p>Appears when the user is about to leave the page. On <strong>desktop</strong>, triggered by the mouse moving out the top of the viewport. On <strong>mobile</strong>, triggered by <code>mobileDelay</code> seconds of inactivity (no scroll / tap).</p>
+<p><img alt="Exit-Intent Popup" src="img/socialproof-exit-popup.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>boolean</td>
+<td><code>false</code></td>
+<td>Master switch</td>
+</tr>
+<tr>
+<td><code>mode</code></td>
+<td>string</td>
+<td><code>'discount'</code></td>
+<td>Currently only <code>'discount'</code> is supported</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>string</td>
+<td><code>''</code></td>
+<td>Heading text</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>string</td>
+<td><code>''</code></td>
+<td>Body text</td>
+</tr>
+<tr>
+<td><code>coupon</code></td>
+<td>string</td>
+<td><code>''</code></td>
+<td>Coupon code rendered as a click-to-copy chip</td>
+</tr>
+<tr>
+<td><code>buttonText</code></td>
+<td>string</td>
+<td><code>'Copy Code &amp; Checkout Now'</code></td>
+<td>CTA button label (shown only when cart has items)</td>
+</tr>
+<tr>
+<td><code>buttonUrl</code></td>
+<td>string</td>
+<td><code>'/'</code></td>
+<td>URL the CTA button links to</td>
+</tr>
+<tr>
+<td><code>mobileDelay</code></td>
+<td>number (s)</td>
+<td><code>45</code></td>
+<td>Mobile inactivity threshold</td>
+</tr>
+<tr>
+<td><code>freqDays</code></td>
+<td>number</td>
+<td><code>1</code></td>
+<td>Dismissal cool-down in days</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example:</strong></p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    exit: {
+      enabled: true,
+      mode: 'discount',
+      title: 'Wait! Here\'s 10% off',
+      description: 'Don\'t leave empty-handed — use this code at checkout.',
+      coupon: 'STAY10',
+      buttonText: 'Claim Discount',
+      mobileDelay: 45,
+      freqDays: 7
+    }
+  };
+&lt;/script&gt;
+</code></pre>
+<h3 id="newsletter-popup_1">Newsletter Popup<a class="headerlink" href="#newsletter-popup_1" title="Permanent link">&para;</a></h3>
+<p>The existing Newsletter popup is <strong>unchanged</strong> — all theme-editor settings (<code>nl_popup_show</code>, <code>nl_popup_start</code>, <code>nl_popup_hide</code>) and the <code>NL_POPUP_HIDE</code> cookie continue to work exactly as before.</p>
+<p>From theme <strong>1.4.0</strong> onward, the newsletter popup is coordinated with the new social-proof popups through a priority queue so only one popup is shown at a time. Priority order (highest first): <strong>Exit Intent</strong> → <strong>Promo</strong> → <strong>Newsletter</strong>. No configuration is required — this activates automatically when the new popups are enabled.</p>
+<h3 id="disable-all">Disable All<a class="headerlink" href="#disable-all" title="Permanent link">&para;</a></h3>
+<p>All features are disabled by default — no Script Manager snippet is needed if you don't want any social-proof widgets. To explicitly disable features from a previously-active snippet:</p>
+<pre><code class="language-html">&lt;script&gt;
+  window.dinosaurThemeSettings = {
+    urgency:     { enabled: false },
+    cartGoal:    { enabled: false },
+    recentSales: { enabled: false },
+    promo:       { enabled: false },
+    exit:        { enabled: false }
+  };
+&lt;/script&gt;
+</code></pre>
+<h3 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Run <code>console.log(window.dinosaurThemeSettings)</code> in DevTools to confirm your snippet loaded.</li>
+<li>Look for <code>[papathemes-socialproof]</code> warnings in the console — they indicate missing tokens, invalid config, or GraphQL errors.</li>
+<li>Filter the <strong>Network</strong> tab for <code>graphql</code> to diagnose failed Storefront API calls (common for <code>recentSales</code> with automatic sources).</li>
+<li>Under <strong>Application</strong> &gt; <strong>Session Storage</strong> / <strong>Local Storage</strong>, delete <code>papathemes-*</code> keys to reset dismiss state while testing.</li>
+<li>Confirm the module initialized: <code>window.__papathemesSocialproofActive === true</code>. If <code>undefined</code>, hard-reload the page to clear a cached bundle.</li>
+</ul>
               
             </div>
           </div><footer>
