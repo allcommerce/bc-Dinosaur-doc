@@ -1,5 +1,9 @@
 # Release Notes
 
+## Draft
+- Feature: Recent Sales popup — new `count` setting (default `5`, range 1–50) controls how many products the automatic sources (Best Sellers / Newest / Featured) rotate through, so the popup is no longer capped at 5 unique products. Configure via `window.dinosaurThemeSettings.recentSales.count`. See [Recent Sales Popup](./usage.md#recent-sales-popup).
+- Fix: Cart goal progress bar — no longer shows an empty grey placeholder when the feature is disabled or has no goals. The bar now sits above the items in the mini-cart drawer, recalculates live when item quantities change in the drawer, and stays visible after an item is removed.
+
 ## 1.4.0 (05-12-2026)
 - [CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)
 - [CORNERSTONE] Fix: swap content/data keys in onProductOptionsChanged event detail (#2640)

@@ -2078,6 +2078,7 @@ A small popup in the corner of the page saying _"Someone in Chicago just bought 
 |---|---|---|---|
 | `enabled` | boolean | `false` | Master switch |
 | `source` | string | `best-sellers` | One of: `best-sellers`, `new`, `featured`, `manual` |
+| `count` | number | `5` | How many products the automatic sources (`best-sellers`/`new`/`featured`) rotate through; 1–50 (50 = BigCommerce connection limit). Ignored when `source: 'manual'`. |
 | `items` | array | `[]` | Required when `source: 'manual'` — see below |
 | `items[].productId` | number | — | BigCommerce product ID (OR use `sku`) |
 | `items[].sku` | string | — | Product SKU (OR use `productId`) |
