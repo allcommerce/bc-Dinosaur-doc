@@ -2078,6 +2078,12 @@ This file contains all design information, including: <code>Customer-uploaded im
 <td>One of: <code>best-sellers</code>, <code>new</code>, <code>featured</code>, <code>manual</code></td>
 </tr>
 <tr>
+<td><code>count</code></td>
+<td>number</td>
+<td><code>5</code></td>
+<td>How many products the automatic sources (<code>best-sellers</code>/<code>new</code>/<code>featured</code>) rotate through; 1–50 (50 = BigCommerce connection limit). Ignored when <code>source: 'manual'</code>.</td>
+</tr>
+<tr>
 <td><code>items</code></td>
 <td>array</td>
 <td><code>[]</code></td>
