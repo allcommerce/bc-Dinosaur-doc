@@ -2,3 +2,4 @@
 site/
 .env
 node_modules/
+*.diff
