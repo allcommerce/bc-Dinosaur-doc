@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.4.2 (07-03-2026)
+- fix(pbcst): handle multi-root AJAX section response
+
 ## 1.4.1 (06-11-2026)
 - Feature: Recent Sales popup — new `count` setting (default `5`, range 1–50) controls how many products the automatic sources (Best Sellers / Newest / Featured) rotate through, so the popup is no longer capped at 5 unique products. Configure via `window.dinosaurThemeSettings.recentSales.count`. See [Recent Sales Popup](./usage.md#recent-sales-popup).
 - Fix: Cart goal progress bar — no longer shows an empty grey placeholder when the feature is disabled or has no goals. The bar now sits above the items in the mini-cart drawer, recalculates live when item quantities change in the drawer, and stays visible after an item is removed.
