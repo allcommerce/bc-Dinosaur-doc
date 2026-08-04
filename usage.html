@@ -225,6 +225,10 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#shipping-countdown">Shipping countdown</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#backorder-and-stock-messaging">Backorder and stock messaging</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#featured-promotions">Featured promotions</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#coupon">Coupon</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#flash-sales">Flash sales</a>
@@ -1553,6 +1557,69 @@ To add the <strong>custom tabs</strong> in product pages, edit your product desc
 <p>To enable shipping countdown, <strong>Theme styles</strong> &gt; <strong>Product page</strong>  find <strong>shipping countdown</strong> field and input your cut off time. Find and copied your timezone from wikipedia <code>https://en.wikipedia.org/wiki/List_of_tz_database_time_zones</code> to <strong>timezone</strong> field.</p>
 <p>To disable shipping countdown simply leave <strong>shipping countdown</strong> field empty.</p>
 <p>Note: The time before cut off the message will show <strong>shipping today</strong> after cut off the message will show <strong>shipping tomorrow</strong></p>
+<p>Note: The countdown is hidden automatically when a shopper asks for more units than you have in stock, because those units cannot ship today. See <a href="#backorder-and-stock-messaging">Backorder and stock messaging</a>.</p>
+<h3 id="backorder-and-stock-messaging">Backorder and stock messaging<a class="headerlink" href="#backorder-and-stock-messaging" title="Permanent link">&para;</a></h3>
+<p>When a product is set to allow backorders, the theme tells the shopper how much of their quantity is ready to ship and how much will be backordered, so an order that is part in-stock and part backordered is not a surprise at checkout.</p>
+<p>The messages appear in four places:</p>
+<ul>
+<li><strong>Product page</strong> — under the quantity box, updating live as the shopper changes the quantity or picks options.</li>
+<li><strong>Cart page</strong> and <strong>cart drawer</strong> — per line item.</li>
+<li><strong>Account</strong> &gt; <strong>Order details</strong> — per line item on a past order.</li>
+</ul>
+<p>Products with pick list options show a breakdown per option, because each option can have its own stock level.</p>
+<p>There is no theme setting to switch this on. The messages follow each product's inventory settings in your BigCommerce control panel — whether the product allows backorders, whether to show the backorder message, whether to show the quantity on backorder, and the backorder availability text you have entered. If a product does not allow backorders, nothing extra is displayed.</p>
+<p>The wording is translatable in <strong>Theme files</strong> &gt; <strong>lang</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Default text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>products.quantity_on_hand</code></td>
+<td><code>{quantity} ready to ship</code></td>
+</tr>
+<tr>
+<td><code>products.quantity_backordered</code></td>
+<td><code>{quantity} will be backordered</code></td>
+</tr>
+<tr>
+<td><code>products.quantity_max_picklist</code></td>
+<td><code>The maximum purchasable quantity for {name} is {quantity}</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="featured-promotions">Featured promotions<a class="headerlink" href="#featured-promotions" title="Permanent link">&para;</a></h3>
+<p>BigCommerce lets you attach a callout message to an automatic promotion and mark it as <em>featured</em>. A featured promotion advertises itself on your product listings and product pages, rather than only revealing the discount once the shopper reaches the cart.</p>
+<p>To use it:</p>
+<ol>
+<li>In your BigCommerce control panel create an automatic promotion, fill in its callout message, and tick the option to feature it. See BigCommerce's guide to <a href="https://support.bigcommerce.com/s/article/Automatic-and-Coupon-Promotions-Standard-Editor?language=en_US#featuring">Automatic and Coupon Promotions</a>.</li>
+<li>In <strong>Page Builder</strong> &gt; <strong>Theme Styles</strong> &gt; <strong>Products</strong> &gt; <strong>Featured Promotions</strong>, make sure <strong>Show featured promotions</strong> is ticked.</li>
+</ol>
+<p>The callout then appears on product cards (category, brand, search, home carousels and quick search), in list view, on the product detail page and in the Choose Options popup. Product cards show the highest-priority offer plus a <code>+N more offers</code> note; the product detail page lists every featured promotion.</p>
+<p>Two colours are configurable in the same panel:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Featured promotion background color</td>
+<td><code>#FBEBEB</code></td>
+</tr>
+<tr>
+<td>Featured promotion text color</td>
+<td><code>#8E2020</code></td>
+</tr>
+</tbody>
+</table>
+<p>The <code>Woman</code> and <code>Kid</code> variations ship their own colours to match their palettes; <code>Man</code> uses the defaults above.</p>
+<p>Note: if you have no featured promotion set up, nothing is displayed. This is expected — the callout only appears once a promotion exists and has been marked as featured.</p>
 <h3 id="coupon">Coupon<a class="headerlink" href="#coupon" title="Permanent link">&para;</a></h3>
 <p><img alt="Coupon-ticket" src="img/coupon-ticket.jpg" /></p>
 <p>In <strong>Page Builder</strong>, drag and drop widget <strong>Coupons | PapaThemes Dinosaur</strong> to correct widget region as picture below.</p>

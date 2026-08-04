@@ -73,6 +73,8 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Release Notes</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#150-08-04-2026">1.5.0 (08-04-2026)</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#142-07-03-2026">1.4.2 (07-03-2026)</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#141-06-11-2026">1.4.1 (06-11-2026)</a>
@@ -132,6 +134,19 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="release-notes">Release Notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h1>
+<h2 id="150-08-04-2026">1.5.0 (08-04-2026)<a class="headerlink" href="#150-08-04-2026" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Feature: Featured promotion callouts — a promotion marked as <em>featured</em> in the BigCommerce control panel now shows its callout message on product cards, in list view, on the product detail page and in the Choose Options popup, instead of only revealing itself in the cart. Turn it on and set its two colours in <strong>Page Builder</strong> &gt; <strong>Theme Styles</strong> &gt; <strong>Products</strong> &gt; <strong>Featured Promotions</strong>. See <a href="usage.html#featured-promotions">Featured promotions</a>.</li>
+<li>Feature: Backorder and stock messaging — products that allow backorders now show how much is ready to ship and how much will be backordered, on the product page, in the cart, in the cart drawer and in account order details, including a per-option breakdown for pick list options. There is no theme setting to switch on; the messages follow each product's inventory and backorder settings. See <a href="usage.html#backorder-and-stock-messaging">Backorder and stock messaging</a>.</li>
+<li>Change: The shipping countdown is now hidden when a shopper asks for more units than are in stock, so a <em>ships today</em> promise is no longer shown next to an item that will be backordered. See <a href="usage.html#shipping-countdown">Shipping countdown</a>.</li>
+<li>Performance: The icon sprite is 32 KB instead of 493 KB, and a whole-document <code>:has()</code> selector has been removed. Both reduce the work the browser does before the first paint, on every page.</li>
+<li>Performance: The main product image now loads immediately at full size and is marked as the page's most important image. The option meant to exclude it from lazy-loading never matched the shipped default, so the largest image on the product page was being deferred.</li>
+<li>Performance: The review form's reCAPTCHA is built the first time a shopper opens the form rather than during page load, and the review popup is no longer built inside quick view.</li>
+<li>Performance: Product cards no longer download the second (hover) image on touch devices, where it can never be displayed. This applies to the recently viewed, cart suggested products and also-bought carousels as well.</li>
+<li>Performance: The built-in font is no longer downloaded twice when only one of the two custom webfont settings is filled in.</li>
+<li>Fix: The header no longer shifts as the currency flag image loads — its space is reserved in advance.</li>
+<li>Fix: The free-shipping status message in the cart no longer breaks onto a second line before the amount.</li>
+</ul>
 <h2 id="142-07-03-2026">1.4.2 (07-03-2026)<a class="headerlink" href="#142-07-03-2026" title="Permanent link">&para;</a></h2>
 <ul>
 <li>fix(pbcst): handle multi-root AJAX section response</li>
