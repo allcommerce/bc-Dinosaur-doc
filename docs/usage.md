@@ -1581,6 +1581,52 @@ To disable shipping countdown simply leave **shipping countdown** field empty.
 
 Note: The time before cut off the message will show **shipping today** after cut off the message will show **shipping tomorrow**
 
+Note: The countdown is hidden automatically when a shopper asks for more units than you have in stock, because those units cannot ship today. See [Backorder and stock messaging](#backorder-and-stock-messaging).
+
+### Backorder and stock messaging
+
+When a product is set to allow backorders, the theme tells the shopper how much of their quantity is ready to ship and how much will be backordered, so an order that is part in-stock and part backordered is not a surprise at checkout.
+
+The messages appear in four places:
+
+- **Product page** — under the quantity box, updating live as the shopper changes the quantity or picks options.
+- **Cart page** and **cart drawer** — per line item.
+- **Account** > **Order details** — per line item on a past order.
+
+Products with pick list options show a breakdown per option, because each option can have its own stock level.
+
+There is no theme setting to switch this on. The messages follow each product's inventory settings in your BigCommerce control panel — whether the product allows backorders, whether to show the backorder message, whether to show the quantity on backorder, and the backorder availability text you have entered. If a product does not allow backorders, nothing extra is displayed.
+
+The wording is translatable in **Theme files** > **lang**:
+
+| Key | Default text |
+| --- | --- |
+| `products.quantity_on_hand` | `{quantity} ready to ship` |
+| `products.quantity_backordered` | `{quantity} will be backordered` |
+| `products.quantity_max_picklist` | `The maximum purchasable quantity for {name} is {quantity}` |
+
+### Featured promotions
+
+BigCommerce lets you attach a callout message to an automatic promotion and mark it as *featured*. A featured promotion advertises itself on your product listings and product pages, rather than only revealing the discount once the shopper reaches the cart.
+
+To use it:
+
+1. In your BigCommerce control panel create an automatic promotion, fill in its callout message, and tick the option to feature it. See BigCommerce's guide to [Automatic and Coupon Promotions](https://support.bigcommerce.com/s/article/Automatic-and-Coupon-Promotions-Standard-Editor?language=en_US#featuring).
+2. In **Page Builder** > **Theme Styles** > **Products** > **Featured Promotions**, make sure **Show featured promotions** is ticked.
+
+The callout then appears on product cards (category, brand, search, home carousels and quick search), in list view, on the product detail page and in the Choose Options popup. Product cards show the highest-priority offer plus a `+N more offers` note; the product detail page lists every featured promotion.
+
+Two colours are configurable in the same panel:
+
+| Setting | Default |
+| --- | --- |
+| Featured promotion background color | `#FBEBEB` |
+| Featured promotion text color | `#8E2020` |
+
+The `Woman` and `Kid` variations ship their own colours to match their palettes; `Man` uses the defaults above.
+
+Note: if you have no featured promotion set up, nothing is displayed. This is expected — the callout only appears once a promotion exists and has been marked as featured.
+
 ### Coupon
 
 ![Coupon-ticket](img/coupon-ticket.jpg)

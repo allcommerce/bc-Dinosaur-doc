@@ -1,5 +1,17 @@
 # Release Notes
 
+## 1.5.0 (08-04-2026)
+- Feature: Featured promotion callouts — a promotion marked as *featured* in the BigCommerce control panel now shows its callout message on product cards, in list view, on the product detail page and in the Choose Options popup, instead of only revealing itself in the cart. Turn it on and set its two colours in **Page Builder** > **Theme Styles** > **Products** > **Featured Promotions**. See [Featured promotions](./usage.md#featured-promotions).
+- Feature: Backorder and stock messaging — products that allow backorders now show how much is ready to ship and how much will be backordered, on the product page, in the cart, in the cart drawer and in account order details, including a per-option breakdown for pick list options. There is no theme setting to switch on; the messages follow each product's inventory and backorder settings. See [Backorder and stock messaging](./usage.md#backorder-and-stock-messaging).
+- Change: The shipping countdown is now hidden when a shopper asks for more units than are in stock, so a *ships today* promise is no longer shown next to an item that will be backordered. See [Shipping countdown](./usage.md#shipping-countdown).
+- Performance: The icon sprite is 32 KB instead of 493 KB, and a whole-document `:has()` selector has been removed. Both reduce the work the browser does before the first paint, on every page.
+- Performance: The main product image now loads immediately at full size and is marked as the page's most important image. The option meant to exclude it from lazy-loading never matched the shipped default, so the largest image on the product page was being deferred.
+- Performance: The review form's reCAPTCHA is built the first time a shopper opens the form rather than during page load, and the review popup is no longer built inside quick view.
+- Performance: Product cards no longer download the second (hover) image on touch devices, where it can never be displayed. This applies to the recently viewed, cart suggested products and also-bought carousels as well.
+- Performance: The built-in font is no longer downloaded twice when only one of the two custom webfont settings is filled in.
+- Fix: The header no longer shifts as the currency flag image loads — its space is reserved in advance.
+- Fix: The free-shipping status message in the cart no longer breaks onto a second line before the amount.
+
 ## 1.4.2 (07-03-2026)
 - fix(pbcst): handle multi-root AJAX section response
 
