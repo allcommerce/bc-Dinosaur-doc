@@ -1573,7 +1573,7 @@ In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
 
 ### Shipping countdown
 
-![shipping-countdown](img/shipping-countdown.jpg)
+![shipping-countdown](img/Shipping-countdown.jpg)
 
 To enable shipping countdown, **Theme styles** > **Product page**  find **shipping countdown** field and input your cut off time. Find and copied your timezone from wikipedia `https://en.wikipedia.org/wiki/List_of_tz_database_time_zones` to **timezone** field.
 
