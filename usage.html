@@ -249,6 +249,8 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#instruction-size-guide">Instruction &amp; size guide</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#sizing-help-box">Sizing help box</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#below-add-to-cart-banner">Below add to cart banner</a>
     </li>
         </ul>
@@ -1700,6 +1702,28 @@ To add the <strong>custom tabs</strong> in product pages, edit your product desc
 <p>In <strong>Advanced Options</strong> set <strong>Sort Order</strong> = <code>2</code>.</p>
 <p>To display the additional information link in the product detail page:</p>
 <p>In <strong>Products</strong>, select the product you want to display the link. Find <strong>Custom Fields</strong>, created new custom field. Set <strong>Custom Fields Name</strong> = <code>__guide_popup</code> and <strong>Custom Fields Value</strong> = <code>&lt;your page name&gt;|&lt;Page URL&gt;</code> (example: <code>Instruction|/instruction/</code>) then save.</p>
+<h3 id="sizing-help-box">Sizing help box<a class="headerlink" href="#sizing-help-box" title="Permanent link">&para;</a></h3>
+<p><img alt="Sizing help box" src="img/sizing-help-box.jpg" /></p>
+<p>The <strong>Sizing Help</strong> box is displayed directly below the <strong>Size</strong> option on the product detail page. It is an HTML widget added in <strong>Page Builder</strong>, the theme styles the border, heading and text automatically.</p>
+<p>Go to <strong>Storefront</strong> &gt; <strong>My Themes</strong> &gt; click <strong>Customize</strong> button beside the theme thumbnail to open Page Builder, then open a product that has a <strong>Size</strong> option.</p>
+<p>Drag and drop the <strong>HTML</strong> widget into the area directly below the <strong>Size</strong> option. In the <strong>Layers</strong> panel, this area is named <strong>Product Below Option Size -- Global</strong>.</p>
+<p>Paste the code below to the HTML editor, then click <strong>Save HTML</strong> button and <strong>Publish</strong>:</p>
+<pre><code class="language-html">&lt;div style=&quot;margin-bottom: 1.5rem&quot;&gt;
+    &lt;p&gt;SIZING HELP&lt;/p&gt;
+    &lt;div&gt;
+        &lt;span&gt;Still unsure what size to get?&lt;/span&gt;
+        &lt;span&gt;&lt;a href=&quot;/size-guide/&quot; data-papathemes-popup&gt;Find your recommended size&lt;/a&gt; or check out our size guide.&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p>To edit the text, open the same widget and change the text between the tags. The <code>&lt;p&gt;</code> text is the box heading, each <code>&lt;span&gt;</code> is displayed on its own line.</p>
+<p>The link with <code>data-papathemes-popup</code> opens the web page in a popup instead of leaving the product page. To create the size guide page, in <strong>Storefront</strong> &gt; <strong>Web Pages</strong>, click on the <strong>Create a Web Page</strong> button, enter <code>Size Guide</code> in <strong>Page Name</strong> field (<strong>Page URL</strong> <code>/size-guide/</code> will be automatically generated), enter your size chart in <strong>Page content</strong> field, then uncheck <strong>Navigation Menu</strong> options. If your page URL is different, update the <code>href</code> value in the code above.</p>
+<p>Choose where the box is displayed:</p>
+<ul>
+<li><strong>Product Below Option Size -- Global</strong>: the box is displayed on every product that has an option named <strong>Size</strong>, and only on those products. Edit the widget once to update all products.</li>
+<li><strong>Product Below Option Size</strong>: the box is displayed on the current product only. Use this area when some products that should not show the box also have a <strong>Size</strong> option, and add the widget to each product separately.</li>
+</ul>
+<p><strong>Note:</strong> The area is created from the option name, so it only exists on products that have an option with that exact name. Every product option has its own area below it, for example <strong>Product Below Option Color -- Global</strong> below the <strong>Color</strong> option.</p>
 <h3 id="below-add-to-cart-banner">Below add to cart banner<a class="headerlink" href="#below-add-to-cart-banner" title="Permanent link">&para;</a></h3>
 <p>To create <strong>Below add to cart banner</strong>, in <strong>Page builder</strong> drag and drop <strong>Layout widget</strong> to corresponding position.</p>
 <p>Select <strong>Column 1</strong>, set <strong>Padding</strong> = <code>0 0 0 0</code>.</p>
