@@ -1746,6 +1746,39 @@ To display the additional information link in the product detail page:
 
 In **Products**, select the product you want to display the link. Find **Custom Fields**, created new custom field. Set **Custom Fields Name** = `__guide_popup` and **Custom Fields Value** = `<your page name>|<Page URL>` (example: `Instruction|/instruction/`) then save.
 
+### Sizing help box
+
+![Sizing help box](img/sizing-help-box.jpg)
+
+The **Sizing Help** box is displayed directly below the **Size** option on the product detail page. It is an HTML widget added in **Page Builder**, the theme styles the border, heading and text automatically.
+
+Go to **Storefront** > **My Themes** > click **Customize** button beside the theme thumbnail to open Page Builder, then open a product that has a **Size** option.
+
+Drag and drop the **HTML** widget into the area directly below the **Size** option. In the **Layers** panel, this area is named **Product Below Option Size -- Global**.
+
+Paste the code below to the HTML editor, then click **Save HTML** button and **Publish**:
+
+```html
+<div style="margin-bottom: 1.5rem">
+    <p>SIZING HELP</p>
+    <div>
+        <span>Still unsure what size to get?</span>
+        <span><a href="/size-guide/" data-papathemes-popup>Find your recommended size</a> or check out our size guide.</span>
+    </div>
+</div>
+```
+
+To edit the text, open the same widget and change the text between the tags. The `<p>` text is the box heading, each `<span>` is displayed on its own line.
+
+The link with `data-papathemes-popup` opens the web page in a popup instead of leaving the product page. To create the size guide page, in **Storefront** > **Web Pages**, click on the **Create a Web Page** button, enter `Size Guide` in **Page Name** field (**Page URL** `/size-guide/` will be automatically generated), enter your size chart in **Page content** field, then uncheck **Navigation Menu** options. If your page URL is different, update the `href` value in the code above.
+
+Choose where the box is displayed:
+
+- **Product Below Option Size -- Global**: the box is displayed on every product that has an option named **Size**, and only on those products. Edit the widget once to update all products.
+- **Product Below Option Size**: the box is displayed on the current product only. Use this area when some products that should not show the box also have a **Size** option, and add the widget to each product separately.
+
+**Note:** The area is created from the option name, so it only exists on products that have an option with that exact name. Every product option has its own area below it, for example **Product Below Option Color -- Global** below the **Color** option.
+
 ### Below add to cart banner
 
 To create **Below add to cart banner**, in **Page builder** drag and drop **Layout widget** to corresponding position.
