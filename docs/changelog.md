@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.5.1 (10-30-2026)
+- Fix: Clicking **Load More** on category, brand and search pages no longer makes the page jump. The space for the next page is filled with placeholder cards (grey image box, name and price bars) the moment the button is clicked, and the products drop into that space when they arrive, so the pagination and footer stay where they are. Layout shift for the Load More click went from 0.44 to under 0.02 on mobile, well below Google's 0.1 limit. Load More works the same as before for shoppers. See [Infinite products loading](./usage.md#infinite-products-loading).
+- Fix: On mobile, the product details no longer jump down when the product image gallery loads late on a slow connection — its space is reserved in advance. Layout shift on the product page went from 0.38 to 0.01.
+- Fix: The price range filter on category pages now escapes the sort value it carries in a hidden field, resolving a finding from a PCI security scan.
+
 ## 1.5.0 (08-04-2026)
 - Feature: Featured promotion callouts — a promotion marked as *featured* in the BigCommerce control panel now shows its callout message on product cards, in list view, on the product detail page and in the Choose Options popup, instead of only revealing itself in the cart. Turn it on and set its two colours in **Page Builder** > **Theme Styles** > **Products** > **Featured Promotions**. See [Featured promotions](./usage.md#featured-promotions).
 - Feature: Backorder and stock messaging — products that allow backorders now show how much is ready to ship and how much will be backordered, on the product page, in the cart, in the cart drawer and in account order details, including a per-option breakdown for pick list options. There is no theme setting to switch on; the messages follow each product's inventory and backorder settings. See [Backorder and stock messaging](./usage.md#backorder-and-stock-messaging).
