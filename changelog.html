@@ -73,6 +73,8 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Release Notes</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#151-10-30-2026">1.5.1 (10-30-2026)</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#150-08-04-2026">1.5.0 (08-04-2026)</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#142-07-03-2026">1.4.2 (07-03-2026)</a>
@@ -134,6 +136,12 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="release-notes">Release Notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h1>
+<h2 id="151-10-30-2026">1.5.1 (10-30-2026)<a class="headerlink" href="#151-10-30-2026" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fix: Clicking <strong>Load More</strong> on category, brand and search pages no longer makes the page jump. The space for the next page is filled with placeholder cards (grey image box, name and price bars) the moment the button is clicked, and the products drop into that space when they arrive, so the pagination and footer stay where they are. Layout shift for the Load More click went from 0.44 to under 0.02 on mobile, well below Google's 0.1 limit. Load More works the same as before for shoppers. See <a href="usage.html#infinite-products-loading">Infinite products loading</a>.</li>
+<li>Fix: On mobile, the product details no longer jump down when the product image gallery loads late on a slow connection — its space is reserved in advance. Layout shift on the product page went from 0.38 to 0.01.</li>
+<li>Fix: The price range filter on category pages now escapes the sort value it carries in a hidden field, resolving a finding from a PCI security scan.</li>
+</ul>
 <h2 id="150-08-04-2026">1.5.0 (08-04-2026)<a class="headerlink" href="#150-08-04-2026" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Feature: Featured promotion callouts — a promotion marked as <em>featured</em> in the BigCommerce control panel now shows its callout message on product cards, in list view, on the product detail page and in the Choose Options popup, instead of only revealing itself in the cart. Turn it on and set its two colours in <strong>Page Builder</strong> &gt; <strong>Theme Styles</strong> &gt; <strong>Products</strong> &gt; <strong>Featured Promotions</strong>. See <a href="usage.html#featured-promotions">Featured promotions</a>.</li>
